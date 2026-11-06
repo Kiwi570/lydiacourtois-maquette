@@ -58,10 +58,10 @@ export default (c) => html`
 
 <section class="section tarifs" id="tarifs" data-fil="droite">
   <div class="conteneur tarifs-grille tarifs--immobilier-autrement">
-    ${dessinTarifs('immobilier-autrement')}
     <div class="tarifs-tete">
       <p class="surtitre">${c.t('immo.tarifs.sur')}</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('immo.tarifs.titre')}</h2>
+      <div class="tarifs-bande">${c.media({ nom: 'grok/fs-serenite', alt: 'Terrasse d\'une maison de pierre à l\'heure dorée, portes vitrées ouvertes', classe: 'tarifs-photo', sizes: '(max-width: 1240px) 96vw, 1240px', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}</div>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="${c.s('accueil.tarifs.conseillee')}" data-choisie="${c.s('accueil.tarifs.choisie')}">${tarifs(c, 'immobilier-autrement')}</div>
       <p class="tarifs-avert">${c.t('immo.tarifs.avert')}</p>
     </div>
@@ -70,7 +70,7 @@ export default (c) => html`
 
 <section class="section nuit" id="echange">
   <div class="conteneur cadre">
-    <svg class="cadre-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 180 V80 L100 24 L170 80 V180 Z"/><path d="M80 180 V122 H120 V180"/><path class="or" d="M150 22 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3 Z"/><circle cx="114" cy="152" r="3"/></svg>
+    ${c.media({ nom: 'accueil-appel', alt: 'Chaise paillée près d\'un rideau de lin bordeaux, lumière douce', classe: 'cadre-photo', sizes: '(max-width: 640px) 92vw, 34vw', attrs: 'data-fx="zoom"' })}
     <div>
       <p class="surtitre">${c.t('immo.echange.sur')}</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>${c.t('immo.echange.titre')}</h2>

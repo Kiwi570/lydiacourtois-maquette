@@ -1,4 +1,4 @@
-# Ma Bonne Étoile — Lydia Courtois · maquette v2
+# Ma Bonne Étoile — Lydia Courtois · maquette v3
 
 Maquette du site de Lydia Courtois (géobiologie, Feng Shui tibétain, Immobilier Autrement), direction artistique « Le plan et l'étoile » : papier sable d'architecte, encre bleu nuit, étoile d'or du logo.
 
@@ -10,7 +10,7 @@ Adresse prévue : https://lydiacourtois-maquette.vercel.app (maquette non index�
 |---|---|---|
 | Accueil | Scindée sur papier millimétré : photo sous le calque du plan, étoile-boussole | Boussole des neuf domaines à faire tourner (le plan pivote avec elle), rai de lumière du matin, calques à feuilleter, « Lire le lieu » épinglée, tarifs à rouleaux, Capsules, parcours |
 | Géobiologie (chaux et olive) | Fond chaux, très grand titre centré, bandeau photo sous la coupe du lieu | Coupe qui s'efface, lumière rasante à promener sur le mur, déroulement en trois temps épinglé, tarifs en relevé |
-| Feng Shui (nuit et or) | Fond bleu nuit, grille des neuf domaines posée depuis la porte, photo en arche | Roue des cinq éléments, grille des neuf domaines épinglée qui s'allume en spirale, tarifs de nuit |
+| Feng Shui (nuit et or) | Fond bleu nuit, salon en photo dans une arche, grille des neuf domaines en lignes d'or par-dessus (spirale à l'arrivée sur ordinateur) | Roue des cinq éléments sur la photo du salon, grille des neuf domaines épinglée, tarifs de nuit sur bande photo |
 | Immobilier Autrement (terre cuite) | Porte qui s'ouvre sur la façade, parcours de visite, question en grand | Visite pièce par pièce épinglée, trois axes, fiches de tarifs, avertissement |
 | Contact (aube) | Compacte, numéro en très grand, l'étoile file vers les Pyrénées-Orientales | Demande en trois questions préremplie, tampon « Reçue », aube sur le panorama |
 | 404 | « Cette pièce n'est pas sur le plan » | |

@@ -285,7 +285,8 @@
       "texte": "Et si votre maison soutenait mieux la vie que vous voulez construire ?",
       "action": "Demander une étude",
       "info": "À distance 490 € · sur place 590 €",
-      "porte": "Entrée"
+      "porte": "Entrée",
+      "zone": "Depuis l'entrée · zone éclairée"
     },
     "adapter": {
       "sur": "Un autre regard",

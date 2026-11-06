@@ -2,7 +2,7 @@
 // On attrape la fiche du dessus et on la lance (souris ou doigt, avec son élan) : elle part puis se glisse sous la pile ;
 // relâchée trop tôt, elle revient. Flèches, touches gauche et droite, compteur « 2 / 6 ». Les fiches cachées sont inertes.
 // Grille wouahou, point 1 : l'effet se manipule. En mode calme : les flèches seulement, sans vol ni inclinaison.
-import { pret } from '../pont.js?v=2';
+import { pret } from '../pont.js?v=3';
 
 /**
  * Une fiche : <li class="tep__carte"><blockquote class="tep__citation"><p>…</p></blockquote>

@@ -1,5 +1,21 @@
 # Journal des versions
 
+## v3 — 6 novembre 2026
+
+Retour : « ce hero n'est pas beau », « il manque de belles images, il y a trop de schémas ». Choix : photo d'abord.
+
+**Feng Shui**
+- Nouvelle ouverture : le salon en photo dans une grande arche, la grille des neuf domaines posée en fines lignes d'or par-dessus, depuis la porte. Sur ordinateur, les cases s'allument en spirale à l'arrivée ; un cartouche donne le nom et les mots de la zone éclairée. Chaque case se touche.
+- La roue des cinq éléments tourne désormais sur la photo du salon de Lydia.
+
+**Plus de photos, moins de schémas**
+- Les dessins tracés des tarifs sont remplacés par une bande photo, sur chaque page.
+- Accueil : calque du plan allégé sur la photo d'ouverture ; « Pour qui » en quatre cartes photo ; cadre de l'accompagnement avec une photo.
+- Immobilier Autrement : photo à côté de l'échange. Contact : photo à côté de la demande.
+
+**Stabilité**
+- Sur téléphone, plus aucun décalage au chargement de la page Feng Shui.
+
 ## v2 — 6 novembre 2026
 
 Retour : « pas assez de belles animations, les pages se ressemblent ». Chaque page a désormais son monde et sa signature.

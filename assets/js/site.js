@@ -4,7 +4,7 @@
    fil-conducteur (ligne de circulation), axes-au-defilement (Fraunces qui s'apaise), tarifs-a-rouleaux,
    schema-epingle-etapes (lecture du lieu, coupe), formulaire-par-etapes (demande).
    Chaque effet propre porte data-effet="nom-du-plan". */
-import { demarrer, etat, versObjet, quand, partir } from './socle/index.js?v=2';
+import { demarrer, etat, versObjet, quand, partir } from './socle/index.js?v=3';
 
 const gsap = window.gsap;
 const ST = () => window.ScrollTrigger;
@@ -12,13 +12,13 @@ const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const calme = () => etat.calme;
 const AXES_DE = '"SOFT" 0, "WONK" 1', AXES_A = '"SOFT" 100, "WONK" 0';
-import * as mTourner from './modules/objet-a-faire-tourner/module.js?v=2';
-import * as mFil from './modules/fil-conducteur/module.js?v=2';
-import * as mAxes from './modules/axes-au-defilement/module.js?v=2';
-import * as mTarifs from './modules/tarifs-a-rouleaux/module.js?v=2';
-import * as mScene from './modules/schema-epingle-etapes/module.js?v=2';
-import * as mFormulaire from './modules/formulaire-par-etapes/module.js?v=2';
-import * as mPile from './modules/temoignages-en-pile/module.js?v=2';
+import * as mTourner from './modules/objet-a-faire-tourner/module.js?v=3';
+import * as mFil from './modules/fil-conducteur/module.js?v=3';
+import * as mAxes from './modules/axes-au-defilement/module.js?v=3';
+import * as mTarifs from './modules/tarifs-a-rouleaux/module.js?v=3';
+import * as mScene from './modules/schema-epingle-etapes/module.js?v=3';
+import * as mFormulaire from './modules/formulaire-par-etapes/module.js?v=3';
+import * as mPile from './modules/temoignages-en-pile/module.js?v=3';
 /* Modules chargés avec la page (et non à la demande) : les scènes épinglées existent avant que le socle
    place la page sur une ancre, sinon la position est mesurée sans leur hauteur. */
 const MODULES = { 'objet-a-faire-tourner': mTourner, 'fil-conducteur': mFil, 'axes-au-defilement': mAxes, 'tarifs-a-rouleaux': mTarifs,
@@ -208,6 +208,14 @@ function domainesEpingles() {
   });
 }
 
+/* ---------- Ouverture Feng Shui : les neuf cases s'allument en spirale depuis la porte, puis le centre ---------- */
+function spirale() {
+  const cases = $$('.fs-arche-cadre .bagua-case');
+  if (!cases.length || calme() || !gsap || !matchMedia('(min-width: 1001px)').matches) return;
+  [7, 6, 3, 0, 1, 2, 5, 8, 4].forEach((i, k) => gsap.delayedCall(k * 0.13, () => cases[i].click()));
+  gsap.delayedCall(9 * 0.13 + 0.05, () => { /* la spirale ne compte pas comme un choix du visiteur */ document.dispatchEvent(new CustomEvent('bagua:spirale')); });
+}
+
 /* ---------- Porte qui s'ouvre (Immobilier Autrement) ---------- */
 function ouvrirPorte() {
   const porte = $('.porte');
@@ -249,16 +257,25 @@ function coupe() {
 
 /* ---------- Grille des neuf domaines posée depuis la porte (Feng Shui, ouverture et section) ---------- */
 function bagua() {
-  const cases = $$('.bagua-case');
+  const cases = $$('.fs-arche-cadre .bagua-case');
+  const nom = $('[data-bagua-nom]'), mots = $('[data-bagua-mots]');
+  const allumer = (el) => {
+    cases.forEach((c) => { const on = c === el; c.classList.toggle('est-allumee', on); c.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    if (el && nom) { nom.textContent = el.dataset.nom; mots.textContent = el.dataset.mots; }
+  };
+  let touche = false;
+  cases.forEach((c) => c.addEventListener('click', () => { touche = true; allumer(c); }));
+  document.addEventListener('bagua:spirale', () => { touche = false; });
+  if (cases.length) allumer(cases[4]);
   if (cases.length && !calme() && gsap && ST()) {
     const ordre = [7, 6, 3, 0, 1, 2, 5, 8, 4]; /* de la porte (N) vers le tour, puis le centre */
     let dernier = -1;
     ST().create({ trigger: '.fs-ouv', start: 'top top', end: 'bottom top', onUpdate: (st) => {
+      if (touche) return;
       const k = Math.min(ordre.length - 1, Math.floor(st.progress * ordre.length * 0.999));
       if (k === dernier) return; dernier = k;
-      cases.forEach((c, i) => c.classList.toggle('est-allumee', i === ordre[k]));
+      allumer(cases[ordre[k]]);
     } });
-    gsap.fromTo('.fs-arche', { yPercent: 0 }, { yPercent: -14, ease: 'none', scrollTrigger: { trigger: '.fs-ouv', start: 'top top', end: 'bottom top', scrub: 0.6 } });
   }
   const grille = $('.domaines-grille');
   if (!grille) return;
@@ -440,6 +457,7 @@ function arriveePage(tl, t) {
   if (debut) tl.call(() => debut.classList.add('lignes-libres'), null, t + 1.05);
   /* Effets longs d'ouverture : lancés à part, pour ne jamais allonger l'intro. */
   if ($('.porte')) tl.call(ouvrirPorte, null, t);
+  if ($('.fs-arche-cadre')) tl.call(spirale, null, t + 0.2);
   if ($('.etoile-vol')) tl.call(etoileVersDepartement, null, t + 0.3);
   const traits = $$('#debut [data-trace-ouv]');
   traits.forEach((p) => { const L = p.getTotalLength ? p.getTotalLength() : 0; if (L) tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: 0.9, ease: 'power2.out' }, t + 0.1); });

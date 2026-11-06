@@ -91,11 +91,11 @@ export default (c) => html`
 
 <section class="section papier tarifs" id="tarifs" data-fil="droite">
   <div class="conteneur tarifs-grille tarifs--geobiologie">
-    ${dessinTarifs('geobiologie')}
     <div class="tarifs-tete">
       <p class="surtitre">${c.t('geo.tarifs.sur')}</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('geo.tarifs.titre')}</h2>
       <p class="chapo texte-doux" data-anime>${c.t('geo.tarifs.texte')}</p>
+      <div class="tarifs-bande">${c.media({ nom: 'grok/page-404', alt: 'Porte ouverte sur une petite pièce chaulée inondée de soleil', classe: 'tarifs-photo', sizes: '(max-width: 1240px) 96vw, 1240px', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}</div>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="${c.s('accueil.tarifs.conseillee')}" data-choisie="${c.s('accueil.tarifs.choisie')}">${tarifs(c, 'geobiologie')}</div>
     </div>
   </div>

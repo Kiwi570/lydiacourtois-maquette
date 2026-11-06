@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -40,15 +40,15 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/modules.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/modules.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#f1eadf">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -105,16 +105,19 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <span class="info-cle" data-info-cle>À distance 490 € · sur place 590 €</span>
     </p>
   </div>
-  <div class="fs-scene">
-    <div class="bagua" data-iris-centre data-visuel role="img" aria-label="Les neuf domaines de vie sur le plan">
-      <div class="bagua-case" data-effet="bagua-porte"><span class="dir">SE</span>Richesse</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">S</span>Réputation</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">SO</span>Amour et relations</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">E</span>Famille et santé</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir"></span>Centre</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">O</span>Enfants et créativité</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">NE</span>Connaissance et sagesse</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">N</span>Carrière</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">NO</span>Aides et voyages</div>
-      <span class="bagua-porte" aria-hidden="true"><span>Entrée</span></span>
-    </div>
-    <figure class="media fs-arche" style="--cadrage:50% 50%">
+  <div class="fs-scene" data-iris-centre>
+    <div class="fs-arche-cadre">
+      <figure class="media fs-arche-photo" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/fs-ouverture-1100.webp" srcset="/assets/images/fs-ouverture-480.webp 480w, /assets/images/fs-ouverture-800.webp 800w, /assets/images/fs-ouverture-1100.webp 1100w" sizes="(max-width: 860px) 40vw, 20vw" alt="Salon aux hautes fenêtres en arche, coussins de lin bordeaux et parquet de chêne" width="1100" height="1375" fetchpriority="high" loading="eager" decoding="async">
+    <img src="/assets/images/fs-ouverture-1100.webp" srcset="/assets/images/fs-ouverture-480.webp 480w, /assets/images/fs-ouverture-800.webp 800w, /assets/images/fs-ouverture-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 40vw" alt="Salon aux hautes fenêtres en arche, coussins de lin bordeaux et parquet de chêne" width="1100" height="1375" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
+      <div class="bagua" data-visuel role="group" aria-label="Les neuf domaines de vie sur le plan">
+        <button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="SE" data-nom="Richesse" data-mots="Abondance, prospérité, sécurité financière" aria-pressed="false" aria-label="Richesse"><span class="dir" aria-hidden="true" data-audit-ignorer>SE</span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="S" data-nom="Réputation" data-mots="Reconnaissance, succès, estime de soi" aria-pressed="false" aria-label="Réputation"><span class="dir" aria-hidden="true" data-audit-ignorer>S</span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="SO" data-nom="Amour et relations" data-mots="Amour de soi, couple, relations harmonieuses" aria-pressed="false" aria-label="Amour et relations"><span class="dir" aria-hidden="true" data-audit-ignorer>SO</span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="E" data-nom="Famille et santé" data-mots="Santé, vitalité, liens familiaux" aria-pressed="false" aria-label="Famille et santé"><span class="dir" aria-hidden="true" data-audit-ignorer>E</span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="C" data-nom="Centre" data-mots="Équilibre, bien-être, harmonie intérieure" aria-pressed="false" aria-label="Centre"><span class="dir" aria-hidden="true" data-audit-ignorer></span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="O" data-nom="Enfants et créativité" data-mots="Joie, créativité, projets, expression de soi" aria-pressed="false" aria-label="Enfants et créativité"><span class="dir" aria-hidden="true" data-audit-ignorer>O</span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="NE" data-nom="Connaissance et sagesse" data-mots="Apprentissage, intuition, développement personnel" aria-pressed="false" aria-label="Connaissance et sagesse"><span class="dir" aria-hidden="true" data-audit-ignorer>NE</span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="N" data-nom="Carrière" data-mots="Mission de vie, évolution professionnelle" aria-pressed="false" aria-label="Carrière"><span class="dir" aria-hidden="true" data-audit-ignorer>N</span></button><button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="NO" data-nom="Aides et voyages" data-mots="Soutien, réseau, voyages, opportunités" aria-pressed="false" aria-label="Aides et voyages"><span class="dir" aria-hidden="true" data-audit-ignorer>NO</span></button>
+      </div>
+      <span class="bagua-porte" aria-hidden="true"></span>
+    </div>
+    <p class="fs-cartouche" aria-live="polite"><span>Depuis l&#39;entrée · zone éclairée</span><b data-bagua-nom>Centre</b><i data-bagua-mots>Équilibre, bien-être, harmonie intérieure</i></p>
   </div>
 </section>
 <section class="section" id="adapter" data-fil="gauche">
@@ -142,7 +145,13 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="elements-lu" aria-live="polite" data-element-lu>Bois</p>
       <p class="a-completer elements-source">Les cinq éléments d&#39;après le visuel de Lydia.</p>
     </div>
-    <figure class="roue" data-visuel>
+    <figure class="roue roue--photo" data-visuel>
+      <figure class="media roue-fond" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/offre-feng-shui-760.webp" srcset="/assets/images/offre-feng-shui-480.webp 480w, /assets/images/offre-feng-shui-760.webp 760w" sizes="(max-width: 860px) 92vw, 42vw" alt="Salon lumineux avec la roue des cinq éléments de Lydia au mur" width="760" height="1013" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="roue-disque" aria-hidden="false">
       <svg class="roue-svg" viewBox="-200 -200 400 400" role="img" aria-label="Roue des cinq éléments : bois, feu, terre, métal, eau" data-effet="roue-des-elements">
         <circle class="roue-cercle" r="150"/>
         <path class="roue-cycle" d="M0 -150 L142.7 -46.4 L88.2 121.4 L-88.2 121.4 L-142.7 -46.4 Z"/>
@@ -150,6 +159,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <g class="roue-noeud" data-element="feu" data-nom="Feu" transform="translate(0.0 -150.0)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Feu</text></g><g class="roue-noeud" data-element="terre" data-nom="Terre" transform="translate(142.7 -46.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Terre</text></g><g class="roue-noeud" data-element="metal" data-nom="Métal" transform="translate(88.2 121.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Métal</text></g><g class="roue-noeud" data-element="eau" data-nom="Eau" transform="translate(-88.2 121.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Eau</text></g><g class="roue-noeud" data-element="bois" data-nom="Bois" transform="translate(-142.7 -46.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Bois</text></g>
         <circle class="roue-centre" r="10"/>
       </svg>
+      </div>
     </figure>
   </div>
 </section>
@@ -169,11 +179,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="section nuit tarifs" id="tarifs" data-fil="droite">
   <div class="conteneur tarifs-grille tarifs--feng-shui">
-    <svg class="tarifs-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><rect x="20" y="20" width="160" height="160"/><path d="M73 20 V180 M127 20 V180 M20 73 H180 M20 127 H180" stroke-dasharray="4 5"/><path class="or" d="M100 82 L104 96 L118 100 L104 104 L100 118 L96 104 L82 100 L96 96 Z"/><path d="M84 180 A16 16 0 0 1 116 180"/></svg>
     <div class="tarifs-tete">
       <p class="surtitre">Modalités d&#39;accompagnement</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Accompagnements et tarifs.</h2>
       <p class="chapo texte-doux" data-anime>Des propositions adaptées à votre habitation, à vos besoins actuels et à votre étape de vie.</p>
+      <div class="tarifs-bande"><figure class="media tarifs-photo" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/fs-tarifs-1280.webp" srcset="/assets/images/grok/fs-tarifs-640.webp 640w, /assets/images/grok/fs-tarifs-1280.webp 1280w" sizes="(max-width: 1240px) 96vw, 1240px" alt="Longue table de chêne près d&#39;une haute fenêtre, bol d&#39;eau en céramique" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure></div>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="Lancement" data-choisie="Choisie"><ul class="trf__grille">
     <li class="trf__formule" data-formule="À distance">
       <p class="trf__sur">Accompagnement complet</p>

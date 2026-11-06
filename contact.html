@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -40,15 +40,15 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/modules.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/modules.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#f1eadf">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -124,7 +124,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 class="titre-section titre-regle" data-effet="titre-a-la-regle" data-axes data-fil-repere>Trois questions, puis Lydia vous rappelle.</h2>
       <p class="chapo texte-doux" data-anime>Trois questions : votre lieu, l&#39;accompagnement, vos coordonnées, puis un récapitulatif à vérifier. Maquette : rien n&#39;est envoyé.</p>
       <p class="mention-donnees" data-anime>Vos données ne servent qu&#39;à vous répondre. Politique de confidentialité : à compléter.</p>
-      <svg class="demande-dessin" viewBox="0 0 200 150" aria-hidden="true" data-fx="trace" data-visuel><path d="M20 40 H180 V130 H20 Z"/><path d="M20 40 L100 95 L180 40"/><path class="or" d="M150 18 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 Z"/></svg>
+      <figure class="media demande-photo" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/accueil-manifeste-800.webp" srcset="/assets/images/accueil-manifeste-480.webp 480w, /assets/images/accueil-manifeste-800.webp 800w" sizes="(max-width: 1060px) 92vw, 30vw" alt="Fauteuil ancien en chêne et coussins de lin dans un coin lecture au soleil" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
     </div>
     <div class="fpe" data-module="formulaire-par-etapes" data-grille="retour" data-effet="etoile-recue" data-mailto="lydia.fengshui.harmonie@gmail.com">
       <div class="fpe__carton">

@@ -43,7 +43,7 @@ export default (c) => {
       <h2 class="titre-section titre-regle" data-effet="titre-a-la-regle" data-axes data-fil-repere>${c.t(t('titre'))}</h2>
       <p class="chapo texte-doux" data-anime>${c.t(t('annonce'))}</p>
       <p class="mention-donnees" data-anime>${c.t(t('rgpd'))}</p>
-      <svg class="demande-dessin" viewBox="0 0 200 150" aria-hidden="true" data-fx="trace" data-visuel><path d="M20 40 H180 V130 H20 Z"/><path d="M20 40 L100 95 L180 40"/><path class="or" d="M150 18 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4 Z"/></svg>
+      ${c.media({ nom: 'accueil-manifeste', alt: 'Fauteuil ancien en chêne et coussins de lin dans un coin lecture au soleil', classe: 'demande-photo', sizes: '(max-width: 1060px) 92vw, 30vw', attrs: 'data-anime="rideau"' })}
     </div>
     <div class="fpe" data-module="formulaire-par-etapes" data-grille="retour" data-effet="etoile-recue" data-mailto="${c.site.contact.email}">
       <div class="fpe__carton">

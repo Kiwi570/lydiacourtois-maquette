@@ -18,12 +18,15 @@ export default (c) => {
       <span class="info-cle" data-info-cle>${c.t('fs.tete.info')}</span>
     </p>
   </div>
-  <div class="fs-scene">
-    <div class="bagua" data-iris-centre data-visuel role="img" aria-label="${c.s('fs.domaines.region')}">
-      ${ORDRE_GRILLE.map((d) => html`<div class="bagua-case" data-effet="bagua-porte"><span class="dir">${d === 'C' ? '' : d}</span>${par[d].nom}</div>`)}
-      <span class="bagua-porte" aria-hidden="true"><span>${c.t('fs.tete.porte')}</span></span>
+  <div class="fs-scene" data-iris-centre>
+    <div class="fs-arche-cadre">
+      ${c.media({ nom: 'fs-ouverture', alt: 'Salon aux hautes fenêtres en arche, coussins de lin bordeaux et parquet de chêne', priorite: true, classe: 'fs-arche-photo', sizes: '(max-width: 860px) 92vw, 40vw', attrs: 'data-fx="parallaxe" data-fx-force="6"' })}
+      <div class="bagua" data-visuel role="group" aria-label="${c.s('fs.domaines.region')}">
+        ${ORDRE_GRILLE.map((d) => html`<button type="button" class="bagua-case" data-effet="bagua-porte" data-dir="${d}" data-nom="${par[d].nom}" data-mots="${par[d].mots}" aria-pressed="false" aria-label="${par[d].nom}"><span class="dir" aria-hidden="true" data-audit-ignorer>${d === 'C' ? '' : d}</span></button>`)}
+      </div>
+      <span class="bagua-porte" aria-hidden="true"></span>
     </div>
-    ${c.media({ nom: 'fs-ouverture', alt: 'Salon aux hautes fenêtres en arche, coussins de lin bordeaux et parquet de chêne', priorite: true, classe: 'fs-arche', sizes: '(max-width: 860px) 40vw, 20vw' })}
+    <p class="fs-cartouche" aria-live="polite"><span>${c.t('fs.tete.zone')}</span><b data-bagua-nom>${par.C.nom}</b><i data-bagua-mots>${par.C.mots}</i></p>
   </div>
 </section>
 
@@ -49,7 +52,9 @@ export default (c) => {
       <p class="elements-lu" aria-live="polite" data-element-lu>${c.t('fs.elements.bois')}</p>
       <p class="a-completer elements-source">${c.t('fs.elements.source')}</p>
     </div>
-    <figure class="roue" data-visuel>
+    <figure class="roue roue--photo" data-visuel>
+      ${c.media({ nom: 'offre-feng-shui', alt: 'Salon lumineux avec la roue des cinq éléments de Lydia au mur', classe: 'roue-fond', sizes: '(max-width: 860px) 92vw, 42vw', attrs: 'data-fx="parallaxe" data-fx-force="6"' })}
+      <div class="roue-disque" aria-hidden="false">
       <svg class="roue-svg" viewBox="-200 -200 400 400" role="img" aria-label="${c.s('fs.elements.region')}" data-effet="roue-des-elements">
         <circle class="roue-cercle" r="150"/>
         <path class="roue-cycle" d="M0 -150 L142.7 -46.4 L88.2 121.4 L-88.2 121.4 L-142.7 -46.4 Z"/>
@@ -57,6 +62,7 @@ export default (c) => {
         ${['feu', 'terre', 'metal', 'eau', 'bois'].map((k, i) => { const a = (-90 + i * 72) * Math.PI / 180; const x = (Math.cos(a) * 150).toFixed(1), y = (Math.sin(a) * 150).toFixed(1); return html`<g class="roue-noeud" data-element="${k}" data-nom="${c.s(`fs.elements.${k}`)}" transform="translate(${x} ${y})"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">${c.t(`fs.elements.${k}`)}</text></g>`; })}
         <circle class="roue-centre" r="10"/>
       </svg>
+      </div>
     </figure>
   </div>
 </section>
@@ -78,11 +84,11 @@ export default (c) => {
 
 <section class="section nuit tarifs" id="tarifs" data-fil="droite">
   <div class="conteneur tarifs-grille tarifs--feng-shui">
-    ${dessinTarifs('feng-shui')}
     <div class="tarifs-tete">
       <p class="surtitre">${c.t('fs.tarifs.sur')}</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('fs.tarifs.titre')}</h2>
       <p class="chapo texte-doux" data-anime>${c.t('fs.tarifs.texte')}</p>
+      <div class="tarifs-bande">${c.media({ nom: 'grok/fs-tarifs', alt: 'Longue table de chêne près d\'une haute fenêtre, bol d\'eau en céramique', classe: 'tarifs-photo', sizes: '(max-width: 1240px) 96vw, 1240px', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}</div>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="${c.s('accueil.tarifs.conseillee')}" data-choisie="${c.s('accueil.tarifs.choisie')}">${tarifs(c, 'feng-shui')}</div>
     </div>
   </div>

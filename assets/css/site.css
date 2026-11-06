@@ -619,3 +619,84 @@ html.js:not(.calme):not([data-arrivee="retour"]) .titre-regle { transition: none
 .immo-photo { overflow: hidden; }
 .visite.epingle .visite-piste { overflow-x: auto; }
 @media (min-width: 761px) { html.js:not(.calme) .visite.epingle .visite-piste { overflow: visible; } }
+
+/* ============================== v3 : photo d'abord ============================== */
+/* Hero Feng Shui : grande arche photo, grille d'or posée dessus, ciel étoilé */
+.fs-ouv { background-color: var(--nuit);
+  background-image:
+    radial-gradient(ellipse 46% 60% at 74% 56%, rgba(198, 154, 62, .22), transparent 70%),
+    radial-gradient(1.2px 1.2px at 8% 18%, rgba(255, 244, 220, .8), transparent 60%),
+    radial-gradient(1px 1px at 22% 72%, rgba(255, 244, 220, .6), transparent 60%),
+    radial-gradient(1.4px 1.4px at 38% 12%, rgba(255, 244, 220, .7), transparent 60%),
+    radial-gradient(1px 1px at 47% 86%, rgba(255, 244, 220, .5), transparent 60%),
+    radial-gradient(1.2px 1.2px at 58% 28%, rgba(255, 244, 220, .6), transparent 60%),
+    radial-gradient(1px 1px at 93% 14%, rgba(255, 244, 220, .7), transparent 60%),
+    radial-gradient(1.3px 1.3px at 96% 78%, rgba(255, 244, 220, .5), transparent 60%),
+    radial-gradient(1px 1px at 12% 92%, rgba(255, 244, 220, .5), transparent 60%);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.fs-scene { position: relative; justify-self: center; width: auto; aspect-ratio: auto; display: grid; justify-items: center; }
+.fs-arche-cadre { position: relative; height: min(calc(100svh - var(--entete-h) - 120px), 760px); aspect-ratio: 4 / 5; border-radius: 999px 999px 6px 6px; overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(226, 192, 122, .55), 0 0 0 10px rgba(28, 38, 64, .9), 0 0 0 11px rgba(226, 192, 122, .3), 0 40px 80px -30px rgba(0, 0, 0, .6); }
+.fs-arche-photo { position: absolute; inset: 0; border-radius: 0; }
+.fs-arche-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(28, 38, 64, .1) 30%, rgba(28, 38, 64, .45)); pointer-events: none; }
+.fs-arche-cadre .bagua { position: absolute; left: 9%; right: 9%; top: 30%; bottom: 9%; width: auto; aspect-ratio: auto; display: grid; grid-template: repeat(3, 1fr) / repeat(3, 1fr); border: 1px solid rgba(226, 192, 122, .85); z-index: 2; }
+.fs-arche-cadre .bagua-case { position: relative; display: block; min-height: 44px; padding: 0; background: transparent; border: 0; border-right: 1px solid rgba(226, 192, 122, .55); border-bottom: 1px solid rgba(226, 192, 122, .55); cursor: pointer; transition: background-color .5s, box-shadow .5s; font: inherit; color: inherit; box-shadow: none; }
+.fs-arche-cadre .bagua-case:nth-child(3n) { border-right: 0; }
+.fs-arche-cadre .bagua-case:nth-child(n + 7) { border-bottom: 0; }
+.fs-arche-cadre .bagua-case:hover { background: rgba(226, 192, 122, .12); }
+.fs-arche-cadre .bagua-case.est-allumee { background: radial-gradient(circle at 50% 50%, rgba(255, 228, 170, .5), rgba(226, 192, 122, .18) 70%); box-shadow: inset 0 0 0 1.5px var(--or-clair); }
+.fs-arche-cadre .bagua-case .dir { position: absolute; top: 6px; left: 6px; padding: 1px 6px; background: rgba(28, 38, 64, .85); color: var(--or-clair); font: 700 max(12px, .7rem) var(--police-texte); letter-spacing: .06em; border-radius: 2px; }
+.fs-arche-cadre .bagua-case[data-dir="C"]::after { content: ""; position: absolute; left: 50%; top: 50%; width: 26px; height: 26px; translate: -50% -50%; background: var(--or-clair); clip-path: polygon(50% 0, 58% 42%, 100% 50%, 58% 58%, 50% 100%, 42% 58%, 0 50%, 42% 42%); }
+.fs-arche-cadre .bagua-porte { position: absolute; left: 50%; bottom: 9%; width: 56px; height: 28px; translate: -50% 1px; z-index: 3; border: 1.5px solid var(--or-clair); border-bottom: 0; border-radius: 28px 28px 0 0; background: rgba(28, 38, 64, .6); }
+.fs-cartouche { position: relative; z-index: 4; margin: -64px 0 0 -40%; justify-self: start; display: grid; gap: 2px; min-width: 240px; max-width: 320px; padding: 14px 18px; background: var(--nuit); border: 1px solid rgba(226, 192, 122, .5); }
+.fs-cartouche span { font-size: max(12px, .74rem); letter-spacing: .12em; text-transform: uppercase; color: var(--or-clair); }
+.fs-cartouche b { font-family: var(--police-titres); font-weight: 450; font-size: 1.5rem; color: #f4efe6; }
+.fs-cartouche i { font-style: normal; font-size: .92rem; color: #dfe3ec; }
+@media (max-width: 860px) {
+  .fs-ouv { grid-template-columns: minmax(0, 1fr); }
+  .fs-arche-cadre { height: auto; width: min(100%, 420px); }
+  .fs-cartouche { margin: -48px 0 0 0; justify-self: center; }
+}
+@media (max-width: 600px) { .fs-arche-cadre .bagua-case { font-size: inherit; padding: 0; } .fs-arche-cadre .bagua { width: auto; } }
+.fs-arche-cadre .bagua-case .dir:empty { display: none; }
+@media (max-width: 860px) { .fs-cartouche { margin: 14px 0 0; justify-self: stretch; max-width: none; } }
+/* Accueil : la photo d'ouverture se voit sous un calque léger */
+.ouv-calque { background: linear-gradient(160deg, rgba(250, 247, 240, .5), rgba(250, 247, 240, .22) 60%, rgba(250, 247, 240, .4)); border-color: rgba(28, 38, 64, .12); }
+.plan-ouverture .mur { stroke: rgba(28, 38, 64, .85); stroke-width: 2.4; }
+.plan-ouverture .cloison { stroke: rgba(28, 38, 64, .55); stroke-width: 1.2; }
+.plan-ouverture .cote, .plan-ouverture .porte { stroke: rgba(28, 38, 64, .45); }
+.plan-ouverture .grille { stroke: #8a6420; opacity: .8; }
+/* Pour qui : quatre cartes photo */
+.espaces { border-top: 0; gap: 22px; }
+.espace--photo { padding: 0; border: 0; display: grid; gap: 10px; align-content: start; }
+.espace--photo .espace-media { width: 100%; }
+.espace--photo h3 { margin: 6px 0 0; }
+/* Cadre clair et Échangeons : photo à la place du dessin */
+.cadre-photo { width: clamp(180px, 28vw, 360px); aspect-ratio: 4 / 5; border-radius: 999px 999px 4px 4px; }
+@media (max-width: 640px) { .cadre-photo { width: 100%; aspect-ratio: 4 / 3; border-radius: 4px; } }
+.demande-photo { margin-top: 28px; aspect-ratio: 4 / 5; width: min(100%, 360px); }
+@media (max-width: 1060px) { .demande-photo { aspect-ratio: 16 / 9; width: 100%; } }
+/* Tarifs : grande photo pleine largeur, cartes posées dessus */
+.tarifs-bande { margin: clamp(20px, 3vw, 36px) calc(-1 * var(--gouttiere)) 0; }
+.tarifs-photo { width: 100%; aspect-ratio: 21 / 8; border-radius: 0; }
+@media (max-width: 760px) { .tarifs-photo { aspect-ratio: 4 / 3; } }
+.tarifs-bande + .trf { position: relative; z-index: 2; margin-top: clamp(-180px, -12vw, -60px); padding-inline: clamp(0px, 2vw, 24px); }
+.tarifs--geobiologie .trf { background: #f4f1ea; padding: 8px clamp(16px, 2.6vw, 32px) 4px; margin-inline: clamp(0px, 2vw, 24px); }
+.tarifs--accueil .trf__formule, .tarifs--immobilier-autrement .trf__formule { background: #fffaf3; }
+/* Feng Shui : la roue posée sur la vraie photo de Lydia */
+.roue--photo { position: relative; width: min(100%, 520px); }
+.roue-fond { width: 100%; aspect-ratio: 3 / 4; border-radius: 999px 999px 4px 4px; }
+.roue-disque { position: absolute; left: -14%; bottom: -8%; width: 62%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(28, 38, 64, .96) 62%, rgba(28, 38, 64, .88)); box-shadow: 0 0 0 1px rgba(226, 192, 122, .5), 0 30px 60px -30px rgba(0, 0, 0, .7); display: grid; place-items: center; z-index: 2; }
+.roue-disque .roue-svg { width: 86%; }
+.roue-disque .roue-nom { font-size: 17px; }
+@media (max-width: 860px) { .roue-disque { left: 4%; bottom: -10%; width: 56%; } .roue--photo { margin-bottom: 40px; } }
+.tarifs-photo .mention-ia { top: 10px; bottom: auto; right: calc(var(--gouttiere) + 8px); }
+.roue-fond .mention-ia { top: 14%; bottom: auto; }
+.domaine, .domaine b, .domaine i, .domaine .dir { transition: none !important; }
+.fs-cartouche { min-height: 124px; align-content: start; }
+@media (max-width: 1000px) {
+  .fs-ouv { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .fs-arche-cadre { height: auto; width: min(100%, 440px); }
+  .fs-cartouche { margin: 14px 0 0; justify-self: center; width: min(100%, 440px); max-width: none; }
+}
+.fs-cartouche { contain: layout; }

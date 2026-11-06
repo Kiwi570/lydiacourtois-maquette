@@ -1,7 +1,7 @@
 /* Pont entre les modules de la bibliothèque (pret([...]) de leur socle) et le socle de la skill :
    même GSAP, même mode calme, mêmes boucles (arrêtées hors écran, onglet caché, jamais en mode calme),
    mêmes mesures regroupées. Les modules ne chargent rien eux-mêmes. */
-import { etat, boucle as boucleSocle, rafraichir } from '../socle/index.js?v=2';
+import { etat, boucle as boucleSocle, rafraichir } from '../socle/index.js?v=3';
 
 const html = document.documentElement;
 const reduit = matchMedia('(prefers-reduced-motion: reduce)');

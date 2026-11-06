@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="2">
+<html lang="fr" data-v="3">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -40,15 +40,15 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=2">
-<link rel="stylesheet" href="/assets/css/modules.css?v=2">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
-<link rel="modulepreload" href="/assets/js/site.js?v=2">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<link rel="stylesheet" href="/assets/css/socle.css?v=3">
+<link rel="stylesheet" href="/assets/css/modules.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="modulepreload" href="/assets/js/site.js?v=3">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=3">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=2"></script>
+<script type="module" src="/assets/js/site.js?v=3"></script>
 <meta name="theme-color" content="#f1eadf">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -250,11 +250,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="section tarifs" id="tarifs" data-fil="gauche">
   <div class="conteneur tarifs-grille tarifs--accueil">
-    <svg class="tarifs-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><circle cx="100" cy="100" r="86"/><circle cx="100" cy="100" r="62" stroke-dasharray="3 6"/><path class="or" d="M100 18 L108 92 L182 100 L108 108 L100 182 L92 108 L18 100 L92 92 Z"/><path d="M100 4 V16 M100 184 V196 M4 100 H16 M184 100 H196"/></svg>
     <div class="tarifs-tete">
       <p class="surtitre">Accompagnements sur mesure</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Des tarifs clairs pour choisir sereinement.</h2>
       <p class="chapo texte-doux" data-anime>Des repères simples, présentés avant tout engagement. Les offres de lancement sont limitées aux places disponibles.</p>
+      <div class="tarifs-bande"><figure class="media tarifs-photo" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/geo-ouverture-mobile-640.webp 640w, /assets/images/geo-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 1240px) 96vw, 1240px">
+    <img src="/assets/images/geo-ouverture-1500.webp" srcset="/assets/images/geo-ouverture-640.webp 640w, /assets/images/geo-ouverture-1024.webp 1024w, /assets/images/geo-ouverture-1500.webp 1500w" sizes="(max-width: 1240px) 96vw, 1240px" alt="Salon aux murs sable, parquet en chevrons et olivier en pot" width="1500" height="750" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="Lancement" data-choisie="Choisie">
         <ul class="trf__grille">
     <li class="trf__formule" data-formule="Feng Shui géobiologique" data-conseillee>
@@ -369,14 +373,34 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur">
     <p class="surtitre">Pour qui</p>
     <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Un accompagnement pour les espaces qui comptent.</h2>
-    <div class="espaces" data-anime="cascade">
-      <div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><path d="M10 66 V30 L38 10 L66 30 V66 Z"/><path d="M30 66 V46 H46 V66"/><path class="or" d="M50 22 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2 Z"/></svg><h3>Habitation</h3><p>Maison, appartement, chambre ou projet de déménagement.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><path d="M8 66 H68"/><path d="M14 66 V34 L34 18 L54 34 V66"/><path d="M40 30 h18 v14 h-18 Z"/><path class="or" d="M44 37 h10"/></svg><h3>Projet immobilier</h3><p>Un regard complémentaire avant ou après un achat.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><rect x="12" y="14" width="52" height="52"/><path d="M12 34 H64 M38 34 V66"/><path class="or" d="M22 50 h8 M46 50 h8"/></svg><h3>Espace professionnel</h3><p>Bureau, cabinet, commerce ou entreprise.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><rect x="10" y="12" width="56" height="38" rx="3"/><path d="M28 64 H48 M38 50 V64"/><path class="or" d="M22 40 V24 H40 V32 H54 V40 Z"/></svg><h3>À distance</h3><p>Étude sur plan et restitution en visioconférence.</p></div>
+    <div class="espaces">
+      <article class="espace espace--photo"><figure class="media espace-media" data-grok data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/geo-intention-800.webp" srcset="/assets/images/grok/geo-intention-480.webp 480w, /assets/images/grok/geo-intention-800.webp 800w" sizes="(max-width: 640px) 92vw, 24vw" alt="Chambre calme au matin, lin et lumière douce" width="800" height="1000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><h3>Habitation</h3><p>Maison, appartement, chambre ou projet de déménagement.</p></article><article class="espace espace--photo"><figure class="media espace-media" data-grok data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/immo-ouverture-1100.webp" srcset="/assets/images/grok/immo-ouverture-480.webp 480w, /assets/images/grok/immo-ouverture-800.webp 800w, /assets/images/grok/immo-ouverture-1100.webp 1100w" sizes="(max-width: 640px) 92vw, 24vw" alt="Façade chaulée d&#39;une maison de village, porte grande ouverte" width="1100" height="1375" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><h3>Projet immobilier</h3><p>Un regard complémentaire avant ou après un achat.</p></article><article class="espace espace--photo"><figure class="media espace-media" data-grok data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/fs-tarifs-1280.webp" srcset="/assets/images/grok/fs-tarifs-640.webp 640w, /assets/images/grok/fs-tarifs-1280.webp 1280w" sizes="(max-width: 640px) 92vw, 24vw" alt="Longue table de chêne près d&#39;une haute fenêtre" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><h3>Espace professionnel</h3><p>Bureau, cabinet, commerce ou entreprise.</p></article><article class="espace espace--photo"><figure class="media espace-media" data-grok data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/accueil-tarifs-1280.webp" srcset="/assets/images/grok/accueil-tarifs-640.webp 640w, /assets/images/grok/accueil-tarifs-1280.webp 1280w" sizes="(max-width: 640px) 92vw, 24vw" alt="Table à dessin, calque vierge et compas en laiton" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure><h3>À distance</h3><p>Étude sur plan et restitution en visioconférence.</p></article>
     </div>
   </div>
 </section>
 <section class="section nuit" id="cadre">
   <div class="conteneur cadre">
-    <svg class="cadre-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 170 L100 30 L170 170"/><path d="M58 114 H142"/><circle cx="100" cy="30" r="8"/><path d="M100 30 V110 A 60 60 0 0 1 152 140" stroke-dasharray="4 5"/><path d="M20 182 H180"/></svg>
+    <figure class="media cadre-photo" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/geo-vision-800.webp" srcset="/assets/images/grok/geo-vision-480.webp 480w, /assets/images/grok/geo-vision-800.webp 800w" sizes="(max-width: 640px) 92vw, 34vw" alt="Pièce vide aux murs de pierre chaulés, fenêtre ouverte sur les oliviers" width="800" height="1000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
     <div>
       <p class="surtitre">Un cadre clair</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>Une lecture sensible et concrète du lieu.</h2>

@@ -2,7 +2,7 @@
 // un interrupteur de mode (à la séance, carte, abonnement ; mensuel, annuel…) qui fait rouler les chiffres des prix
 // comme un compteur mécanique, puis les rend en texte simple. « Choisir » envoie la formule et le mode dans l'adresse
 // du formulaire (préremplissage) et tamponne la carte choisie (retour physique, grille wouahou point 7).
-import { pret } from '../pont.js?v=2';
+import { pret } from '../pont.js?v=3';
 
 /**
  * Une formule : <li class="trf__formule" data-formule="Découverte" data-conseillee>

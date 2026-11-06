@@ -178,6 +178,56 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Construction v2 en 5 min de travail effectif (17:38-17:43) ; l'essentiel du temps d'audit est l'attente des scripts (deux audits standard de 20 min)."
+    },
+    {
+      "version": 3,
+      "skill": "v10.3",
+      "perimetre": [
+        "accueil",
+        "geobiologie",
+        "feng-shui",
+        "immobilier-autrement",
+        "contact",
+        "404"
+      ],
+      "demande": "Retour : hero Feng Shui pas beau, manque de belles images, trop de schémas. Choix : photo d'abord.",
+      "etapes": [
+        {
+          "etape": "v3 : photo d'abord",
+          "budget": 45,
+          "debut": "2026-11-06T18:43:00+01:00",
+          "fin": "2026-11-06T18:55:00+01:00"
+        },
+        {
+          "etape": "audit et corrections",
+          "budget": 20,
+          "debut": "2026-11-06T18:55:00+01:00",
+          "fin": "2026-11-06T19:17:00+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-06T19:17:00+01:00",
+          "fin": "2026-11-06T19:22:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "standard",
+        "echecsPremierPassage": 4,
+        "relances": 3,
+        "corrections": [
+          "contraste des cases de la grille pendant leur transition",
+          "débordement de la scène Feng Shui à 880 px (une colonne sous 1000 px)",
+          "cartouche Feng Shui à hauteur stable",
+          "spirale de la grille réservée aux écrans larges (décalage au chargement sur téléphone)"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Fin de la construction v3 notée à 18:55, heure approximative. Audit standard puis trois relances ciblées sur / et /feng-shui, la dernière sans échec."
     }
   ]
 }

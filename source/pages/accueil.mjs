@@ -123,11 +123,11 @@ export default (c) => html`
 
 <section class="section tarifs" id="tarifs" data-fil="gauche">
   <div class="conteneur tarifs-grille tarifs--accueil">
-    ${dessinTarifs('accueil')}
     <div class="tarifs-tete">
       <p class="surtitre">${c.t('accueil.tarifs.sur')}</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('accueil.tarifs.titre')}</h2>
       <p class="chapo texte-doux" data-anime>${c.t('accueil.tarifs.texte')}</p>
+      <div class="tarifs-bande">${c.media({ nom: 'geo-ouverture', alt: 'Salon aux murs sable, parquet en chevrons et olivier en pot', classe: 'tarifs-photo', sizes: '(max-width: 1240px) 96vw, 1240px', attrs: 'data-fx="parallaxe" data-fx-force="8"' })}</div>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="${c.s('accueil.tarifs.conseillee')}" data-choisie="${c.s('accueil.tarifs.choisie')}">
         ${tarifs(c, 'accueil')}
       </div>
@@ -184,15 +184,15 @@ export default (c) => html`
   <div class="conteneur">
     <p class="surtitre">${c.t('accueil.espaces.sur')}</p>
     <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('accueil.espaces.titre')}</h2>
-    <div class="espaces" data-anime="cascade">
-      ${['e1', 'e2', 'e3', 'e4'].map((e) => html`<div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel>${brut(PICTOS[e])}</svg><h3>${c.t(`accueil.espaces.${e}`)}</h3><p>${c.t(`accueil.espaces.${e}p`)}</p></div>`)}
+    <div class="espaces">
+      ${[['e1', 'grok/geo-intention', 'Chambre calme au matin, lin et lumière douce'], ['e2', 'grok/immo-ouverture', 'Façade chaulée d\'une maison de village, porte grande ouverte'], ['e3', 'grok/fs-tarifs', 'Longue table de chêne près d\'une haute fenêtre'], ['e4', 'grok/accueil-tarifs', 'Table à dessin, calque vierge et compas en laiton']].map(([e, img, alt]) => html`<article class="espace espace--photo">${c.media({ nom: img, alt, classe: 'espace-media', ratio: '4 / 5', sizes: '(max-width: 640px) 92vw, 24vw', attrs: 'data-anime="rideau"' })}<h3>${c.t(`accueil.espaces.${e}`)}</h3><p>${c.t(`accueil.espaces.${e}p`)}</p></article>`)}
     </div>
   </div>
 </section>
 
 <section class="section nuit" id="cadre">
   <div class="conteneur cadre">
-    <svg class="cadre-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 170 L100 30 L170 170"/><path d="M58 114 H142"/><circle cx="100" cy="30" r="8"/><path d="M100 30 V110 A 60 60 0 0 1 152 140" stroke-dasharray="4 5"/><path d="M20 182 H180"/></svg>
+    ${c.media({ nom: 'grok/geo-vision', alt: 'Pièce vide aux murs de pierre chaulés, fenêtre ouverte sur les oliviers', classe: 'cadre-photo', sizes: '(max-width: 640px) 92vw, 34vw', attrs: 'data-fx="zoom"' })}
     <div>
       <p class="surtitre">${c.t('accueil.cadre.sur')}</p>
       <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>${c.t('accueil.cadre.titre')}</h2>
