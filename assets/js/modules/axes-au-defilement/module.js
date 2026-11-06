@@ -2,7 +2,7 @@
 // (Fraunces « sage » SOFT 100, WONK 0 vers « sauvage » SOFT 0, WONK 1 ; Recursive casual ; Roboto Flex grade…).
 // Réservé aux axes qui ne changent pas la largeur du texte (SOFT, WONK, GRAD, CASL, MONO…) : jamais wght ni wdth,
 // sinon les lignes se recomposent et la mise en page saute pendant le défilement.
-import { pret } from '../pont.js?v=1';
+import { pret } from '../pont.js?v=2';
 
 const lire = txt => Object.fromEntries([...String(txt).matchAll(/["']([A-Za-z]{4})["']\s+(-?[\d.]+)/g)].map(m => [m[1], parseFloat(m[2])]));
 const ecrire = axes => Object.entries(axes).map(([k, v]) => `"${k}" ${Math.round(v * 100) / 100}`).join(', ');

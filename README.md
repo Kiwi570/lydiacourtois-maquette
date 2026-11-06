@@ -1,4 +1,4 @@
-# Ma Bonne Étoile — Lydia Courtois · maquette v1
+# Ma Bonne Étoile — Lydia Courtois · maquette v2
 
 Maquette du site de Lydia Courtois (géobiologie, Feng Shui tibétain, Immobilier Autrement), direction artistique « Le plan et l'étoile » : papier sable d'architecte, encre bleu nuit, étoile d'or du logo.
 
@@ -9,13 +9,13 @@ Adresse prévue : https://lydiacourtois-maquette.vercel.app (maquette non index�
 | Page | Ouverture | Points forts |
 |---|---|---|
 | Accueil | Scindée sur papier millimétré : photo sous le calque du plan, étoile-boussole | Boussole des neuf domaines à faire tourner (le plan pivote avec elle), rai de lumière du matin, calques à feuilleter, « Lire le lieu » épinglée, tarifs à rouleaux, Capsules, parcours |
-| Géobiologie | Fond chaux, très grand titre centré, bandeau photo sous la coupe du lieu | Coupe qui s'efface, déroulement en trois temps épinglé, tarifs |
-| Feng Shui | Fond bleu nuit, grille des neuf domaines posée depuis la porte, photo en arche | Les neuf domaines case par case, tarifs |
-| Immobilier Autrement | Façade à gauche avec le parcours de visite, question en grand | Points observés, trois axes, tarifs et avertissement |
-| Contact | Compacte quadrillée, numéro en très grand, carte de France | Demande en trois étapes préremplie, tampon « Reçue » |
+| Géobiologie (chaux et olive) | Fond chaux, très grand titre centré, bandeau photo sous la coupe du lieu | Coupe qui s'efface, lumière rasante à promener sur le mur, déroulement en trois temps épinglé, tarifs en relevé |
+| Feng Shui (nuit et or) | Fond bleu nuit, grille des neuf domaines posée depuis la porte, photo en arche | Roue des cinq éléments, grille des neuf domaines épinglée qui s'allume en spirale, tarifs de nuit |
+| Immobilier Autrement (terre cuite) | Porte qui s'ouvre sur la façade, parcours de visite, question en grand | Visite pièce par pièce épinglée, trois axes, fiches de tarifs, avertissement |
+| Contact (aube) | Compacte, numéro en très grand, l'étoile file vers les Pyrénées-Orientales | Demande en trois questions préremplie, tampon « Reçue », aube sur le panorama |
 | 404 | « Cette pièce n'est pas sur le plan » | |
 
-Commun : intro (étoile tracée, plan dessiné, l'étoile se pose sur la page), voile de transition en étoile, fil de circulation doré dans la marge, Fraunces qui passe de « tendu » à « apaisé » au défilement, mode calme complet (lien « Réduire les animations »).
+Commun : titres en lettres-étoiles, un titre tracé à la règle par page, intro (étoile tracée, plan dessiné, l'étoile se pose sur la page), voile de transition en étoile, fil de circulation doré dans la marge, Fraunces qui passe de « tendu » à « apaisé » au défilement, mode calme complet (lien « Réduire les animations »).
 
 ## Travailler sur le projet
 

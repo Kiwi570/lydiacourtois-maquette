@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -40,15 +40,15 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f1eadf">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -65,7 +65,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Ma Bonne Étoile — Lydia Courtois","url":"https://lydiacourtois-maquette.vercel.app/","telephone":"+33663676907","email":"lydia.fengshui.harmonie@gmail.com","areaServed":["Pyrénées-Orientales","France"],"sameAs":["https://www.facebook.com/lydia.fengshui.harmonie","https://www.instagram.com/lydia.feng.shui.harmonie"],"description":"Géobiologie, Feng Shui tibétain et Immobilier Autrement : accompagnements sur place dans les Pyrénées-Orientales et à distance partout en France."}</script>
 </head>
-<body id="haut">
+<body id="haut" class="page-accueil">
 <div data-voile data-forme="etoile" aria-hidden="true"><div class="voile-contenu"><svg class="etoile voile-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg><span data-voile-libelle>Accueil</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <svg class="ouverture-plan" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M150 90 H850 V510 H150 Z M150 300 H420 M420 90 V510 M620 90 V300 M620 300 H850 M520 510 V420 M300 300 V510"/><path class="ouverture-porte" d="M480 510 A60 60 0 0 1 540 450"/></svg>
@@ -137,7 +137,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur duo">
     <div>
       <p class="surtitre">L&#39;enjeu</p>
-      <h2 class="titre-grand" data-anime="lignes" data-axes data-grille="typo" data-fil-repere>Certaines maisons accueillent tout de suite. D&#39;autres laissent un malaise difficile à expliquer.</h2>
+      <h2 class="titre-grand titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-grille="typo" data-fil-repere>Certaines maisons accueillent tout de suite. D&#39;autres laissent un malaise difficile à expliquer.</h2>
       <p class="chapo" data-anime>En plus de vingt ans d&#39;accompagnement de familles, de propriétaires, d&#39;acheteurs et d&#39;investisseurs, j&#39;ai appris à regarder ce qui se passe entre un lieu et ceux qui l&#39;habitent.</p>
       <p class="texte-doux" data-anime>Cette expérience m&#39;a menée vers la géobiologie, le Feng Shui tibétain et l&#39;harmonisation énergétique des lieux.</p>
     </div>
@@ -152,7 +152,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur">
     <div class="facons-tete">
       <p class="surtitre">Mes accompagnements</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Trois façons de faire du lieu un allié.</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Trois façons de faire du lieu un allié.</h2>
       <p class="chapo texte-doux" data-anime>Chaque format est défini à l&#39;avance. Pour un accompagnement personnalisé, je précise d&#39;abord votre besoin avec vous, puis je vous propose un tarif.</p>
     </div>
     <div class="tep calques-pile" data-module="temoignages-en-pile" data-feuilleter="Calque">
@@ -249,15 +249,11 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="section tarifs" id="tarifs" data-fil="gauche">
-  <div class="conteneur tarifs-grille">
-    <figure class="media tarifs-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/grok/accueil-tarifs-1280.webp" srcset="/assets/images/grok/accueil-tarifs-640.webp 640w, /assets/images/grok/accueil-tarifs-1280.webp 1280w" sizes="(max-width: 860px) 92vw, 30vw" alt="Table à dessin, calque vierge et compas en laiton au soleil du matin" width="1280" height="854" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
-    <div>
+  <div class="conteneur tarifs-grille tarifs--accueil">
+    <svg class="tarifs-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><circle cx="100" cy="100" r="86"/><circle cx="100" cy="100" r="62" stroke-dasharray="3 6"/><path class="or" d="M100 18 L108 92 L182 100 L108 108 L100 182 L92 108 L18 100 L92 92 Z"/><path d="M100 4 V16 M100 184 V196 M4 100 H16 M184 100 H196"/></svg>
+    <div class="tarifs-tete">
       <p class="surtitre">Accompagnements sur mesure</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Des tarifs clairs pour choisir sereinement.</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Des tarifs clairs pour choisir sereinement.</h2>
       <p class="chapo texte-doux" data-anime>Des repères simples, présentés avant tout engagement. Les offres de lancement sont limitées aux places disponibles.</p>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="Lancement" data-choisie="Choisie">
         <ul class="trf__grille">
@@ -292,7 +288,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="section papier" id="capsules" data-fil="droite">
   <div class="conteneur">
     <p class="surtitre">Nouveauté · les Capsules Ma Bonne Étoile</p>
-    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Des formats simples pour commencer en douceur.</h2>
+    <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Des formats simples pour commencer en douceur.</h2>
     <p class="chapo texte-doux" data-anime>Des accompagnements courts et ciblés, pour les moments où le lieu et la vie changent ensemble : 49 € au lancement, puis 69 €.</p>
     <div class="bulles">
       <article class="bulle" id="bulle-sommeil">
@@ -372,7 +368,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="section papier" id="pour-qui" data-fil="droite">
   <div class="conteneur">
     <p class="surtitre">Pour qui</p>
-    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Un accompagnement pour les espaces qui comptent.</h2>
+    <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Un accompagnement pour les espaces qui comptent.</h2>
     <div class="espaces" data-anime="cascade">
       <div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><path d="M10 66 V30 L38 10 L66 30 V66 Z"/><path d="M30 66 V46 H46 V66"/><path class="or" d="M50 22 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2 Z"/></svg><h3>Habitation</h3><p>Maison, appartement, chambre ou projet de déménagement.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><path d="M8 66 H68"/><path d="M14 66 V34 L34 18 L54 34 V66"/><path d="M40 30 h18 v14 h-18 Z"/><path class="or" d="M44 37 h10"/></svg><h3>Projet immobilier</h3><p>Un regard complémentaire avant ou après un achat.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><rect x="12" y="14" width="52" height="52"/><path d="M12 34 H64 M38 34 V66"/><path class="or" d="M22 50 h8 M46 50 h8"/></svg><h3>Espace professionnel</h3><p>Bureau, cabinet, commerce ou entreprise.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><rect x="10" y="12" width="56" height="38" rx="3"/><path d="M28 64 H48 M38 50 V64"/><path class="or" d="M22 40 V24 H40 V32 H54 V40 Z"/></svg><h3>À distance</h3><p>Étude sur plan et restitution en visioconférence.</p></div>
     </div>
@@ -383,7 +379,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <svg class="cadre-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 170 L100 30 L170 170"/><path d="M58 114 H142"/><circle cx="100" cy="30" r="8"/><path d="M100 30 V110 A 60 60 0 0 1 152 140" stroke-dasharray="4 5"/><path d="M20 182 H180"/></svg>
     <div>
       <p class="surtitre">Un cadre clair</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes>Une lecture sensible et concrète du lieu.</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>Une lecture sensible et concrète du lieu.</h2>
       <p class="chapo" data-anime>La géobiologie et le Feng Shui ne remplacent pas un avis médical, psychologique ou vétérinaire. Il n&#39;y a ni diagnostic, ni promesse de guérison.</p>
       <a href="/contact#demande" class="bouton" data-libelle="Contact">Écrire à Lydia</a>
     </div>
@@ -392,7 +388,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="section" id="fin" data-fil="gauche">
   <div class="conteneur duo">
     <div>
-      <h2 class="titre-grand" data-anime="lignes" data-axes data-fil-repere>Parlons de votre lieu et de ce que vous souhaitez y vivre.</h2>
+      <h2 class="titre-grand titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Parlons de votre lieu et de ce que vous souhaitez y vivre.</h2>
       <p class="chapo" data-anime>Un premier échange permet de vous orienter simplement.</p>
       <p class="fin-actions" data-anime>
         <a class="bouton bouton--contour" href="tel:+33663676907" data-survol="magnetique">Appeler Lydia</a>

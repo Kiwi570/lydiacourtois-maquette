@@ -3,6 +3,7 @@
    sur la fiche et un tampon « Reçue » s'imprime (retour physique). */
 import { html, brut } from '../../outils/gabarit.mjs';
 import { objetFil } from '../gabarits/elements.mjs';
+import { etoileSvg } from '../gabarits/commun.mjs';
 
 export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'grok/contact-panorama-1280.webp' };
 
@@ -28,6 +29,7 @@ export default (c) => {
         <circle class="onde-po" data-effet="ondes-du-departement" cx="207" cy="337" r="18"/>
         <circle class="onde-po" data-effet="ondes-du-departement" cx="207" cy="337" r="18"/>
       </svg>
+      <span class="etoile-vol" data-effet="etoile-vers-le-departement" aria-hidden="true">${etoileSvg('etoile-vol-svg')}</span>
       <figcaption class="carte-legende"><span>${c.t('contact.tete.surPlace')}</span><span>${c.t('contact.tete.distance')}</span></figcaption>
     </figure>
   </div>
@@ -108,9 +110,12 @@ export default (c) => {
 
 <section class="section panorama" id="zone" data-fil="droite">
   <div class="conteneur">
-    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>${c.t('contact.panorama.titre')}</h2>
+    <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('contact.panorama.titre')}</h2>
     <p class="chapo texte-doux" data-anime>${c.t('contact.panorama.texte')}</p>
-    ${c.media({ nom: 'grok/contact-panorama', alt: 'Plaine de vignes et d\'oliviers au lever du soleil, collines au loin', sizes: '(max-width: 1240px) 92vw, 1200px', attrs: 'data-fx="parallaxe"' })}
+    <div class="panorama-cadre">
+      ${c.media({ nom: 'grok/contact-panorama', alt: 'Plaine de vignes et d\'oliviers au lever du soleil, collines au loin', sizes: '(max-width: 1240px) 92vw, 1200px', attrs: 'data-fx="parallaxe"' })}
+      <span class="aube" data-effet="aube-qui-se-leve" aria-hidden="true" data-superpose></span>
+    </div>
   </div>
   <span data-fil-point="0.5 1" aria-hidden="true"></span>
 </section>

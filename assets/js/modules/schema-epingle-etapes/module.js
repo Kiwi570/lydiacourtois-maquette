@@ -5,7 +5,7 @@
 // Ordinateur : scène épinglée, étapes empilées, puces de navigation. Téléphone ou petite hauteur : schéma compact
 // collé sous l'en-tête (« compact ») ou schéma répété dans chaque étape (« repete »).
 // Mode calme et sans JavaScript : liste complète, schéma entièrement allumé, rien ne bouge.
-import { pret } from '../pont.js?v=1';
+import { pret } from '../pont.js?v=2';
 
 /**
  * @param {HTMLElement} root  section.see

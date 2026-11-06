@@ -1,7 +1,7 @@
 /* Géobiologie — ouverture : fond chaux, très grand titre centré, bandeau photo recouvert de la coupe du lieu
    (murs et sols tracés) qui s'efface au défilement. Scène épinglée : la coupe se lit en trois temps. */
 import { html } from '../../outils/gabarit.mjs';
-import { tarifs, objetFil } from '../gabarits/elements.mjs';
+import { tarifs, dessinTarifs, objetFil } from '../gabarits/elements.mjs';
 
 export const page = { cle: 'geobiologie', fichier: 'geobiologie', imagePartage: 'geo-ouverture-1024.webp' };
 
@@ -41,6 +41,23 @@ export default (c) => html`
   </div>
 </section>
 
+<section class="memoire" id="memoire" data-entete-cache>
+  <div class="memoire-scene" data-effet="lumiere-rasante" data-souris role="img" aria-label="${c.s('geo.memoire.region')}">
+    ${c.media({ nom: 'grok/geo-tarifs', alt: '', classe: 'memoire-photo', sizes: '100vw' })}
+    <div class="memoire-ombre" aria-hidden="true"></div>
+    <span class="memoire-mot" data-x="28" data-y="34" style="left:28%;top:34%" aria-hidden="true">${c.t('geo.memoire.murs')}</span>
+    <span class="memoire-mot" data-x="70" data-y="80" style="left:70%;top:80%" aria-hidden="true">${c.t('geo.memoire.sols')}</span>
+    <span class="memoire-mot" data-x="45" data-y="66" style="left:45%;top:66%" aria-hidden="true">${c.t('geo.memoire.traces')}</span>
+    <span class="memoire-mot" data-x="76" data-y="20" style="left:76%;top:20%" aria-hidden="true">${c.t('geo.memoire.seuil')}</span>
+  </div>
+  <div class="conteneur memoire-texte">
+    <p class="surtitre">${c.t('geo.memoire.sur')}</p>
+    <h2 class="titre-grand titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>${c.t('geo.memoire.titre')}</h2>
+    <p class="chapo">${c.t('geo.memoire.texte')}</p>
+    <p class="memoire-indice"><span class="souris">${c.t('geo.memoire.indice')}</span><span class="doigt">${c.t('geo.memoire.indiceTactile')}</span></p>
+  </div>
+</section>
+
 <section class="see" id="deroulement" data-module="schema-epingle-etapes" data-epingle data-entete-cache data-grille="scene" data-effet="lecture-de-la-coupe" aria-labelledby="t-deroulement">
   <div class="see__scene">
     <div class="see__grille socle-cadre conteneur">
@@ -73,11 +90,11 @@ export default (c) => html`
 </section>
 
 <section class="section papier tarifs" id="tarifs" data-fil="droite">
-  <div class="conteneur tarifs-grille">
-    ${c.media({ nom: 'grok/geo-tarifs', alt: 'Mur à la chaux et tomettes anciennes sous une lumière rasante', classe: 'tarifs-media', sizes: '(max-width: 860px) 92vw, 30vw', attrs: 'data-fx="parallaxe"' })}
-    <div>
+  <div class="conteneur tarifs-grille tarifs--geobiologie">
+    ${dessinTarifs('geobiologie')}
+    <div class="tarifs-tete">
       <p class="surtitre">${c.t('geo.tarifs.sur')}</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>${c.t('geo.tarifs.titre')}</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('geo.tarifs.titre')}</h2>
       <p class="chapo texte-doux" data-anime>${c.t('geo.tarifs.texte')}</p>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="${c.s('accueil.tarifs.conseillee')}" data-choisie="${c.s('accueil.tarifs.choisie')}">${tarifs(c, 'geobiologie')}</div>
     </div>
@@ -88,7 +105,7 @@ export default (c) => html`
   <div class="conteneur duo duo--inverse">
     <div>
       <p class="surtitre">${c.t('geo.intention.sur')}</p>
-      <h2 class="titre-grand" data-anime="lignes" data-axes data-fil-repere>${c.t('geo.intention.titre')}</h2>
+      <h2 class="titre-grand titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('geo.intention.titre')}</h2>
       <p class="chapo" data-anime>${c.t('geo.intention.texte')}</p>
       <p data-anime>${c.lien('contact', { ancre: 'demande', params: 'sujet=geobiologie', classe: 'bouton', texte: c.t('geo.intention.action'), attrs: 'data-survol="magnetique"' })}</p>
     </div>

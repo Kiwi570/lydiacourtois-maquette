@@ -154,7 +154,7 @@ export function page(c, contenu) {
   return html`<!doctype html>
 <html lang="${c.l}" data-v="${c.v}"${c.site.curseur ? brut(' data-curseur') : ''}>
 ${tete(c)}
-<body id="haut">
+<body id="haut" class="page-${c.page.cle}">
 ${voile(c)}
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <svg class="ouverture-plan" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M150 90 H850 V510 H150 Z M150 300 H420 M420 90 V510 M620 90 V300 M620 300 H850 M520 510 V420 M300 300 V510"/><path class="ouverture-porte" d="M480 510 A60 60 0 0 1 540 450"/></svg>

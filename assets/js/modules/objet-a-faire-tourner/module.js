@@ -3,7 +3,7 @@
 // Le défilement le scratche aussi (vitesse de défilement ajoutée à la rotation). Une lumière suit le pointeur.
 // Le module n'impose aucun rendu : il pose sur la racine les variables --oat-angle (deg), --oat-lumiere (deg),
 // --oat-eclat (0 à 1) et --oat-vitesse (0 à 1), et appelle options.dessiner(etat) à chaque image (pour un shader WebGL).
-import { pret } from '../pont.js?v=1';
+import { pret } from '../pont.js?v=2';
 
 /**
  * @param {HTMLElement} root  div.oat (div.oat__objet, span.oat__reflet facultatif, p.oat__indice facultatif)

@@ -3,7 +3,7 @@
    voile en étoile, fil de circulation (main), titres Fraunces qui s'apaisent (typo), lecture du lieu épinglée (scene),
    tampon « Choisie » des tarifs puis tampon « Reçue » de la demande (retour). */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { planMaison, boussole, tarifs, objetFil } from '../gabarits/elements.mjs';
+import { planMaison, boussole, tarifs, dessinTarifs, objetFil } from '../gabarits/elements.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'grok/accueil-ouverture-800.webp' };
 
@@ -44,7 +44,7 @@ export default (c) => html`
   <div class="conteneur duo">
     <div>
       <p class="surtitre">${c.t('accueil.manifeste.sur')}</p>
-      <h2 class="titre-grand" data-anime="lignes" data-axes data-grille="typo" data-fil-repere>${c.t('accueil.manifeste.titre')}</h2>
+      <h2 class="titre-grand titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-grille="typo" data-fil-repere>${c.t('accueil.manifeste.titre')}</h2>
       <p class="chapo" data-anime>${c.t('accueil.manifeste.texte1')}</p>
       <p class="texte-doux" data-anime>${c.t('accueil.manifeste.texte2')}</p>
     </div>
@@ -56,7 +56,7 @@ export default (c) => html`
   <div class="conteneur">
     <div class="facons-tete">
       <p class="surtitre">${c.t('accueil.facons.sur')}</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>${c.t('accueil.facons.titre')}</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('accueil.facons.titre')}</h2>
       <p class="chapo texte-doux" data-anime>${c.t('accueil.facons.texte')}</p>
     </div>
     <div class="tep calques-pile" data-module="temoignages-en-pile" data-feuilleter="${c.s('accueil.facons.feuilleter')}">
@@ -122,11 +122,11 @@ export default (c) => html`
 </section>
 
 <section class="section tarifs" id="tarifs" data-fil="gauche">
-  <div class="conteneur tarifs-grille">
-    ${c.media({ nom: 'grok/accueil-tarifs', alt: 'Table à dessin, calque vierge et compas en laiton au soleil du matin', classe: 'tarifs-media', sizes: '(max-width: 860px) 92vw, 30vw', attrs: 'data-fx="parallaxe"' })}
-    <div>
+  <div class="conteneur tarifs-grille tarifs--accueil">
+    ${dessinTarifs('accueil')}
+    <div class="tarifs-tete">
       <p class="surtitre">${c.t('accueil.tarifs.sur')}</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>${c.t('accueil.tarifs.titre')}</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('accueil.tarifs.titre')}</h2>
       <p class="chapo texte-doux" data-anime>${c.t('accueil.tarifs.texte')}</p>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="${c.s('accueil.tarifs.conseillee')}" data-choisie="${c.s('accueil.tarifs.choisie')}">
         ${tarifs(c, 'accueil')}
@@ -139,7 +139,7 @@ export default (c) => html`
 <section class="section papier" id="capsules" data-fil="droite">
   <div class="conteneur">
     <p class="surtitre">${c.t('accueil.capsules.sur')}</p>
-    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>${c.t('accueil.capsules.titre')}</h2>
+    <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('accueil.capsules.titre')}</h2>
     <p class="chapo texte-doux" data-anime>${c.t('accueil.capsules.texte')}</p>
     <div class="bulles">
       ${c.donnees.bulles.map((b, i) => html`<article class="bulle" id="bulle-${b.cle}">
@@ -183,7 +183,7 @@ export default (c) => html`
 <section class="section papier" id="pour-qui" data-fil="droite">
   <div class="conteneur">
     <p class="surtitre">${c.t('accueil.espaces.sur')}</p>
-    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>${c.t('accueil.espaces.titre')}</h2>
+    <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('accueil.espaces.titre')}</h2>
     <div class="espaces" data-anime="cascade">
       ${['e1', 'e2', 'e3', 'e4'].map((e) => html`<div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel>${brut(PICTOS[e])}</svg><h3>${c.t(`accueil.espaces.${e}`)}</h3><p>${c.t(`accueil.espaces.${e}p`)}</p></div>`)}
     </div>
@@ -195,7 +195,7 @@ export default (c) => html`
     <svg class="cadre-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 170 L100 30 L170 170"/><path d="M58 114 H142"/><circle cx="100" cy="30" r="8"/><path d="M100 30 V110 A 60 60 0 0 1 152 140" stroke-dasharray="4 5"/><path d="M20 182 H180"/></svg>
     <div>
       <p class="surtitre">${c.t('accueil.cadre.sur')}</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes>${c.t('accueil.cadre.titre')}</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>${c.t('accueil.cadre.titre')}</h2>
       <p class="chapo" data-anime>${c.t('accueil.cadre.texte')}</p>
       ${c.lien('contact', { ancre: 'demande', classe: 'bouton', texte: c.t('accueil.cadre.action') })}
     </div>
@@ -205,7 +205,7 @@ export default (c) => html`
 <section class="section" id="fin" data-fil="gauche">
   <div class="conteneur duo">
     <div>
-      <h2 class="titre-grand" data-anime="lignes" data-axes data-fil-repere>${c.t('accueil.fin.titre')}</h2>
+      <h2 class="titre-grand titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>${c.t('accueil.fin.titre')}</h2>
       <p class="chapo" data-anime>${c.t('accueil.fin.texte')}</p>
       <p class="fin-actions" data-anime>
         <a class="bouton bouton--contour" href="tel:${c.site.contact.telephoneLien}" data-survol="magnetique">${c.t('accueil.fin.appeler')}</a>

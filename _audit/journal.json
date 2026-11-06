@@ -116,6 +116,68 @@
       ],
       "grilleDispenses": {},
       "notes": "Tarifs : ceux de chaque page, à confirmer. 9 domaines : noms classiques du Bagua, à confirmer. Capsules réservées par la demande d'échange. Images : le script n'a récupéré que la boutique (site Hostinger), bloc complémentaire curl envoyé (un aller-retour de plus). Pages d'onglet écrites en parallèle de l'accueil, avant l'aperçu ; boosts validés : plan qui s'oriente, lumière du matin, calques à feuilleter. Voile en étoile ajouté au socle (voile.js, gouttiere.js pour les polygones)."
+    },
+    {
+      "version": 2,
+      "skill": "v10.3",
+      "perimetre": [
+        "accueil",
+        "geobiologie",
+        "feng-shui",
+        "immobilier-autrement",
+        "contact",
+        "404"
+      ],
+      "demande": "Retour de l'utilisateur : manque de belles animations, pages quasi identiques. Choix : une signature par page, un monde de couleur par page, titres vivants.",
+      "etapes": [
+        {
+          "etape": "v2 : signatures, mondes et titres",
+          "budget": 60,
+          "debut": "2026-11-06T17:38:00+01:00",
+          "fin": "2026-11-06T17:43:00+01:00"
+        },
+        {
+          "etape": "audit et corrections",
+          "budget": 20,
+          "debut": "2026-11-06T17:43:00+01:00",
+          "fin": "2026-11-06T18:35:23+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-06T18:35:23+01:00",
+          "fin": "2026-11-06T18:39:00+01:00"
+        }
+      ],
+      "attentes": [
+        {
+          "pour": "choix des pistes v2",
+          "debut": "2026-11-06T17:36:00+01:00",
+          "fin": "2026-11-06T17:38:00+01:00"
+        }
+      ],
+      "allersRetours": 1,
+      "modules": [
+        "lumiere-au-pointeur (mécanique reprise en CSS)",
+        "galerie-horizontale-epinglee (socle data-fx=galerie)"
+      ],
+      "audit": {
+        "niveau": "standard",
+        "echecsPremierPassage": 66,
+        "relances": 3,
+        "corrections": [
+          "lettres-étoiles marquées superposées pendant leur vol",
+          "grille Feng Shui : aucun déclencheur à l'intérieur de la section épinglée",
+          "contrastes terre cuite",
+          "galerie de visite accessible en mode calme et sans JavaScript",
+          "porte contenue dans la photo",
+          "tampon des tarifs en relevé",
+          "mot du mur à 320 px"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Construction v2 en 5 min de travail effectif (17:38-17:43) ; l'essentiel du temps d'audit est l'attente des scripts (deux audits standard de 20 min)."
     }
   ]
 }

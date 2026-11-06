@@ -264,6 +264,18 @@
       "titre": "Remettre de l'harmonie, là où elle s'est perdue.",
       "texte": "Offrir à votre lieu de vie l'attention qu'il mérite, pour plus de calme et de clarté au quotidien.",
       "action": "Parler de mon habitation"
+    },
+    "memoire": {
+      "sur": "Mémoire des murs et des sols",
+      "titre": "Ce que le lieu garde de son histoire.",
+      "texte": "L'une des lectures du bilan de géobiologie, avec l'étude sur plan et la réharmonisation : regarder les murs, les sols et les traces des usages passés.",
+      "indice": "Promenez la lumière sur le mur",
+      "indiceTactile": "Faites défiler : la lumière avance",
+      "murs": "Les murs",
+      "sols": "Les sols",
+      "traces": "Les traces d'usage",
+      "seuil": "La lumière du jour",
+      "region": "Mur à la chaux et sol de tomettes éclairés par une lumière rasante que l'on déplace"
     }
   },
   "fs": {
@@ -302,6 +314,18 @@
       "titre": "Inutile de tout refaire.",
       "texte": "Le but n'est pas de transformer votre intérieur en profondeur, mais de retrouver la cohérence entre votre lieu, votre quotidien et vos projets.",
       "action": "Demander une étude"
+    },
+    "elements": {
+      "sur": "Les éléments",
+      "titre": "Cinq éléments, une maison qui circule.",
+      "texte": "Avec les neuf domaines, la lecture des éléments fait partie de l'étude Feng Shui : où chacun se trouve dans la maison, et comment ils s'équilibrent.",
+      "bois": "Bois",
+      "feu": "Feu",
+      "terre": "Terre",
+      "metal": "Métal",
+      "eau": "Eau",
+      "source": "Les cinq éléments d'après le visuel de Lydia.",
+      "region": "Roue des cinq éléments : bois, feu, terre, métal, eau"
     }
   },
   "immo": {
@@ -343,6 +367,15 @@
       "titre": "Préparer votre bien.",
       "texte": "Faisons le point sur votre logement, ou planifions un accompagnement sur place.",
       "action": "Faire le point"
+    },
+    "visite": {
+      "sur": "Observer au-delà du prix",
+      "titre": "Une visite, pièce par pièce, avec les yeux de l'acquéreur.",
+      "texte": "Je croise mon expérience immobilière et un regard sur l'habitat. Un bien entretenu peut rester difficile à lire ou à investir : le prix n'est pas toujours le seul en cause.",
+      "region": "Les cinq points observés pendant la visite",
+      "indice": "Faites glisser pour visiter",
+      "porteG": "Battant gauche",
+      "porteD": "Battant droit"
     }
   },
   "contact": {
@@ -403,7 +436,8 @@
     },
     "panorama": {
       "titre": "Pyrénées-Orientales et à distance",
-      "texte": "Les accompagnements sur place se font dans le département ; partout ailleurs, l'étude se fait sur plan, avec une restitution en visioconférence."
+      "texte": "Les accompagnements sur place se font dans le département ; partout ailleurs, l'étude se fait sur plan, avec une restitution en visioconférence.",
+      "aube": "Du lever du soleil au plein jour"
     }
   },
   "introuvable": {

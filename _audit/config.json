@@ -1,6 +1,39 @@
 {
   "siteActuel": "lydiacourtois.com",
-  "pagesTypes": ["/", "/geobiologie", "/feng-shui", "/immobilier-autrement", "/contact"],
-  "effets": ["boussole-etoile", "plan-qui-s-oriente", "calque-qui-glisse", "lumiere-du-matin", "calques-empiles", "lecture-du-lieu", "prix-qui-roulent", "bulles-qui-flottent", "titre-a-la-regle", "titre-qui-s-apaise", "coupe-du-lieu", "lecture-de-la-coupe", "bagua-porte", "domaines-qui-s-allument", "parcours-de-visite", "ondes-du-departement", "etoile-recue"],
-  "grille": { "dispenses": {} }
+  "pagesTypes": [
+    "/",
+    "/geobiologie",
+    "/feng-shui",
+    "/immobilier-autrement",
+    "/contact"
+  ],
+  "effets": [
+    "boussole-etoile",
+    "plan-qui-s-oriente",
+    "calque-qui-glisse",
+    "lumiere-du-matin",
+    "calques-empiles",
+    "lecture-du-lieu",
+    "prix-qui-roulent",
+    "bulles-qui-flottent",
+    "titre-a-la-regle",
+    "titre-qui-s-apaise",
+    "coupe-du-lieu",
+    "lecture-de-la-coupe",
+    "bagua-porte",
+    "domaines-qui-s-allument",
+    "parcours-de-visite",
+    "ondes-du-departement",
+    "etoile-recue",
+    "lumiere-rasante",
+    "roue-des-elements",
+    "porte-qui-s-ouvre",
+    "visite-piece-par-piece",
+    "etoile-vers-le-departement",
+    "aube-qui-se-leve",
+    "titre-etoiles"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
 }

@@ -49,3 +49,12 @@ export function tarifs(c, cle, { titreId, ancre = 'demande' } = {}) {
 
 /* Étoile du fil conducteur. */
 export const objetFil = () => brut(`<template data-fil-objet><polygon points="${pointsEtoile(11, 7, 2)}"/></template>`);
+
+/* Dessins des sections de tarifs : un par page (tracés au défilement), à la place des photos de remplissage. */
+export const DESSINS = {
+  accueil: '<circle cx="100" cy="100" r="86"/><circle cx="100" cy="100" r="62" stroke-dasharray="3 6"/><path class="or" d="M100 18 L108 92 L182 100 L108 108 L100 182 L92 108 L18 100 L92 92 Z"/><path d="M100 4 V16 M100 184 V196 M4 100 H16 M184 100 H196"/>',
+  geobiologie: '<path d="M30 20 H170"/><path d="M100 20 V150"/><path class="or" d="M88 150 L100 180 L112 150 Z"/><path d="M20 190 H180" stroke-dasharray="4 6"/><path d="M40 60 H70 M130 90 H160 M40 120 H70" stroke-dasharray="2 5"/>',
+  'feng-shui': '<rect x="20" y="20" width="160" height="160"/><path d="M73 20 V180 M127 20 V180 M20 73 H180 M20 127 H180" stroke-dasharray="4 5"/><path class="or" d="M100 82 L104 96 L118 100 L104 104 L100 118 L96 104 L82 100 L96 96 Z"/><path d="M84 180 A16 16 0 0 1 116 180"/>',
+  'immobilier-autrement': '<circle cx="62" cy="100" r="34"/><circle cx="62" cy="100" r="12"/><path d="M96 100 H184 M150 100 V124 M170 100 V118"/><path class="or" d="M40 40 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 Z"/>',
+};
+export const dessinTarifs = (cle) => brut(`<svg class="tarifs-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel>${DESSINS[cle]}</svg>`);

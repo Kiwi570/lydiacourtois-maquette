@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -40,15 +40,15 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f1eadf">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -65,7 +65,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Ma Bonne Étoile — Lydia Courtois","url":"https://lydiacourtois-maquette.vercel.app/","telephone":"+33663676907","email":"lydia.fengshui.harmonie@gmail.com","areaServed":["Pyrénées-Orientales","France"],"sameAs":["https://www.facebook.com/lydia.fengshui.harmonie","https://www.instagram.com/lydia.feng.shui.harmonie"],"description":"Géobiologie, Feng Shui tibétain et Immobilier Autrement : accompagnements sur place dans les Pyrénées-Orientales et à distance partout en France."}</script>
 </head>
-<body id="haut">
+<body id="haut" class="page-feng-shui">
 <div data-voile data-forme="etoile" aria-hidden="true"><div class="voile-contenu"><svg class="etoile voile-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg><span data-voile-libelle>Feng Shui</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <svg class="ouverture-plan" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M150 90 H850 V510 H150 Z M150 300 H420 M420 90 V510 M620 90 V300 M620 300 H850 M520 510 V420 M300 300 V510"/><path class="ouverture-porte" d="M480 510 A60 60 0 0 1 540 450"/></svg>
@@ -133,11 +133,31 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
   </div>
 </section>
-<section class="section papier" id="domaines" data-fil="droite">
+<section class="section nuit elements" id="elements" data-fil="droite">
+  <div class="conteneur elements-grille">
+    <div>
+      <p class="surtitre">Les éléments</p>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Cinq éléments, une maison qui circule.</h2>
+      <p class="chapo">Avec les neuf domaines, la lecture des éléments fait partie de l&#39;étude Feng Shui : où chacun se trouve dans la maison, et comment ils s&#39;équilibrent.</p>
+      <p class="elements-lu" aria-live="polite" data-element-lu>Bois</p>
+      <p class="a-completer elements-source">Les cinq éléments d&#39;après le visuel de Lydia.</p>
+    </div>
+    <figure class="roue" data-visuel>
+      <svg class="roue-svg" viewBox="-200 -200 400 400" role="img" aria-label="Roue des cinq éléments : bois, feu, terre, métal, eau" data-effet="roue-des-elements">
+        <circle class="roue-cercle" r="150"/>
+        <path class="roue-cycle" d="M0 -150 L142.7 -46.4 L88.2 121.4 L-88.2 121.4 L-142.7 -46.4 Z"/>
+        <path class="roue-etoile" d="M0 -150 L88.2 121.4 L-142.7 -46.4 L142.7 -46.4 L-88.2 121.4 Z"/>
+        <g class="roue-noeud" data-element="feu" data-nom="Feu" transform="translate(0.0 -150.0)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Feu</text></g><g class="roue-noeud" data-element="terre" data-nom="Terre" transform="translate(142.7 -46.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Terre</text></g><g class="roue-noeud" data-element="metal" data-nom="Métal" transform="translate(88.2 121.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Métal</text></g><g class="roue-noeud" data-element="eau" data-nom="Eau" transform="translate(-88.2 121.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Eau</text></g><g class="roue-noeud" data-element="bois" data-nom="Bois" transform="translate(-142.7 -46.4)"><circle r="40"/><text class="roue-nom" text-anchor="middle" dominant-baseline="central">Bois</text></g>
+        <circle class="roue-centre" r="10"/>
+      </svg>
+    </figure>
+  </div>
+</section>
+<section class="section papier domaines-section" id="domaines" data-fil="gauche" data-grille="scene" data-entete-cache>
   <div class="conteneur domaines">
     <div>
       <p class="surtitre">Les neuf domaines</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Une carte de la maison, case par case.</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-fil-repere>Une carte de la maison, case par case.</h2>
       <p class="chapo texte-doux" data-anime>Le plan est découpé en neuf zones selon l&#39;orientation : chacune correspond à un domaine de vie. Faites défiler, ou touchez une case pour la lire.</p>
       <p class="domaines-lu" aria-live="polite"><b>Centre</b>Équilibre, bien-être, harmonie intérieure</p>
       <p class="a-completer">D&#39;après le visuel « Les 9 domaines de vie » de Lydia : noms et textes à confirmer.</p>
@@ -147,16 +167,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </div>
 </section>
-<section class="section tarifs" id="tarifs" data-fil="gauche">
-  <div class="conteneur tarifs-grille">
-    <figure class="media tarifs-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/grok/fs-tarifs-1280.webp" srcset="/assets/images/grok/fs-tarifs-640.webp 640w, /assets/images/grok/fs-tarifs-1280.webp 1280w" sizes="(max-width: 860px) 92vw, 30vw" alt="Longue table de chêne près d&#39;une haute fenêtre, bol d&#39;eau en céramique" width="1280" height="854" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
-    <div>
+<section class="section nuit tarifs" id="tarifs" data-fil="droite">
+  <div class="conteneur tarifs-grille tarifs--feng-shui">
+    <svg class="tarifs-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><rect x="20" y="20" width="160" height="160"/><path d="M73 20 V180 M127 20 V180 M20 73 H180 M20 127 H180" stroke-dasharray="4 5"/><path class="or" d="M100 82 L104 96 L118 100 L104 104 L100 118 L96 104 L82 100 L96 96 Z"/><path d="M84 180 A16 16 0 0 1 116 180"/></svg>
+    <div class="tarifs-tete">
       <p class="surtitre">Modalités d&#39;accompagnement</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Accompagnements et tarifs.</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Accompagnements et tarifs.</h2>
       <p class="chapo texte-doux" data-anime>Des propositions adaptées à votre habitation, à vos besoins actuels et à votre étape de vie.</p>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="Lancement" data-choisie="Choisie"><ul class="trf__grille">
     <li class="trf__formule" data-formule="À distance">
@@ -189,7 +205,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur duo duo--inverse">
     <div>
       <p class="surtitre">Sérénité retrouvée</p>
-      <h2 class="titre-grand" data-anime="lignes" data-axes>Inutile de tout refaire.</h2>
+      <h2 class="titre-grand titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>Inutile de tout refaire.</h2>
       <p class="chapo" data-anime>Le but n&#39;est pas de transformer votre intérieur en profondeur, mais de retrouver la cohérence entre votre lieu, votre quotidien et vos projets.</p>
       <p data-anime><a href="/contact?sujet=feng-shui#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander une étude</a></p>
     </div>

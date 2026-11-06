@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -40,15 +40,15 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#f1eadf">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -65,7 +65,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Ma Bonne Étoile — Lydia Courtois","url":"https://lydiacourtois-maquette.vercel.app/","telephone":"+33663676907","email":"lydia.fengshui.harmonie@gmail.com","areaServed":["Pyrénées-Orientales","France"],"sameAs":["https://www.facebook.com/lydia.fengshui.harmonie","https://www.instagram.com/lydia.feng.shui.harmonie"],"description":"Géobiologie, Feng Shui tibétain et Immobilier Autrement : accompagnements sur place dans les Pyrénées-Orientales et à distance partout en France."}</script>
 </head>
-<body id="haut">
+<body id="haut" class="page-immobilier-autrement">
 <div data-voile data-forme="etoile" aria-hidden="true"><div class="voile-contenu"><svg class="etoile voile-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg><span data-voile-libelle>Immobilier Autrement</span></div></div>
 <div class="ouverture-panneau" data-ouverture aria-hidden="true">
   <svg class="ouverture-plan" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M150 90 H850 V510 H150 Z M150 300 H420 M420 90 V510 M620 90 V300 M620 300 H850 M520 510 V420 M300 300 V510"/><path class="ouverture-porte" d="M480 510 A60 60 0 0 1 540 450"/></svg>
@@ -102,6 +102,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/grok/immo-ouverture-1100.webp" srcset="/assets/images/grok/immo-ouverture-480.webp 480w, /assets/images/grok/immo-ouverture-800.webp 800w, /assets/images/grok/immo-ouverture-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 40vw" alt="Façade chaulée d&#39;une maison de village, porte grande ouverte" width="1100" height="1375" fetchpriority="high" loading="eager" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
+    <div class="porte" aria-hidden="true" data-superpose><span class="battant battant--g" data-effet="porte-qui-s-ouvre"></span><span class="battant battant--d" data-effet="porte-qui-s-ouvre"></span></div>
     <svg class="parcours-visite" viewBox="0 0 400 500" preserveAspectRatio="none" aria-hidden="true" data-superpose>
       <path data-effet="parcours-de-visite" d="M200 470 C 200 420, 196 380, 196 340 C 196 300, 150 280, 120 250 C 90 220, 110 180, 160 170"/>
       <circle cx="200" cy="470" r="7"/><circle cx="196" cy="340" r="6"/><circle cx="160" cy="170" r="6"/>
@@ -118,25 +119,63 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </p>
   </div>
 </section>
-<section class="section" id="observer" data-fil="gauche">
-  <div class="conteneur duo">
-    <div>
-      <p class="surtitre">Observer au-delà du prix</p>
-      <h2 class="titre-section titre-regle" data-effet="titre-a-la-regle" data-axes data-fil-repere>Ce qui aide, ou freine, la projection des acquéreurs.</h2>
-      <p class="chapo" data-anime>Je croise mon expérience immobilière et un regard sur l&#39;habitat. Un bien entretenu peut rester difficile à lire ou à investir : le prix n&#39;est pas toujours le seul en cause.</p>
-      <ol class="points" data-anime="cascade"><li>La présentation du bien</li><li>La circulation</li><li>L&#39;usage des espaces</li><li>L&#39;ambiance générale</li><li>Ce qui freine la projection</li></ol>
-    </div>
-    <figure class="media media-portrait" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+<section class="ecran epingle visite" id="observer" data-fx="galerie" data-grille="scene" data-entete-cache data-fil-dessus>
+  <div class="conteneur visite-tete">
+    <p class="surtitre">Observer au-delà du prix</p>
+    <h2 class="titre-section titre-regle" data-effet="titre-a-la-regle" data-axes>Une visite, pièce par pièce, avec les yeux de l&#39;acquéreur.</h2>
+    <p class="texte-doux">Je croise mon expérience immobilière et un regard sur l&#39;habitat. Un bien entretenu peut rester difficile à lire ou à investir : le prix n&#39;est pas toujours le seul en cause.</p>
+  </div>
+  <div class="piste visite-piste" data-galerie data-effet="visite-piece-par-piece" tabindex="0" role="region" aria-label="Les cinq points observés pendant la visite">
+    <svg class="visite-chemin" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20 C 120 4, 220 36, 340 20 S 560 4, 680 20 S 880 36, 1000 20"/></svg>
+    <article class="piece">
+      <figure class="media piece-media" data-grok style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/grok/immo-observer-800.webp" srcset="/assets/images/grok/immo-observer-480.webp 480w, /assets/images/grok/immo-observer-800.webp 800w" sizes="(max-width: 760px) 92vw, 38vw" alt="Séjour clair et dégagé, prêt pour une visite" width="800" height="1000" loading="lazy" decoding="async">
+    <img src="/assets/images/grok/accueil-parcours-800.webp" srcset="/assets/images/grok/accueil-parcours-480.webp 480w, /assets/images/grok/accueil-parcours-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Porte d&#39;une maison de village entrouverte, clés dans la serrure" width="800" height="1000" loading="lazy" decoding="async">
   </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
+      <p class="piece-n">01</p>
+      <h3>La présentation du bien</h3>
+    </article><article class="piece">
+      <figure class="media piece-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/fs-adapter-800.webp" srcset="/assets/images/grok/fs-adapter-480.webp 480w, /assets/images/grok/fs-adapter-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Enfilade de portes ouvertes, la lumière passe d&#39;une pièce à l&#39;autre" width="800" height="1000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <p class="piece-n">02</p>
+      <h3>La circulation</h3>
+    </article><article class="piece">
+      <figure class="media piece-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/immo-observer-800.webp" srcset="/assets/images/grok/immo-observer-480.webp 480w, /assets/images/grok/immo-observer-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Séjour clair et dégagé, prêt pour une visite" width="800" height="1000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <p class="piece-n">03</p>
+      <h3>L&#39;usage des espaces</h3>
+    </article><article class="piece">
+      <figure class="media piece-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/offre-immobilier-760.webp" srcset="/assets/images/grok/offre-immobilier-480.webp 480w, /assets/images/grok/offre-immobilier-760.webp 760w" sizes="(max-width: 760px) 80vw, 30vw" alt="Trousseau de clés posé sur un rebord de fenêtre ensoleillé" width="760" height="1013" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <p class="piece-n">04</p>
+      <h3>L&#39;ambiance générale</h3>
+    </article><article class="piece">
+      <figure class="media piece-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/immo-transition-1280.webp" srcset="/assets/images/grok/immo-transition-640.webp 640w, /assets/images/grok/immo-transition-1280.webp 1280w" sizes="(max-width: 760px) 80vw, 30vw" alt="Cartons de déménagement rangés dans une pièce vide et ensoleillée" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <p class="piece-n">05</p>
+      <h3>Ce qui freine la projection</h3>
+    </article>
   </div>
+  <div class="galerie-progres" aria-hidden="true"><span></span></div>
+  <p class="visite-indice" aria-hidden="true">Faites glisser pour visiter</p>
 </section>
-<section class="section papier" id="valoriser" data-fil="droite">
+<section class="section papier" id="valoriser" data-fil="gauche">
   <div class="conteneur">
     <p class="surtitre">Valoriser et accompagner</p>
-    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Révéler le potentiel d&#39;accueil, sans tout transformer.</h2>
+    <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Révéler le potentiel d&#39;accueil, sans tout transformer.</h2>
     <figure class="media media-bandeau" data-grok data-anime="rideau" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/grok/immo-cles-1100.webp" srcset="/assets/images/grok/immo-cles-640.webp 640w, /assets/images/grok/immo-cles-1100.webp 1100w" sizes="(max-width: 1240px) 92vw, 1200px" alt="Trousseau de clés anciennes posé sur un rebord de fenêtre ensoleillé" width="1100" height="734" loading="lazy" decoding="async">
@@ -147,16 +186,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </div>
 </section>
-<section class="section tarifs" id="tarifs" data-fil="gauche">
-  <div class="conteneur tarifs-grille">
-    <figure class="media tarifs-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/grok/immo-transition-1280.webp" srcset="/assets/images/grok/immo-transition-640.webp 640w, /assets/images/grok/immo-transition-1280.webp 1280w" sizes="(max-width: 860px) 92vw, 30vw" alt="Cartons de déménagement rangés dans une pièce vide et ensoleillée" width="1280" height="854" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
-    <div>
+<section class="section tarifs" id="tarifs" data-fil="droite">
+  <div class="conteneur tarifs-grille tarifs--immobilier-autrement">
+    <svg class="tarifs-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><circle cx="62" cy="100" r="34"/><circle cx="62" cy="100" r="12"/><path d="M96 100 H184 M150 100 V124 M170 100 V118"/><path class="or" d="M40 40 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 Z"/></svg>
+    <div class="tarifs-tete">
       <p class="surtitre">Tarifs et prestations</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Trois formules pour préparer la vente.</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes data-fil-repere>Trois formules pour préparer la vente.</h2>
       <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="Lancement" data-choisie="Choisie"><ul class="trf__grille">
     <li class="trf__formule" data-formule="Accompagnement sur place">
       <p class="trf__sur">Forfait visite et conseils</p>
@@ -190,7 +225,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <svg class="cadre-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 180 V80 L100 24 L170 80 V180 Z"/><path d="M80 180 V122 H120 V180"/><path class="or" d="M150 22 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3 Z"/><circle cx="114" cy="152" r="3"/></svg>
     <div>
       <p class="surtitre">Échangeons</p>
-      <h2 class="titre-section" data-anime="lignes" data-axes>Préparer votre bien.</h2>
+      <h2 class="titre-section titre-etoiles" data-anime="gsap" data-effet="titre-etoiles" data-axes>Préparer votre bien.</h2>
       <p class="chapo" data-anime>Faisons le point sur votre logement, ou planifions un accompagnement sur place.</p>
       <a href="/contact?sujet=immobilier#demande" class="bouton" data-libelle="Contact">Faire le point</a>
     </div>
