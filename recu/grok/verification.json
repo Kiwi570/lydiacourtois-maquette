@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-06T14:28:43.429Z",
+  "plan": "/home/claude/lydiacourtois-maquette/plan-images.json",
+  "attendus": 16,
+  "recus": 16,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [],
+  "images": [
+    {
+      "nom": "accueil-ouverture",
+      "attendu": "accueil-ouverture.jpg",
+      "fichier": "accueil-ouverture.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "bulle-voyageur",
+      "attendu": "bulle-voyageur.jpg",
+      "fichier": "bulle-voyageur.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "accueil-tarifs",
+      "attendu": "accueil-tarifs.jpg",
+      "fichier": "accueil-tarifs.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "accueil-parcours",
+      "attendu": "accueil-parcours.jpg",
+      "fichier": "accueil-parcours.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "geo-ouverture",
+      "mobile": true,
+      "attendu": "geo-ouverture-mobile.jpg",
+      "fichier": "geo-ouverture-mobile.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "geo-tarifs",
+      "attendu": "geo-tarifs.jpg",
+      "fichier": "geo-tarifs.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "geo-intention",
+      "attendu": "geo-intention.jpg",
+      "fichier": "geo-intention.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "fs-adapter",
+      "attendu": "fs-adapter.jpg",
+      "fichier": "fs-adapter.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "fs-tarifs",
+      "attendu": "fs-tarifs.jpg",
+      "fichier": "fs-tarifs.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "fs-serenite",
+      "attendu": "fs-serenite.jpg",
+      "fichier": "fs-serenite.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "immo-ouverture",
+      "attendu": "immo-ouverture.jpg",
+      "fichier": "immo-ouverture.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "immo-observer",
+      "attendu": "immo-observer.jpg",
+      "fichier": "immo-observer.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 784,
+      "hauteur": 1168,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "immo-cles",
+      "attendu": "immo-cles.jpg",
+      "fichier": "immo-cles.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "immo-transition",
+      "attendu": "immo-transition.jpg",
+      "fichier": "immo-transition.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "contact-panorama",
+      "attendu": "contact-panorama.jpg",
+      "fichier": "contact-panorama.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "page-404",
+      "attendu": "page-404.jpg",
+      "fichier": "page-404.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    }
+  ]
+}

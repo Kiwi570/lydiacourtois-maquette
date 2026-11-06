@@ -1,0 +1,1879 @@
+{
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Salon baigné de soleil, murs à la chaux, tomettes et olivier en pot",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "de30b83e8f8661c8",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 164,
+      "width": 784,
+      "height": 980,
+      "source": [
+        784,
+        1168
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "784 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,4 fois (source de 784 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-ouverture-480.webp",
+      "grok/accueil-ouverture-800.webp",
+      "grok/accueil-ouverture-1100.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-480.webp": 28302,
+      "grok/accueil-ouverture-800.webp": 63640,
+      "grok/accueil-ouverture-1100.webp": 95112
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Salon baigné de soleil, murs à la chaux, tomettes et olivier en pot\", sizes: '100vw', priorite: true })"
+  },
+  "accueil-manifeste": {
+    "nom": "accueil-manifeste",
+    "source": "recu/coin-lecture-chene.png",
+    "role": "galerie",
+    "alt": "Fauteuil ancien en chêne et coussins de lin dans un coin lecture au soleil du matin",
+    "grok": false,
+    "mention": null,
+    "empreinte": "990e5eacb92db056",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 39,
+      "l": 95.8,
+      "h": 54.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.88,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 96,
+      "width": 896,
+      "height": 1120,
+      "source": [
+        896,
+        1216
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "896 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-manifeste-480.webp",
+      "accueil-manifeste-800.webp"
+    ],
+    "poids": {
+      "accueil-manifeste-480.webp": 15162,
+      "accueil-manifeste-800.webp": 31718
+    },
+    "media": "c.media({ nom: 'accueil-manifeste', alt: \"Fauteuil ancien en chêne et coussins de lin dans un coin lecture au soleil du matin\", cadrage: '50% 59%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "offre-geobiologie": {
+    "nom": "offre-geobiologie",
+    "source": "recu/etude-geobiologie.png",
+    "role": "carte-service",
+    "alt": "Pendule au-dessus d'un plan de maison, boussole en laiton et bougie sur la table",
+    "grok": false,
+    "mention": null,
+    "empreinte": "fee94ee131baa8ca",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      760
+    ],
+    "mobile": null,
+    "cadrage": "72% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 93.8,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 767,
+      "top": 0,
+      "width": 768,
+      "height": 1024,
+      "source": [
+        1535,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "offre-geobiologie-480.webp",
+      "offre-geobiologie-760.webp"
+    ],
+    "poids": {
+      "offre-geobiologie-480.webp": 30952,
+      "offre-geobiologie-760.webp": 61154
+    },
+    "media": "c.media({ nom: 'offre-geobiologie', alt: \"Pendule au-dessus d'un plan de maison, boussole en laiton et bougie sur la table\", cadrage: '72% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "offre-feng-shui": {
+    "nom": "offre-feng-shui",
+    "source": "recu/salon-elements.webp",
+    "role": "carte-service",
+    "alt": "Salon lumineux avec la roue des cinq éléments au mur",
+    "grok": false,
+    "mention": null,
+    "empreinte": "67d46914f6012b1c",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      760
+    ],
+    "mobile": null,
+    "cadrage": "45% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.7,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1429,
+      "height": 1905,
+      "source": [
+        1440,
+        1905
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "offre-feng-shui-480.webp",
+      "offre-feng-shui-760.webp"
+    ],
+    "poids": {
+      "offre-feng-shui-480.webp": 46542,
+      "offre-feng-shui-760.webp": 90754
+    },
+    "media": "c.media({ nom: 'offre-feng-shui', alt: \"Salon lumineux avec la roue des cinq éléments au mur\", cadrage: '45% 45%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "grok/offre-immobilier": {
+    "nom": "grok/offre-immobilier",
+    "source": "recu/grok/immo-cles.jpg",
+    "role": "carte-service",
+    "alt": "Trousseau de clés anciennes posé sur un rebord de fenêtre ensoleillé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "7d01e217d6e1ceac",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      760
+    ],
+    "mobile": null,
+    "cadrage": "50% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 197,
+      "top": 0,
+      "width": 588,
+      "height": 784,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,29 fois (source de 588 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/offre-immobilier-480.webp",
+      "grok/offre-immobilier-760.webp"
+    ],
+    "poids": {
+      "grok/offre-immobilier-480.webp": 20422,
+      "grok/offre-immobilier-760.webp": 35660
+    },
+    "media": "c.media({ nom: 'grok/offre-immobilier', alt: \"Trousseau de clés anciennes posé sur un rebord de fenêtre ensoleillé\", cadrage: '50% 62%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "bulle-sommeil": {
+    "nom": "bulle-sommeil",
+    "source": "recu/bulle-sommeil.webp",
+    "role": "vignette",
+    "alt": "Visuel de la Bulle du Sommeil : chambre apaisée à la lumière des lampes",
+    "grok": false,
+    "mention": null,
+    "empreinte": "83e66a79361912e2",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 9.1,
+      "l": 100,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bulle-sommeil-480.webp",
+      "bulle-sommeil-800.webp"
+    ],
+    "poids": {
+      "bulle-sommeil-480.webp": 17926,
+      "bulle-sommeil-800.webp": 39374
+    },
+    "media": "c.media({ nom: 'bulle-sommeil', alt: \"Visuel de la Bulle du Sommeil : chambre apaisée à la lumière des lampes\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "bulle-voyageur": {
+    "nom": "bulle-voyageur",
+    "source": "recu/bulle-voyageur-site.webp",
+    "role": "vignette",
+    "alt": "Visuel de la Bulle du Voyageur : valise, chapeau de paille et plaid",
+    "grok": false,
+    "mention": null,
+    "empreinte": "2428e5dbb573a04a",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bulle-voyageur-480.webp",
+      "bulle-voyageur-800.webp"
+    ],
+    "poids": {
+      "bulle-voyageur-480.webp": 23298,
+      "bulle-voyageur-800.webp": 53084
+    },
+    "media": "c.media({ nom: 'bulle-voyageur', alt: \"Visuel de la Bulle du Voyageur : valise, chapeau de paille et plaid\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "bulle-demenagement": {
+    "nom": "bulle-demenagement",
+    "source": "recu/bulle-demenagement.webp",
+    "role": "vignette",
+    "alt": "Visuel de la Bulle du Déménagement : cartons et plantes au soleil",
+    "grok": false,
+    "mention": null,
+    "empreinte": "48f45c51190f3b32",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bulle-demenagement-480.webp",
+      "bulle-demenagement-800.webp"
+    ],
+    "poids": {
+      "bulle-demenagement-480.webp": 19382,
+      "bulle-demenagement-800.webp": 42812
+    },
+    "media": "c.media({ nom: 'bulle-demenagement', alt: \"Visuel de la Bulle du Déménagement : cartons et plantes au soleil\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "bulle-bureau": {
+    "nom": "bulle-bureau",
+    "source": "recu/bulle-bureau.webp",
+    "role": "vignette",
+    "alt": "Visuel de la Bulle du Nouveau Bureau : bureau clair entouré de plantes",
+    "grok": false,
+    "mention": null,
+    "empreinte": "0457804d438c4c17",
+    "ratio": "3:2",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.16,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1536,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bulle-bureau-480.webp",
+      "bulle-bureau-800.webp"
+    ],
+    "poids": {
+      "bulle-bureau-480.webp": 22244,
+      "bulle-bureau-800.webp": 48340
+    },
+    "media": "c.media({ nom: 'bulle-bureau', alt: \"Visuel de la Bulle du Nouveau Bureau : bureau clair entouré de plantes\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/accueil-tarifs": {
+    "nom": "grok/accueil-tarifs",
+    "source": "recu/grok/accueil-tarifs.jpg",
+    "role": "section-fond",
+    "alt": "Table à dessin, calque vierge et compas en laiton au soleil du matin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "d5c4fa56c2c1570b",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "62% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.44,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1168,
+      "height": 779,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1168 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-tarifs-640.webp",
+      "grok/accueil-tarifs-1280.webp"
+    ],
+    "poids": {
+      "grok/accueil-tarifs-640.webp": 21182,
+      "grok/accueil-tarifs-1280.webp": 64186
+    },
+    "media": "c.media({ nom: 'grok/accueil-tarifs', alt: \"Table à dessin, calque vierge et compas en laiton au soleil du matin\", cadrage: '62% 55%', sizes: '100vw' })"
+  },
+  "grok/accueil-parcours": {
+    "nom": "grok/accueil-parcours",
+    "source": "recu/grok/accueil-parcours.jpg",
+    "role": "galerie",
+    "alt": "Porte d'une maison de village entrouverte, clés dans la serrure",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "73a5e95c7db63de5",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4.5,
+      "y": 0,
+      "l": 77.3,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 152,
+      "width": 784,
+      "height": 980,
+      "source": [
+        784,
+        1168
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "784 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-parcours-480.webp",
+      "grok/accueil-parcours-800.webp"
+    ],
+    "poids": {
+      "grok/accueil-parcours-480.webp": 49118,
+      "grok/accueil-parcours-800.webp": 109344
+    },
+    "media": "c.media({ nom: 'grok/accueil-parcours', alt: \"Porte d'une maison de village entrouverte, clés dans la serrure\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "accueil-appel": {
+    "nom": "accueil-appel",
+    "source": "recu/chaise-rideau.png",
+    "role": "galerie",
+    "alt": "Chaise paillée près d'un rideau de lin bordeaux, lumière douce",
+    "grok": false,
+    "mention": null,
+    "empreinte": "edf0abc0aa70b5fa",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 96,
+      "width": 896,
+      "height": 1120,
+      "source": [
+        896,
+        1216
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "896 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-appel-480.webp",
+      "accueil-appel-800.webp"
+    ],
+    "poids": {
+      "accueil-appel-480.webp": 13958,
+      "accueil-appel-800.webp": 30190
+    },
+    "media": "c.media({ nom: 'accueil-appel', alt: \"Chaise paillée près d'un rideau de lin bordeaux, lumière douce\", cadrage: '45% 59%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "geo-ouverture": {
+    "nom": "geo-ouverture",
+    "source": "recu/salon-sable-olivier.png",
+    "role": "ouverture",
+    "alt": "Salon aux murs sable, parquet en chevrons et olivier en pot",
+    "grok": false,
+    "mention": null,
+    "empreinte": "bb0e5a5b06390f01",
+    "ratio": "2:1",
+    "largeurs": [
+      640,
+      1024,
+      1500
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "55% 52%"
+    },
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 379,
+      "width": 1024,
+      "height": 512,
+      "source": [
+        1024,
+        1024
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,46 fois (source de 1024 px après recadrage)"
+    ],
+    "fichiers": [
+      "geo-ouverture-640.webp",
+      "geo-ouverture-1024.webp",
+      "geo-ouverture-1500.webp",
+      "geo-ouverture-mobile-640.webp",
+      "geo-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "geo-ouverture-640.webp": 36296,
+      "geo-ouverture-1024.webp": 78162,
+      "geo-ouverture-1500.webp": 111280,
+      "geo-ouverture-mobile-640.webp": 75868,
+      "geo-ouverture-mobile-1080.webp": 145370
+    },
+    "media": "c.media({ nom: 'geo-ouverture', alt: \"Salon aux murs sable, parquet en chevrons et olivier en pot\", cadrageMobile: '55% 52%', sizes: '100vw', priorite: true })"
+  },
+  "grok/geo-vision": {
+    "nom": "grok/geo-vision",
+    "source": "recu/grok/geo-intention.jpg",
+    "role": "galerie",
+    "alt": "Pièce vide aux murs de pierre chaulés, fenêtre ouverte sur les oliviers",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "8ecf1e294e32b24a",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.54,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 481,
+      "top": 0,
+      "width": 627,
+      "height": 784,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 627 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/geo-vision-480.webp",
+      "grok/geo-vision-800.webp"
+    ],
+    "poids": {
+      "grok/geo-vision-480.webp": 41864,
+      "grok/geo-vision-800.webp": 84488
+    },
+    "media": "c.media({ nom: 'grok/geo-vision', alt: \"Pièce vide aux murs de pierre chaulés, fenêtre ouverte sur les oliviers\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/geo-tarifs": {
+    "nom": "grok/geo-tarifs",
+    "source": "recu/grok/geo-tarifs.jpg",
+    "role": "section-fond",
+    "alt": "Mur à la chaux et tomettes anciennes sous une lumière rasante",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "c597ee861f05f3c7",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "58% 55%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1168,
+      "height": 779,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1168 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/geo-tarifs-640.webp",
+      "grok/geo-tarifs-1280.webp"
+    ],
+    "poids": {
+      "grok/geo-tarifs-640.webp": 25186,
+      "grok/geo-tarifs-1280.webp": 86588
+    },
+    "media": "c.media({ nom: 'grok/geo-tarifs', alt: \"Mur à la chaux et tomettes anciennes sous une lumière rasante\", cadrage: '58% 55%', sizes: '100vw' })"
+  },
+  "grok/geo-intention": {
+    "nom": "grok/geo-intention",
+    "source": "recu/grok/bulle-voyageur.jpg",
+    "role": "galerie",
+    "alt": "Chambre calme au matin, lin et lumière douce",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "b4bd0b76716428aa",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "60% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 152,
+      "width": 784,
+      "height": 980,
+      "source": [
+        784,
+        1168
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "784 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/geo-intention-480.webp",
+      "grok/geo-intention-800.webp"
+    ],
+    "poids": {
+      "grok/geo-intention-480.webp": 25888,
+      "grok/geo-intention-800.webp": 56680
+    },
+    "media": "c.media({ nom: 'grok/geo-intention', alt: \"Chambre calme au matin, lin et lumière douce\", cadrage: '60% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "fs-ouverture": {
+    "nom": "fs-ouverture",
+    "source": "recu/salon-arches.png",
+    "role": "ouverture",
+    "alt": "Salon aux hautes fenêtres en arche, coussins de lin bordeaux et parquet de chêne",
+    "grok": false,
+    "mention": null,
+    "empreinte": "594b17eba8c8cfb9",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 123,
+      "top": 0,
+      "width": 819,
+      "height": 1024,
+      "source": [
+        1024,
+        1024
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,34 fois (source de 819 px après recadrage)"
+    ],
+    "fichiers": [
+      "fs-ouverture-480.webp",
+      "fs-ouverture-800.webp",
+      "fs-ouverture-1100.webp"
+    ],
+    "poids": {
+      "fs-ouverture-480.webp": 31630,
+      "fs-ouverture-800.webp": 73736,
+      "fs-ouverture-1100.webp": 101606
+    },
+    "media": "c.media({ nom: 'fs-ouverture', alt: \"Salon aux hautes fenêtres en arche, coussins de lin bordeaux et parquet de chêne\", sizes: '100vw', priorite: true })"
+  },
+  "grok/fs-adapter": {
+    "nom": "grok/fs-adapter",
+    "source": "recu/grok/fs-adapter.jpg",
+    "role": "galerie",
+    "alt": "Enfilade de portes ouvertes, la lumière passe d'une pièce à l'autre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "33d677c59f90bf0d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 9.1,
+      "y": 3.1,
+      "l": 63.6,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 152,
+      "width": 784,
+      "height": 980,
+      "source": [
+        784,
+        1168
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "784 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/fs-adapter-480.webp",
+      "grok/fs-adapter-800.webp"
+    ],
+    "poids": {
+      "grok/fs-adapter-480.webp": 18054,
+      "grok/fs-adapter-800.webp": 41534
+    },
+    "media": "c.media({ nom: 'grok/fs-adapter', alt: \"Enfilade de portes ouvertes, la lumière passe d'une pièce à l'autre\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/fs-tarifs": {
+    "nom": "grok/fs-tarifs",
+    "source": "recu/grok/fs-tarifs.jpg",
+    "role": "section-fond",
+    "alt": "Longue table de chêne près d'une haute fenêtre, bol d'eau en céramique",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "37931af9730c59da",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "41% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 3.9,
+      "l": 96.9,
+      "h": 91.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 5,
+      "width": 1168,
+      "height": 779,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1168 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/fs-tarifs-640.webp",
+      "grok/fs-tarifs-1280.webp"
+    ],
+    "poids": {
+      "grok/fs-tarifs-640.webp": 21736,
+      "grok/fs-tarifs-1280.webp": 65764
+    },
+    "media": "c.media({ nom: 'grok/fs-tarifs', alt: \"Longue table de chêne près d'une haute fenêtre, bol d'eau en céramique\", cadrage: '41% 60%', sizes: '100vw' })"
+  },
+  "grok/fs-serenite": {
+    "nom": "grok/fs-serenite",
+    "source": "recu/grok/fs-serenite.jpg",
+    "role": "section-fond",
+    "alt": "Terrasse d'une maison de pierre à l'heure dorée, portes vitrées ouvertes",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "5e2ac6aa418d760f",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "55% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 87
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1168,
+      "height": 779,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1168 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/fs-serenite-640.webp",
+      "grok/fs-serenite-1280.webp"
+    ],
+    "poids": {
+      "grok/fs-serenite-640.webp": 52896,
+      "grok/fs-serenite-1280.webp": 154654
+    },
+    "media": "c.media({ nom: 'grok/fs-serenite', alt: \"Terrasse d'une maison de pierre à l'heure dorée, portes vitrées ouvertes\", cadrage: '55% 55%', sizes: '100vw' })"
+  },
+  "grok/immo-ouverture": {
+    "nom": "grok/immo-ouverture",
+    "source": "recu/grok/immo-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Façade chaulée d'une maison de village, porte grande ouverte",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "e10880f170a12ff6",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4.5,
+      "y": 25.5,
+      "l": 72.7,
+      "h": 63.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.87,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 152,
+      "width": 784,
+      "height": 980,
+      "source": [
+        784,
+        1168
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "784 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,4 fois (source de 784 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/immo-ouverture-480.webp",
+      "grok/immo-ouverture-800.webp",
+      "grok/immo-ouverture-1100.webp"
+    ],
+    "poids": {
+      "grok/immo-ouverture-480.webp": 35064,
+      "grok/immo-ouverture-800.webp": 84070,
+      "grok/immo-ouverture-1100.webp": 126558
+    },
+    "media": "c.media({ nom: 'grok/immo-ouverture', alt: \"Façade chaulée d'une maison de village, porte grande ouverte\", sizes: '100vw', priorite: true })"
+  },
+  "grok/immo-observer": {
+    "nom": "grok/immo-observer",
+    "source": "recu/grok/immo-observer.jpg",
+    "role": "galerie",
+    "alt": "Séjour clair et dégagé, prêt pour une visite",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "860e1efa1fc57a0a",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 9.1,
+      "y": 7,
+      "l": 86.4,
+      "h": 82
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 187,
+      "width": 784,
+      "height": 980,
+      "source": [
+        784,
+        1168
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "784 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/immo-observer-480.webp",
+      "grok/immo-observer-800.webp"
+    ],
+    "poids": {
+      "grok/immo-observer-480.webp": 20100,
+      "grok/immo-observer-800.webp": 46574
+    },
+    "media": "c.media({ nom: 'grok/immo-observer', alt: \"Séjour clair et dégagé, prêt pour une visite\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/immo-cles": {
+    "nom": "grok/immo-cles",
+    "source": "recu/grok/immo-cles.jpg",
+    "role": "vignette",
+    "alt": "Trousseau de clés anciennes posé sur un rebord de fenêtre ensoleillé",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "a92a29f2697f3ae8",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "42% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 96.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1168,
+      "height": 779,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/immo-cles-640.webp",
+      "grok/immo-cles-1100.webp"
+    ],
+    "poids": {
+      "grok/immo-cles-640.webp": 21698,
+      "grok/immo-cles-1100.webp": 46986
+    },
+    "media": "c.media({ nom: 'grok/immo-cles', alt: \"Trousseau de clés anciennes posé sur un rebord de fenêtre ensoleillé\", cadrage: '42% 62%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "grok/immo-transition": {
+    "nom": "grok/immo-transition",
+    "source": "recu/grok/immo-transition.jpg",
+    "role": "section-fond",
+    "alt": "Cartons de déménagement rangés dans une pièce vide et ensoleillée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "e91ac53227c6222c",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "60% 55%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0,
+      "l": 90.6,
+      "h": 91.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1168,
+      "height": 779,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1168 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/immo-transition-640.webp",
+      "grok/immo-transition-1280.webp"
+    ],
+    "poids": {
+      "grok/immo-transition-640.webp": 20050,
+      "grok/immo-transition-1280.webp": 61406
+    },
+    "media": "c.media({ nom: 'grok/immo-transition', alt: \"Cartons de déménagement rangés dans une pièce vide et ensoleillée\", cadrage: '60% 55%', sizes: '100vw' })"
+  },
+  "grok/contact-panorama": {
+    "nom": "grok/contact-panorama",
+    "source": "recu/grok/contact-panorama.jpg",
+    "role": "section-fond",
+    "alt": "Plaine de vignes et d'oliviers au lever du soleil, collines au loin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "2cbae72f7d8efb65",
+    "ratio": "21:9",
+    "largeurs": [
+      640,
+      1280,
+      1700
+    ],
+    "mobile": {
+      "ratio": "4:3",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 62%"
+    },
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 236,
+      "width": 1168,
+      "height": 501,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,46 fois (source de 1168 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-panorama-640.webp",
+      "grok/contact-panorama-1280.webp",
+      "grok/contact-panorama-1700.webp",
+      "grok/contact-panorama-mobile-640.webp",
+      "grok/contact-panorama-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-panorama-640.webp": 25810,
+      "grok/contact-panorama-1280.webp": 70724,
+      "grok/contact-panorama-1700.webp": 98836,
+      "grok/contact-panorama-mobile-640.webp": 31466,
+      "grok/contact-panorama-mobile-1080.webp": 67498
+    },
+    "media": "c.media({ nom: 'grok/contact-panorama', alt: \"Plaine de vignes et d'oliviers au lever du soleil, collines au loin\", cadrageMobile: '50% 62%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Porte ouverte sur une petite pièce vide inondée de soleil",
+    "grok": true,
+    "mention": "Illustration générée",
+    "empreinte": "2bd87450cc54681c",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "70% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 98.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 103,
+      "width": 1168,
+      "height": 657,
+      "source": [
+        1168,
+        784
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1168 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1168 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/page-404-640.webp",
+      "grok/page-404-1280.webp"
+    ],
+    "poids": {
+      "grok/page-404-640.webp": 12404,
+      "grok/page-404-1280.webp": 44924
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Porte ouverte sur une petite pièce vide inondée de soleil\", cadrage: '70% 50%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo.png",
+    "role": "logo",
+    "alt": "Ma Bonne Étoile, Lydia Courtois",
+    "grok": false,
+    "mention": null,
+    "empreinte": "cc8e2a4080a5fa78",
+    "ratio": null,
+    "largeurs": [
+      480,
+      960
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-480.webp",
+      "logo-960.webp"
+    ],
+    "poids": {
+      "logo-480.webp": 23550,
+      "logo-960.webp": 53786
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Ma Bonne Étoile, Lydia Courtois\", sizes: '240px' })"
+  }
+}

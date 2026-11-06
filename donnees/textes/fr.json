@@ -1,0 +1,414 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Autre langue",
+    "actionEntete": "Me contacter",
+    "appeler": "Appeler",
+    "calmeReduire": "Réduire les animations",
+    "calmeRetablir": "Rétablir les animations",
+    "calmeSysteme": "Animations réduites par le réglage de votre appareil",
+    "sommaire": "Le site",
+    "confort": "Confort de lecture",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les informations marquées « à compléter » seront fournies par Lydia Courtois.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Géobiologie · Feng Shui · Immobilier Autrement",
+    "signature": "Lydia Courtois",
+    "mentions": "Mentions légales : à compléter",
+    "confidentialite": "Politique de confidentialité : à compléter",
+    "zone": "Sur place dans les Pyrénées-Orientales, à distance partout en France",
+    "cadreCourt": "La géobiologie et le Feng Shui ne remplacent pas un avis médical, psychologique ou vétérinaire.",
+    "suivre": "Suivre Lydia",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "nouvelOnglet": "(nouvel onglet)",
+    "pied": "Géobiologie · Feng Shui · Harmonisation des lieux",
+    "logoAlt": "Ma Bonne Étoile, Lydia Courtois",
+    "parler": "Parler de mon habitation",
+    "planIllustratif": "Plan illustratif",
+    "dessin": "Dessin"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Ma Bonne Étoile — Lydia Courtois : géobiologie, Feng Shui et Immobilier Autrement",
+      "description": "Géobiologie, Feng Shui tibétain et Immobilier Autrement avec Lydia Courtois : sur place dans les Pyrénées-Orientales, à distance partout en France.",
+      "nav": "Accueil",
+      "partageAlt": "Ma Bonne Étoile : salon baigné de soleil sous l'étoile du logo",
+      "accroche": "Et si votre maison devenait votre alliée ?"
+    },
+    "geobiologie": {
+      "titre": "Géobiologie de l'habitat — Ma Bonne Étoile, Lydia Courtois",
+      "description": "Une lecture globale de votre habitation, l'harmonisation quand c'est utile et un compte rendu clair : à distance 290 €, sur place 490 €.",
+      "nav": "Géobiologie",
+      "partageAlt": "Géobiologie de l'habitat : salon aux murs sable et olivier en pot",
+      "accroche": "Géobiologie de l'habitat"
+    },
+    "feng-shui": {
+      "titre": "Feng Shui de l'habitat — Ma Bonne Étoile, Lydia Courtois",
+      "description": "Adapter votre lieu à votre vie : circulation, usages, les neuf domaines et des conseils simples. À distance 490 €, sur place 590 €.",
+      "nav": "Feng Shui",
+      "partageAlt": "Feng Shui de l'habitat : salon aux hautes fenêtres en arche",
+      "accroche": "Feng Shui de l'habitat"
+    },
+    "immobilier-autrement": {
+      "titre": "Immobilier Autrement — Ma Bonne Étoile, Lydia Courtois",
+      "description": "Préparer votre bien avant la vente avec plus de vingt ans d'expérience immobilière et un regard sur l'habitat. Sur place dès 490 €.",
+      "nav": "Immobilier Autrement",
+      "partageAlt": "Immobilier Autrement : façade chaulée, porte grande ouverte",
+      "accroche": "Immobilier Autrement"
+    },
+    "contact": {
+      "titre": "Contact — Ma Bonne Étoile, Lydia Courtois",
+      "description": "Parlons de votre lieu : 06 63 67 69 07, sur place dans les Pyrénées-Orientales, à distance partout en France.",
+      "nav": "Contact",
+      "partageAlt": "Contact : plaine de vignes et d'oliviers au lever du soleil",
+      "accroche": "Parlons de votre lieu"
+    },
+    "404": {
+      "titre": "Page introuvable — Ma Bonne Étoile",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "sur": "Géobiologie · Feng Shui tibétain · Immobilier Autrement",
+      "titre1": "Et si votre maison",
+      "titre2": "devenait votre alliée ?",
+      "accroche": "Votre lieu de vie n'est pas un décor.",
+      "texte": "J'aide à observer, comprendre et harmoniser le lieu où vous vivez, où vous travaillez, ou celui que vous préparez à vendre.",
+      "action": "Parler de mon habitation",
+      "info": "Sur place dans les Pyrénées-Orientales · à distance partout en France",
+      "indice": "Faites tourner l'étoile",
+      "indiceTactile": "Faites glisser l'étoile",
+      "boussole": "Boussole des neuf domaines : faites tourner l'étoile, chaque branche éclaire une zone du plan.",
+      "eclaire": "Zone éclairée",
+      "source": "Les neuf domaines d'après le visuel de Lydia · plan illustratif"
+    },
+    "manifeste": {
+      "sur": "L'enjeu",
+      "titre": "Certaines maisons accueillent tout de suite. D'autres laissent un malaise difficile à expliquer.",
+      "texte1": "En plus de vingt ans d'accompagnement de familles, de propriétaires, d'acheteurs et d'investisseurs, j'ai appris à regarder ce qui se passe entre un lieu et ceux qui l'habitent.",
+      "texte2": "Cette expérience m'a menée vers la géobiologie, le Feng Shui tibétain et l'harmonisation énergétique des lieux."
+    },
+    "facons": {
+      "sur": "Mes accompagnements",
+      "titre": "Trois façons de faire du lieu un allié.",
+      "texte": "Chaque format est défini à l'avance. Pour un accompagnement personnalisé, je précise d'abord votre besoin avec vous, puis je vous propose un tarif.",
+      "calque": "Calque",
+      "indice": "Attrapez le calque du dessus et faites-le glisser pour feuilleter",
+      "feuilleter": "Calque",
+      "geo": {
+        "sur": "L'âme de la maison",
+        "nom": "Géobiologie",
+        "texte": "Observer les caractéristiques d'un lieu et les ressentis associés, pour proposer des pistes d'apaisement.",
+        "l1": "Bilan du lieu, sur place ou à distance",
+        "l2": "Étude sur plan d'une habitation",
+        "l3": "Mémoire des murs et des sols",
+        "l4": "Réharmonisation et recommandations personnalisées",
+        "prix": "À distance 290 € · sur place 490 €",
+        "lien": "Découvrir la géobiologie"
+      },
+      "fs": {
+        "sur": "Quand la maison devient alliée",
+        "nom": "Feng Shui tibétain",
+        "texte": "Mettre l'espace en cohérence avec votre vie actuelle, vos priorités et l'énergie que vous souhaitez pour vos projets.",
+        "l1": "Lecture de la circulation et des fonctions",
+        "l2": "Les neuf domaines de vie et les éléments",
+        "l3": "Rééquilibrage des espaces",
+        "l4": "Conseils simples à appliquer",
+        "prix": "À distance 490 € · sur place 590 €",
+        "lien": "Découvrir le Feng Shui"
+      },
+      "immo": {
+        "sur": "Ouvrir le chemin de la vente",
+        "nom": "Immobilier Autrement",
+        "texte": "Un regard complémentaire pour les propriétaires qui préparent la transmission de leur bien.",
+        "l1": "Lecture de l'histoire et de l'atmosphère du lieu",
+        "l2": "Préparation du bien avant la mise en vente",
+        "l3": "Accompagnement humain du changement",
+        "l4": "Plus de 20 ans d'expérience immobilière",
+        "prix": "Sur place 490 € · avec géobiologie 790 €",
+        "lien": "Découvrir Immobilier Autrement"
+      }
+    },
+    "lecture": {
+      "sur": "La démarche",
+      "titre": "Avancer avec clarté, sans avoir besoin de tout savoir avant de commencer.",
+      "texte": "Vous restez au centre : j'explique ce que j'observe en termes simples et je propose des pistes adaptées.",
+      "e1n": "01 · Écouter",
+      "e1t": "Partir de votre vécu",
+      "e1p": "Vos ressentis, et ce que vous aimeriez voir évoluer dans le lieu.",
+      "e2n": "02 · Observer",
+      "e2t": "Lire les dynamiques",
+      "e2p": "Le lieu, ses usages, ses circulations, son histoire et les éléments à remettre en mouvement.",
+      "e3n": "03 · Harmoniser",
+      "e3t": "Vous transmettre des clés",
+      "e3p": "Des recommandations concrètes et une réharmonisation cohérente avec vos besoins et votre rythme.",
+      "l1": "Vos ressentis",
+      "l2": "Circulation",
+      "l3": "Usages",
+      "l4": "Pistes",
+      "legende": "Plan illustratif d'une maison : à chaque temps de la démarche, un calque s'ajoute au plan."
+    },
+    "tarifs": {
+      "sur": "Accompagnements sur mesure",
+      "titre": "Des tarifs clairs pour choisir sereinement.",
+      "texte": "Des repères simples, présentés avant tout engagement. Les offres de lancement sont limitées aux places disponibles.",
+      "choisir": "Choisir",
+      "conseillee": "Lancement",
+      "choisie": "Choisie",
+      "detail": "Le détail de chaque accompagnement est sur sa page."
+    },
+    "capsules": {
+      "sur": "Nouveauté · les Capsules Ma Bonne Étoile",
+      "titre": "Des formats simples pour commencer en douceur.",
+      "texte": "Des accompagnements courts et ciblés, pour les moments où le lieu et la vie changent ensemble : 49 € au lancement, puis 69 €.",
+      "kit": "Chaque Capsule s'accompagne d'un kit artisanal, au choix : un hérisson, des tortues ou une étoile avec cristal de roche.",
+      "kitPhoto": "Photo du kit : à compléter",
+      "herisson": "Hérisson",
+      "tortues": "Tortues",
+      "etoile": "Étoile et cristal de roche",
+      "reserver": "Réserver ma Bulle",
+      "prix": "49 € au lancement"
+    },
+    "parcours": {
+      "sur": "Mon parcours",
+      "titre": "De l'immobilier à l'harmonisation des lieux.",
+      "texte": "Je suis Lydia Courtois. J'associe la géobiologie, le Feng Shui de l'habitat, l'harmonisation énergétique des espaces, une écoute sensible de l'environnement et mon expérience immobilière. Chaque accompagnement part de votre réalité et de vos besoins.",
+      "annees": "années d'expérience dans l'immobilier et de regard porté sur les lieux",
+      "anneesPlus": "+",
+      "valeurs": "Mes valeurs",
+      "v1": "Écoute",
+      "v2": "Bienveillance",
+      "v3": "Pragmatisme",
+      "portrait": "Portrait de Lydia : à compléter",
+      "temoignages": "Témoignages : à compléter, avec l'accord des personnes accompagnées."
+    },
+    "espaces": {
+      "sur": "Pour qui",
+      "titre": "Un accompagnement pour les espaces qui comptent.",
+      "e1": "Habitation",
+      "e1p": "Maison, appartement, chambre ou projet de déménagement.",
+      "e2": "Projet immobilier",
+      "e2p": "Un regard complémentaire avant ou après un achat.",
+      "e3": "Espace professionnel",
+      "e3p": "Bureau, cabinet, commerce ou entreprise.",
+      "e4": "À distance",
+      "e4p": "Étude sur plan et restitution en visioconférence."
+    },
+    "cadre": {
+      "sur": "Un cadre clair",
+      "titre": "Une lecture sensible et concrète du lieu.",
+      "texte": "La géobiologie et le Feng Shui ne remplacent pas un avis médical, psychologique ou vétérinaire. Il n'y a ni diagnostic, ni promesse de guérison.",
+      "action": "Écrire à Lydia"
+    },
+    "fin": {
+      "titre": "Parlons de votre lieu et de ce que vous souhaitez y vivre.",
+      "texte": "Un premier échange permet de vous orienter simplement.",
+      "appeler": "Appeler Lydia",
+      "premier": "Faire le premier pas"
+    }
+  },
+  "geo": {
+    "tete": {
+      "sur": "Harmonisation du lieu",
+      "titre": "Géobiologie de l'habitat",
+      "texte": "Une lecture globale de votre habitation pour repérer ce qui la déséquilibre, et l'harmoniser quand c'est utile.",
+      "action": "Parler de mon habitation",
+      "info": "À distance 290 € · sur place 490 €",
+      "murs": "Murs",
+      "sols": "Sols",
+      "pieces": "Pièces de vie"
+    },
+    "vision": {
+      "sur": "Une vision globale",
+      "titre": "Retrouver la sérénité chez soi.",
+      "texte": "Vous vous sentez mal à l'aise chez vous sans savoir pourquoi ? J'analyse le lieu dans son ensemble, je l'harmonise quand c'est nécessaire et je vous explique simplement chaque observation.",
+      "l1": "Bilan du lieu, sur place ou à distance",
+      "l2": "Étude sur plan d'une habitation",
+      "l3": "Mémoire des murs et des sols",
+      "l4": "Réharmonisation et recommandations personnalisées"
+    },
+    "deroulement": {
+      "sur": "Le déroulement",
+      "titre": "Trois temps, du lieu au compte rendu.",
+      "e1n": "01 · Analyse du lieu",
+      "e1t": "Observer et repérer",
+      "e1p": "Une observation attentive de l'habitation, pour repérer les déséquilibres dans le champ de ma pratique.",
+      "e2n": "02 · Harmonisation",
+      "e2t": "Remettre le lieu en mouvement",
+      "e2p": "Une intervention ciblée sur les espaces de vie, quand c'est nécessaire, pour que le lieu circule à nouveau.",
+      "e3n": "03 · Restitution et suivi",
+      "e3t": "Un compte rendu clair",
+      "e3p": "Des recommandations personnalisées et un suivi dédié.",
+      "l1": "Observation",
+      "l2": "Espaces de vie",
+      "l3": "Compte rendu",
+      "legende": "Coupe illustrative d'une maison : sols, murs et pièces de vie se lisent l'un après l'autre."
+    },
+    "tarifs": {
+      "sur": "Tarifs et formules",
+      "titre": "La formule qui convient à votre lieu.",
+      "texte": "Le sur-mesure s'adresse aux grandes propriétés, aux espaces professionnels et aux cas qui demandent un protocole dédié."
+    },
+    "intention": {
+      "sur": "L'intention du lieu",
+      "titre": "Remettre de l'harmonie, là où elle s'est perdue.",
+      "texte": "Offrir à votre lieu de vie l'attention qu'il mérite, pour plus de calme et de clarté au quotidien.",
+      "action": "Parler de mon habitation"
+    }
+  },
+  "fs": {
+    "tete": {
+      "sur": "Harmonie de l'habitat",
+      "titre": "Feng Shui de l'habitat",
+      "texte": "Et si votre maison soutenait mieux la vie que vous voulez construire ?",
+      "action": "Demander une étude",
+      "info": "À distance 490 € · sur place 590 €",
+      "porte": "Entrée"
+    },
+    "adapter": {
+      "sur": "Un autre regard",
+      "titre": "Adapter votre lieu à votre vie.",
+      "texte1": "Nos besoins changent avec le temps, alors qu'une maison peut rester organisée pour une étape de vie déjà passée.",
+      "texte2": "J'étudie l'agencement, la circulation, l'usage des pièces et les zones à rééquilibrer, puis je propose des changements concrets et réalisables.",
+      "l1": "Lecture de la circulation et des fonctions",
+      "l2": "Les neuf domaines de vie et les éléments",
+      "l3": "Rééquilibrage des espaces",
+      "l4": "Conseils simples à appliquer"
+    },
+    "domaines": {
+      "sur": "Les neuf domaines",
+      "titre": "Une carte de la maison, case par case.",
+      "texte": "Le plan est découpé en neuf zones selon l'orientation : chacune correspond à un domaine de vie. Faites défiler, ou touchez une case pour la lire.",
+      "source": "D'après le visuel « Les 9 domaines de vie » de Lydia : noms et textes à confirmer.",
+      "region": "Les neuf domaines de vie sur le plan"
+    },
+    "tarifs": {
+      "sur": "Modalités d'accompagnement",
+      "titre": "Accompagnements et tarifs.",
+      "texte": "Des propositions adaptées à votre habitation, à vos besoins actuels et à votre étape de vie."
+    },
+    "serenite": {
+      "sur": "Sérénité retrouvée",
+      "titre": "Inutile de tout refaire.",
+      "texte": "Le but n'est pas de transformer votre intérieur en profondeur, mais de retrouver la cohérence entre votre lieu, votre quotidien et vos projets.",
+      "action": "Demander une étude"
+    }
+  },
+  "immo": {
+    "tete": {
+      "sur": "Accompagnement à la vente",
+      "titre": "Immobilier Autrement",
+      "question": "Votre maison est peut‑être prête à être vendue. Mais est-elle prête à accueillir l'histoire de quelqu'un d'autre ?",
+      "action": "Préparer mon bien",
+      "info": "Sur place dès 490 €",
+      "visite": "Parcours de visite"
+    },
+    "observer": {
+      "sur": "Observer au-delà du prix",
+      "titre": "Ce qui aide, ou freine, la projection des acquéreurs.",
+      "texte": "Je croise mon expérience immobilière et un regard sur l'habitat. Un bien entretenu peut rester difficile à lire ou à investir : le prix n'est pas toujours le seul en cause.",
+      "p1": "La présentation du bien",
+      "p2": "La circulation",
+      "p3": "L'usage des espaces",
+      "p4": "L'ambiance générale",
+      "p5": "Ce qui freine la projection"
+    },
+    "valoriser": {
+      "sur": "Valoriser et accompagner",
+      "titre": "Révéler le potentiel d'accueil, sans tout transformer.",
+      "a1": "Simplifier la lecture",
+      "a1p": "Fluidifier la circulation et mettre en valeur les volumes.",
+      "a2": "Présenter le meilleur jour",
+      "a2p": "Le détail de cet axe est à compléter par Lydia.",
+      "a3": "Préparer la transition",
+      "a3p": "Vous accompagner pour dénouer les liens affectifs avec le lieu."
+    },
+    "tarifs": {
+      "sur": "Tarifs et prestations",
+      "titre": "Trois formules pour préparer la vente.",
+      "avert": "Cette prestation ne garantit ni la vente, ni le prix, ni le délai de commercialisation."
+    },
+    "echange": {
+      "sur": "Échangeons",
+      "titre": "Préparer votre bien.",
+      "texte": "Faisons le point sur votre logement, ou planifions un accompagnement sur place.",
+      "action": "Faire le point"
+    }
+  },
+  "contact": {
+    "tete": {
+      "sur": "Contact",
+      "titre": "Parlons de votre lieu.",
+      "telephone": "Appeler le 06 63 67 69 07",
+      "email": "Écrire un e-mail",
+      "zone": "Sur place dans les Pyrénées-Orientales · à distance partout en France",
+      "carte": "Carte de France : les Pyrénées-Orientales, où Lydia se déplace ; ailleurs en France, l'accompagnement se fait à distance.",
+      "surPlace": "Sur place",
+      "distance": "À distance",
+      "horaires": "Horaires : à compléter"
+    },
+    "demande": {
+      "sur": "Votre demande",
+      "titre": "Trois questions, puis Lydia vous rappelle.",
+      "annonce": "Trois questions : votre lieu, l'accompagnement, vos coordonnées, puis un récapitulatif à vérifier. Maquette : rien n'est envoyé.",
+      "etape1": "Votre lieu",
+      "q1": "De quel lieu s'agit-il ?",
+      "lieu1": "Une habitation",
+      "lieu1p": "Maison ou appartement",
+      "lieu2": "Une chambre, un lieu de séjour",
+      "lieu2p": "Pour dormir ou voyager",
+      "lieu3": "Un bien à vendre",
+      "lieu3p": "Avant la mise en vente",
+      "lieu4": "Un espace professionnel",
+      "lieu4p": "Bureau, cabinet, commerce",
+      "etape2": "L'accompagnement",
+      "q2": "Qu'est-ce qui vous intéresse ?",
+      "acc1": "Géobiologie",
+      "acc2": "Feng Shui",
+      "acc3": "Immobilier Autrement",
+      "acc4": "Une Capsule",
+      "acc5": "Je ne sais pas encore",
+      "modalite": "Sur place ou à distance ?",
+      "mod1": "Sur place, Pyrénées-Orientales",
+      "mod2": "À distance",
+      "formule": "Formule choisie",
+      "etape3": "Vos coordonnées",
+      "q3": "Comment vous joindre ?",
+      "prenom": "Votre prénom",
+      "email": "Votre e-mail",
+      "tel": "Votre téléphone (facultatif)",
+      "message": "Votre message",
+      "accord": "J'accepte que mes coordonnées servent uniquement à répondre à ma demande.",
+      "rgpd": "Vos données ne servent qu'à vous répondre. Politique de confidentialité : à compléter.",
+      "etape4": "Récapitulatif",
+      "q4": "Tout est juste ?",
+      "precedent": "Retour",
+      "suivant": "Continuer",
+      "envoyer": "Envoyer ma demande",
+      "finTitre": "Votre demande est prête.",
+      "finTexte": "Maquette : rien n'a été envoyé. Sur le site final, Lydia recevra cette demande et vous recontactera.",
+      "tampon": "Reçue",
+      "recommencer": "Nouvelle demande",
+      "mailto": "Envoyer plutôt par e-mail"
+    },
+    "panorama": {
+      "titre": "Pyrénées-Orientales et à distance",
+      "texte": "Les accompagnements sur place se font dans le département ; partout ailleurs, l'étude se fait sur plan, avec une restitution en visioconférence."
+    }
+  },
+  "introuvable": {
+    "titre": "Cette pièce n'est pas sur le plan.",
+    "texte": "La page demandée n'existe pas ou plus. Revenons à l'entrée.",
+    "retour": "Revenir à l'accueil"
+  }
+}

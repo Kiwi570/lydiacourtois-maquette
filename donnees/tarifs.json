@@ -1,0 +1,301 @@
+{
+  "accueil": [
+    {
+      "cle": "lancement",
+      "nom": {
+        "fr": "Feng Shui géobiologique"
+      },
+      "sur": {
+        "fr": "À distance · offre de lancement"
+      },
+      "prix": "179",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "pour les 5 premières places, puis 290 €"
+      },
+      "conseillee": true,
+      "inclus": {
+        "fr": [
+          "Lecture complète de l'habitation principale sur plan",
+          "Analyse et réharmonisation",
+          "Compte rendu personnalisé",
+          "Suivi pendant 3 mois"
+        ]
+      },
+      "sujet": "feng-shui-geobiologique"
+    },
+    {
+      "cle": "capsules",
+      "nom": {
+        "fr": "Les Capsules"
+      },
+      "sur": {
+        "fr": "Tarif de lancement"
+      },
+      "prix": "49",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "puis 69 €"
+      },
+      "inclus": {
+        "fr": [
+          "Accompagnement ciblé",
+          "Rituels simples",
+          "Kit associé"
+        ]
+      },
+      "sujet": "capsule",
+      "conseillee": true
+    },
+    {
+      "cle": "immobilier",
+      "nom": {
+        "fr": "Immobilier Autrement"
+      },
+      "sur": {
+        "fr": "Préparer la vente"
+      },
+      "prix": "",
+      "unite": {
+        "fr": "Sur devis"
+      },
+      "note": {
+        "fr": "selon la surface, la localisation et l'accompagnement"
+      },
+      "inclus": {
+        "fr": [
+          "Étude personnalisée",
+          "Conseils adaptés",
+          "Préparation avant la mise en vente",
+          "Pyrénées-Orientales ou à distance"
+        ]
+      },
+      "sujet": "immobilier"
+    }
+  ],
+  "geobiologie": [
+    {
+      "cle": "distance",
+      "nom": {
+        "fr": "À distance"
+      },
+      "sur": {
+        "fr": "Session complète"
+      },
+      "prix": "290",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "partout en France"
+      },
+      "inclus": {
+        "fr": [
+          "Analyse globale sur plans",
+          "Harmonisation",
+          "Compte rendu explicatif et recommandations"
+        ]
+      },
+      "sujet": "geobiologie-distance"
+    },
+    {
+      "cle": "place",
+      "nom": {
+        "fr": "Sur place"
+      },
+      "sur": {
+        "fr": "Déplacement inclus"
+      },
+      "prix": "490",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "dans les Pyrénées-Orientales"
+      },
+      "inclus": {
+        "fr": [
+          "Intervention sur place",
+          "Étude pièce par pièce",
+          "Échange personnalisé"
+        ]
+      },
+      "sujet": "geobiologie-sur-place"
+    },
+    {
+      "cle": "mesure",
+      "nom": {
+        "fr": "Sur-mesure"
+      },
+      "sur": {
+        "fr": "Protocole dédié"
+      },
+      "prix": "",
+      "unite": {
+        "fr": "Sur devis"
+      },
+      "note": {
+        "fr": "selon le lieu"
+      },
+      "inclus": {
+        "fr": [
+          "Grandes propriétés",
+          "Espaces professionnels",
+          "Cas qui demandent un protocole dédié"
+        ]
+      },
+      "sujet": "geobiologie-sur-mesure"
+    }
+  ],
+  "feng-shui": [
+    {
+      "cle": "distance",
+      "nom": {
+        "fr": "À distance"
+      },
+      "sur": {
+        "fr": "Accompagnement complet"
+      },
+      "prix": "490",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "partout en France"
+      },
+      "inclus": {
+        "fr": [
+          "Analyse des plans et des photos",
+          "Échanges à distance",
+          "Recommandations personnalisées"
+        ]
+      },
+      "sujet": "feng-shui-distance"
+    },
+    {
+      "cle": "place",
+      "nom": {
+        "fr": "Sur place"
+      },
+      "sur": {
+        "fr": "Visite à domicile"
+      },
+      "prix": "590",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "dans les Pyrénées-Orientales"
+      },
+      "inclus": {
+        "fr": [
+          "Étude sur place de la circulation",
+          "Usage de chaque pièce",
+          "Propositions concrètes"
+        ]
+      },
+      "sujet": "feng-shui-sur-place"
+    },
+    {
+      "cle": "mesure",
+      "nom": {
+        "fr": "Espaces spécifiques"
+      },
+      "sur": {
+        "fr": "Grandes habitations"
+      },
+      "prix": "",
+      "unite": {
+        "fr": "Sur devis"
+      },
+      "note": {
+        "fr": "selon la surface et la complexité"
+      },
+      "inclus": {
+        "fr": [
+          "Grandes habitations",
+          "Situations complexes",
+          "Étude adaptée à la surface"
+        ]
+      },
+      "sujet": "feng-shui-sur-mesure"
+    }
+  ],
+  "immobilier-autrement": [
+    {
+      "cle": "place",
+      "nom": {
+        "fr": "Accompagnement sur place"
+      },
+      "sur": {
+        "fr": "Forfait visite et conseils"
+      },
+      "prix": "490",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "dans les Pyrénées-Orientales"
+      },
+      "inclus": {
+        "fr": [
+          "Visite complète",
+          "Analyse de la présentation et de la circulation",
+          "Actions prioritaires définies"
+        ]
+      },
+      "sujet": "immobilier-sur-place"
+    },
+    {
+      "cle": "geo",
+      "nom": {
+        "fr": "Formule Géobiologie"
+      },
+      "sur": {
+        "fr": "Analyse complète"
+      },
+      "prix": "790",
+      "unite": {
+        "fr": "€"
+      },
+      "note": {
+        "fr": "visite et géobiologie"
+      },
+      "inclus": {
+        "fr": [
+          "L'accompagnement sur place",
+          "Une analyse géobiologique complète du bien"
+        ]
+      },
+      "sujet": "immobilier-geobiologie"
+    },
+    {
+      "cle": "grandes",
+      "nom": {
+        "fr": "Grandes propriétés"
+      },
+      "sur": {
+        "fr": "Sur mesure"
+      },
+      "prix": "",
+      "unite": {
+        "fr": "Sur devis"
+      },
+      "note": {
+        "fr": "domaines et situations particulières"
+      },
+      "inclus": {
+        "fr": [
+          "Étude personnalisée",
+          "Grandes propriétés et domaines",
+          "Situations particulières"
+        ]
+      },
+      "sujet": "immobilier-grandes-proprietes"
+    }
+  ]
+}

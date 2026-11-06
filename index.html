@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ma Bonne Étoile — Lydia Courtois : géobiologie, Feng Shui et Immobilier Autrement</title>
+<meta name="description" content="Géobiologie, Feng Shui tibétain et Immobilier Autrement avec Lydia Courtois : sur place dans les Pyrénées-Orientales, à distance partout en France.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://lydiacourtois-maquette.vercel.app/">
+<style>:root{--fond:#f1eadf;--texte:#1c2640;--voile-fond:#1c2640;--ouverture-fond:#1c2640;--menu-fond:#1c2640}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f1eadf">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ma Bonne Étoile">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Ma Bonne Étoile — Lydia Courtois : géobiologie, Feng Shui et Immobilier Autrement">
+<meta property="og:description" content="Géobiologie, Feng Shui tibétain et Immobilier Autrement avec Lydia Courtois : sur place dans les Pyrénées-Orientales, à distance partout en France.">
+<meta property="og:url" content="https://lydiacourtois-maquette.vercel.app/">
+<meta property="og:image" content="https://lydiacourtois-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ma Bonne Étoile : salon baigné de soleil sous l&#39;étoile du logo">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Ma Bonne Étoile — Lydia Courtois","url":"https://lydiacourtois-maquette.vercel.app/","telephone":"+33663676907","email":"lydia.fengshui.harmonie@gmail.com","areaServed":["Pyrénées-Orientales","France"],"sameAs":["https://www.facebook.com/lydia.fengshui.harmonie","https://www.instagram.com/lydia.feng.shui.harmonie"],"description":"Géobiologie, Feng Shui tibétain et Immobilier Autrement : accompagnements sur place dans les Pyrénées-Orientales et à distance partout en France."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="etoile" aria-hidden="true"><div class="voile-contenu"><svg class="etoile voile-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-plan" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M150 90 H850 V510 H150 Z M150 300 H420 M420 90 V510 M620 90 V300 M620 300 H850 M520 510 V420 M300 300 V510"/><path class="ouverture-porte" d="M480 510 A60 60 0 0 1 540 450"/></svg>
+  <div class="ouverture-objet" data-ouverture-objet><svg class="etoile ouverture-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg></div>
+  <p class="ouverture-nom"><span class="ouverture-signature">Lydia Courtois</span>Ma Bonne Étoile</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Géobiologie · Feng Shui · Immobilier Autrement</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Ma Bonne Étoile, Lydia Courtois" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-480.webp" srcset="/assets/images/logo-480.webp 480w, /assets/images/logo-960.webp 960w" sizes="160px" alt="Ma Bonne Étoile, Lydia Courtois" width="480" height="146">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/geobiologie" data-libelle="Géobiologie">Géobiologie</a></li><li><a href="/feng-shui" data-libelle="Feng Shui">Feng Shui</a></li><li><a href="/immobilier-autrement" data-libelle="Immobilier Autrement">Immobilier Autrement</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Me contacter</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/geobiologie" class="menu-lien" data-libelle="Géobiologie">Géobiologie</a></li><li style="--i:2"><a href="/feng-shui" class="menu-lien" data-libelle="Feng Shui">Feng Shui</a></li><li style="--i:3"><a href="/immobilier-autrement" class="menu-lien" data-libelle="Immobilier Autrement">Immobilier Autrement</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33663676907">Appeler 06 63 67 69 07</a></p>
+  <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+</div>
+<main id="contenu" tabindex="-1" data-grille="fil" data-module="fil-conducteur">
+<section class="ouv papier" id="debut" data-fil-dessus>
+  <div class="ouv-texte">
+    <p class="surtitre" data-anime="gsap">Géobiologie · Feng Shui tibétain · Immobilier Autrement</p>
+    <h1 class="ouv-titre" data-grille="typo" data-axes-ouv data-effet="titre-qui-s-apaise"><span class="ligne-masque"><span class="ouv-ligne" data-anime="gsap">Et si votre maison</span></span><span class="ligne-masque"><span class="ouv-ligne ouv-ligne--or" data-anime="gsap">devenait votre alliée ?</span></span></h1>
+    <p class="ouv-accroche" data-anime="gsap"><strong>Votre lieu de vie n&#39;est pas un décor.</strong><span>J&#39;aide à observer, comprendre et harmoniser le lieu où vous vivez, où vous travaillez, ou celui que vous préparez à vendre.</span></p>
+    <p class="ouv-actions" data-anime="gsap">
+      <a href="/contact#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler de mon habitation</a>
+      <span class="ouv-info" data-info-cle>Sur place dans les Pyrénées-Orientales · à distance partout en France</span>
+    </p>
+  </div>
+  <div class="ouv-scene" data-domaines="[{&quot;dir&quot;:&quot;S&quot;,&quot;nom&quot;:&quot;Réputation&quot;,&quot;mots&quot;:&quot;Reconnaissance, succès, estime de soi&quot;},{&quot;dir&quot;:&quot;SO&quot;,&quot;nom&quot;:&quot;Amour et relations&quot;,&quot;mots&quot;:&quot;Amour de soi, couple, relations harmonieuses&quot;},{&quot;dir&quot;:&quot;O&quot;,&quot;nom&quot;:&quot;Enfants et créativité&quot;,&quot;mots&quot;:&quot;Joie, créativité, projets, expression de soi&quot;},{&quot;dir&quot;:&quot;NO&quot;,&quot;nom&quot;:&quot;Aides et voyages&quot;,&quot;mots&quot;:&quot;Soutien, réseau, voyages, opportunités&quot;},{&quot;dir&quot;:&quot;N&quot;,&quot;nom&quot;:&quot;Carrière&quot;,&quot;mots&quot;:&quot;Mission de vie, évolution professionnelle&quot;},{&quot;dir&quot;:&quot;NE&quot;,&quot;nom&quot;:&quot;Connaissance et sagesse&quot;,&quot;mots&quot;:&quot;Apprentissage, intuition, développement personnel&quot;},{&quot;dir&quot;:&quot;E&quot;,&quot;nom&quot;:&quot;Famille et santé&quot;,&quot;mots&quot;:&quot;Santé, vitalité, liens familiaux&quot;},{&quot;dir&quot;:&quot;SE&quot;,&quot;nom&quot;:&quot;Richesse&quot;,&quot;mots&quot;:&quot;Abondance, prospérité, sécurité financière&quot;},{&quot;dir&quot;:&quot;C&quot;,&quot;nom&quot;:&quot;Centre&quot;,&quot;mots&quot;:&quot;Équilibre, bien-être, harmonie intérieure&quot;}]">
+    <figure class="media ouv-photo" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-ouverture-1100.webp" srcset="/assets/images/grok/accueil-ouverture-480.webp 480w, /assets/images/grok/accueil-ouverture-800.webp 800w, /assets/images/grok/accueil-ouverture-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 46vw" alt="Salon baigné de soleil, murs à la chaux, tomettes et olivier en pot" width="1100" height="1375" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="ouv-calque" data-superpose data-effet="calque-qui-glisse"><svg class="plan plan-ouverture" viewBox="0 0 400 400" aria-hidden="true" focusable="false" data-effet="plan-qui-s-oriente">
+  <rect class="zone" data-zone="SE" x="30" y="30" width="113.3" height="113.3"/><rect class="zone" data-zone="S" x="143.3" y="30" width="113.3" height="113.3"/><rect class="zone" data-zone="SO" x="256.6" y="30" width="113.3" height="113.3"/><rect class="zone" data-zone="E" x="30" y="143.3" width="113.3" height="113.3"/><rect class="zone" data-zone="C" x="143.3" y="143.3" width="113.3" height="113.3"/><rect class="zone" data-zone="O" x="256.6" y="143.3" width="113.3" height="113.3"/><rect class="zone" data-zone="NE" x="30" y="256.6" width="113.3" height="113.3"/><rect class="zone" data-zone="N" x="143.3" y="256.6" width="113.3" height="113.3"/><rect class="zone" data-zone="NO" x="256.6" y="256.6" width="113.3" height="113.3"/>
+  <path class="mur" d="M178 370 H30 V30 H370 V370 H232"/>
+  <path class="cloison" d="M30 190 H150 M150 120 V280 M150 280 H30 M250 30 V150 M250 150 H370 M250 230 H370 M250 230 V300 M290 370 V300 H250"/>
+  <path class="porte" d="M178 370 A54 54 0 0 1 232 316 M150 205 A28 28 0 0 1 178 233 M250 172 A26 26 0 0 0 276 150"/>
+  <path class="grille" d="M143.3 30 V370 M256.6 30 V370 M30 143.3 H370 M30 256.6 H370"/>
+  <path class="cote" d="M30 388 H370 M30 383 V393 M370 383 V393 M388 30 V370 M383 30 H393 M383 370 H393"/>
+</svg></div>
+    <span class="rai" data-effet="lumiere-du-matin" data-souris data-superpose aria-hidden="true"></span>
+    <div class="oat boussole" data-module="objet-a-faire-tourner" data-grille="manipuler" data-iris-centre="disque" data-superpose role="img" aria-label="Boussole des neuf domaines : faites tourner l&#39;étoile, chaque branche éclaire une zone du plan.">
+      <span class="boussole-repere" aria-hidden="true"></span>
+      <div class="oat__objet"><svg viewBox="-100 -100 200 200" aria-hidden="true" focusable="false" data-effet="boussole-etoile">
+  <circle class="anneau" r="96"/><line class="graduation" x1="0.0" y1="-82.0" x2="0.0" y2="-94.0"/><line class="graduation" x1="7.7" y1="-87.7" x2="8.2" y2="-93.6"/><line class="graduation" x1="15.3" y1="-86.7" x2="16.3" y2="-92.6"/><line class="graduation" x1="22.8" y1="-85.0" x2="24.3" y2="-90.8"/><line class="graduation" x1="30.1" y1="-82.7" x2="32.1" y2="-88.3"/><line class="graduation" x1="37.2" y1="-79.8" x2="39.7" y2="-85.2"/><line class="graduation" x1="44.0" y1="-76.2" x2="47.0" y2="-81.4"/><line class="graduation" x1="50.5" y1="-72.1" x2="53.9" y2="-77.0"/><line class="graduation" x1="56.6" y1="-67.4" x2="60.4" y2="-72.0"/><line class="graduation" x1="58.0" y1="-58.0" x2="66.5" y2="-66.5"/><line class="graduation" x1="67.4" y1="-56.6" x2="72.0" y2="-60.4"/><line class="graduation" x1="72.1" y1="-50.5" x2="77.0" y2="-53.9"/><line class="graduation" x1="76.2" y1="-44.0" x2="81.4" y2="-47.0"/><line class="graduation" x1="79.8" y1="-37.2" x2="85.2" y2="-39.7"/><line class="graduation" x1="82.7" y1="-30.1" x2="88.3" y2="-32.1"/><line class="graduation" x1="85.0" y1="-22.8" x2="90.8" y2="-24.3"/><line class="graduation" x1="86.7" y1="-15.3" x2="92.6" y2="-16.3"/><line class="graduation" x1="87.7" y1="-7.7" x2="93.6" y2="-8.2"/><line class="graduation" x1="82.0" y1="0.0" x2="94.0" y2="0.0"/><line class="graduation" x1="87.7" y1="7.7" x2="93.6" y2="8.2"/><line class="graduation" x1="86.7" y1="15.3" x2="92.6" y2="16.3"/><line class="graduation" x1="85.0" y1="22.8" x2="90.8" y2="24.3"/><line class="graduation" x1="82.7" y1="30.1" x2="88.3" y2="32.1"/><line class="graduation" x1="79.8" y1="37.2" x2="85.2" y2="39.7"/><line class="graduation" x1="76.2" y1="44.0" x2="81.4" y2="47.0"/><line class="graduation" x1="72.1" y1="50.5" x2="77.0" y2="53.9"/><line class="graduation" x1="67.4" y1="56.6" x2="72.0" y2="60.4"/><line class="graduation" x1="58.0" y1="58.0" x2="66.5" y2="66.5"/><line class="graduation" x1="56.6" y1="67.4" x2="60.4" y2="72.0"/><line class="graduation" x1="50.5" y1="72.1" x2="53.9" y2="77.0"/><line class="graduation" x1="44.0" y1="76.2" x2="47.0" y2="81.4"/><line class="graduation" x1="37.2" y1="79.8" x2="39.7" y2="85.2"/><line class="graduation" x1="30.1" y1="82.7" x2="32.1" y2="88.3"/><line class="graduation" x1="22.8" y1="85.0" x2="24.3" y2="90.8"/><line class="graduation" x1="15.3" y1="86.7" x2="16.3" y2="92.6"/><line class="graduation" x1="7.7" y1="87.7" x2="8.2" y2="93.6"/><line class="graduation" x1="0.0" y1="82.0" x2="0.0" y2="94.0"/><line class="graduation" x1="-7.7" y1="87.7" x2="-8.2" y2="93.6"/><line class="graduation" x1="-15.3" y1="86.7" x2="-16.3" y2="92.6"/><line class="graduation" x1="-22.8" y1="85.0" x2="-24.3" y2="90.8"/><line class="graduation" x1="-30.1" y1="82.7" x2="-32.1" y2="88.3"/><line class="graduation" x1="-37.2" y1="79.8" x2="-39.7" y2="85.2"/><line class="graduation" x1="-44.0" y1="76.2" x2="-47.0" y2="81.4"/><line class="graduation" x1="-50.5" y1="72.1" x2="-53.9" y2="77.0"/><line class="graduation" x1="-56.6" y1="67.4" x2="-60.4" y2="72.0"/><line class="graduation" x1="-58.0" y1="58.0" x2="-66.5" y2="66.5"/><line class="graduation" x1="-67.4" y1="56.6" x2="-72.0" y2="60.4"/><line class="graduation" x1="-72.1" y1="50.5" x2="-77.0" y2="53.9"/><line class="graduation" x1="-76.2" y1="44.0" x2="-81.4" y2="47.0"/><line class="graduation" x1="-79.8" y1="37.2" x2="-85.2" y2="39.7"/><line class="graduation" x1="-82.7" y1="30.1" x2="-88.3" y2="32.1"/><line class="graduation" x1="-85.0" y1="22.8" x2="-90.8" y2="24.3"/><line class="graduation" x1="-86.7" y1="15.3" x2="-92.6" y2="16.3"/><line class="graduation" x1="-87.7" y1="7.7" x2="-93.6" y2="8.2"/><line class="graduation" x1="-82.0" y1="0.0" x2="-94.0" y2="0.0"/><line class="graduation" x1="-87.7" y1="-7.7" x2="-93.6" y2="-8.2"/><line class="graduation" x1="-86.7" y1="-15.3" x2="-92.6" y2="-16.3"/><line class="graduation" x1="-85.0" y1="-22.8" x2="-90.8" y2="-24.3"/><line class="graduation" x1="-82.7" y1="-30.1" x2="-88.3" y2="-32.1"/><line class="graduation" x1="-79.8" y1="-37.2" x2="-85.2" y2="-39.7"/><line class="graduation" x1="-76.2" y1="-44.0" x2="-81.4" y2="-47.0"/><line class="graduation" x1="-72.1" y1="-50.5" x2="-77.0" y2="-53.9"/><line class="graduation" x1="-67.4" y1="-56.6" x2="-72.0" y2="-60.4"/><line class="graduation" x1="-58.0" y1="-58.0" x2="-66.5" y2="-66.5"/><line class="graduation" x1="-56.6" y1="-67.4" x2="-60.4" y2="-72.0"/><line class="graduation" x1="-50.5" y1="-72.1" x2="-53.9" y2="-77.0"/><line class="graduation" x1="-44.0" y1="-76.2" x2="-47.0" y2="-81.4"/><line class="graduation" x1="-37.2" y1="-79.8" x2="-39.7" y2="-85.2"/><line class="graduation" x1="-30.1" y1="-82.7" x2="-32.1" y2="-88.3"/><line class="graduation" x1="-22.8" y1="-85.0" x2="-24.3" y2="-90.8"/><line class="graduation" x1="-15.3" y1="-86.7" x2="-16.3" y2="-92.6"/><line class="graduation" x1="-7.7" y1="-87.7" x2="-8.2" y2="-93.6"/><text class="lettre" data-audit-ignorer data-dir="S" x="0.0" y="-72.0" transform="rotate(0 0.0 -72.0)">S</text><text class="lettre" data-audit-ignorer data-dir="SO" x="50.9" y="-50.9" transform="rotate(45 50.9 -50.9)">SO</text><text class="lettre" data-audit-ignorer data-dir="O" x="72.0" y="0.0" transform="rotate(90 72.0 0.0)">O</text><text class="lettre" data-audit-ignorer data-dir="NO" x="50.9" y="50.9" transform="rotate(135 50.9 50.9)">NO</text><text class="lettre" data-audit-ignorer data-dir="N" x="0.0" y="72.0" transform="rotate(180 0.0 72.0)">N</text><text class="lettre" data-audit-ignorer data-dir="NE" x="-50.9" y="50.9" transform="rotate(225 -50.9 50.9)">NE</text><text class="lettre" data-audit-ignorer data-dir="E" x="-72.0" y="0.0" transform="rotate(270 -72.0 0.0)">E</text><text class="lettre" data-audit-ignorer data-dir="SE" x="-50.9" y="-50.9" transform="rotate(315 -50.9 -50.9)">SE</text>
+  <g transform="scale(.6)"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><circle class="etoile-coeur" r="6"/></g>
+</svg></div>
+      <p class="oat__indice" aria-hidden="true"><span class="souris">Faites tourner l&#39;étoile</span><span class="doigt">Faites glisser l&#39;étoile</span></p>
+    </div>
+    <p class="ouv-domaine" data-superpose aria-live="polite"><span>Zone éclairée</span><b data-domaine-nom>Centre</b><i data-domaine-mots>Équilibre, bien-être, harmonie intérieure</i></p>
+    <p class="ouv-source">Les neuf domaines d&#39;après le visuel de Lydia · plan illustratif</p>
+    <span data-fil-point="0.02 1" data-fil-sans-perle aria-hidden="true"></span>
+  </div>
+</section>
+<section class="section" id="enjeu" data-fil="gauche">
+  <div class="conteneur duo">
+    <div>
+      <p class="surtitre">L&#39;enjeu</p>
+      <h2 class="titre-grand" data-anime="lignes" data-axes data-grille="typo" data-fil-repere>Certaines maisons accueillent tout de suite. D&#39;autres laissent un malaise difficile à expliquer.</h2>
+      <p class="chapo" data-anime>En plus de vingt ans d&#39;accompagnement de familles, de propriétaires, d&#39;acheteurs et d&#39;investisseurs, j&#39;ai appris à regarder ce qui se passe entre un lieu et ceux qui l&#39;habitent.</p>
+      <p class="texte-doux" data-anime>Cette expérience m&#39;a menée vers la géobiologie, le Feng Shui tibétain et l&#39;harmonisation énergétique des lieux.</p>
+    </div>
+    <figure class="media media-portrait manifeste-media" data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/accueil-manifeste-800.webp" srcset="/assets/images/accueil-manifeste-480.webp 480w, /assets/images/accueil-manifeste-800.webp 800w" sizes="(max-width: 760px) 92vw, 38vw" alt="Fauteuil ancien en chêne et coussins de lin dans un coin lecture au soleil du matin" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="section papier" id="accompagnements" data-fil="droite">
+  <div class="conteneur">
+    <div class="facons-tete">
+      <p class="surtitre">Mes accompagnements</p>
+      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Trois façons de faire du lieu un allié.</h2>
+      <p class="chapo texte-doux" data-anime>Chaque format est défini à l&#39;avance. Pour un accompagnement personnalisé, je précise d&#39;abord votre besoin avec vous, puis je vous propose un tarif.</p>
+    </div>
+    <div class="tep calques-pile" data-module="temoignages-en-pile" data-feuilleter="Calque">
+      <ol class="tep__pile calques" data-effet="calques-empiles">
+      <li class="tep__carte calque-carte" style="--i:0" data-numero="Calque 01">
+        <div>
+          <p class="surtitre">L&#39;âme de la maison</p>
+          <h3>Géobiologie</h3>
+          <p>Observer les caractéristiques d&#39;un lieu et les ressentis associés, pour proposer des pistes d&#39;apaisement.</p>
+          <ul><li>Bilan du lieu, sur place ou à distance</li><li>Étude sur plan d&#39;une habitation</li><li>Mémoire des murs et des sols</li><li>Réharmonisation et recommandations personnalisées</li></ul>
+          <p class="calque-prix" data-prix>À distance 290 € · sur place 490 €</p>
+          <a href="/geobiologie" class="lien-fleche" data-libelle="Géobiologie">Découvrir la géobiologie</a>
+        </div>
+        <figure class="media calque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/offre-geobiologie-760.webp" srcset="/assets/images/offre-geobiologie-480.webp 480w, /assets/images/offre-geobiologie-760.webp 760w" sizes="(max-width: 760px) 86vw, 34vw" alt="Pendule au-dessus d&#39;un plan de maison, boussole en laiton et bougie sur la table" width="760" height="1013" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </li>
+      <li class="tep__carte calque-carte" style="--i:1" data-numero="Calque 02">
+        <div>
+          <p class="surtitre">Quand la maison devient alliée</p>
+          <h3>Feng Shui tibétain</h3>
+          <p>Mettre l&#39;espace en cohérence avec votre vie actuelle, vos priorités et l&#39;énergie que vous souhaitez pour vos projets.</p>
+          <ul><li>Lecture de la circulation et des fonctions</li><li>Les neuf domaines de vie et les éléments</li><li>Rééquilibrage des espaces</li><li>Conseils simples à appliquer</li></ul>
+          <p class="calque-prix" data-prix>À distance 490 € · sur place 590 €</p>
+          <a href="/feng-shui" class="lien-fleche" data-libelle="Feng Shui">Découvrir le Feng Shui</a>
+        </div>
+        <figure class="media calque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/offre-feng-shui-760.webp" srcset="/assets/images/offre-feng-shui-480.webp 480w, /assets/images/offre-feng-shui-760.webp 760w" sizes="(max-width: 760px) 86vw, 34vw" alt="Salon lumineux avec la roue des cinq éléments au mur" width="760" height="1013" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </li>
+      <li class="tep__carte calque-carte" style="--i:2" data-numero="Calque 03">
+        <div>
+          <p class="surtitre">Ouvrir le chemin de la vente</p>
+          <h3>Immobilier Autrement</h3>
+          <p>Un regard complémentaire pour les propriétaires qui préparent la transmission de leur bien.</p>
+          <ul><li>Lecture de l&#39;histoire et de l&#39;atmosphère du lieu</li><li>Préparation du bien avant la mise en vente</li><li>Accompagnement humain du changement</li><li>Plus de 20 ans d&#39;expérience immobilière</li></ul>
+          <p class="calque-prix" data-prix>Sur place 490 € · avec géobiologie 790 €</p>
+          <a href="/immobilier-autrement" class="lien-fleche" data-libelle="Immobilier Autrement">Découvrir Immobilier Autrement</a>
+        </div>
+        <figure class="media calque-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/offre-immobilier-760.webp" srcset="/assets/images/grok/offre-immobilier-480.webp 480w, /assets/images/grok/offre-immobilier-760.webp 760w" sizes="(max-width: 760px) 86vw, 34vw" alt="Trousseau de clés anciennes posé sur un rebord de fenêtre ensoleillé" width="760" height="1013" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      </li>
+      </ol>
+      <p class="calques-indice" aria-hidden="true">Attrapez le calque du dessus et faites-le glisser pour feuilleter</p>
+    </div>
+  </div>
+</section>
+<section class="see" id="demarche" data-module="schema-epingle-etapes" data-epingle data-entete-cache data-grille="scene" data-effet="lecture-du-lieu" aria-labelledby="t-demarche">
+  <div class="see__scene">
+    <div class="see__grille socle-cadre conteneur">
+      <div class="see__texte" data-tient="texte">
+        <p class="surtitre see__surtitre">La démarche</p>
+        <h2 class="see__titre" id="t-demarche" data-axes>Avancer avec clarté, sans avoir besoin de tout savoir avant de commencer.</h2>
+        <p class="texte-doux">Vous restez au centre : j&#39;explique ce que j&#39;observe en termes simples et je propose des pistes adaptées.</p>
+        <ol class="see__etapes">
+          <li class="see__etape"><p class="see__n">01 · Écouter</p><h3>Partir de votre vécu</h3><p>Vos ressentis, et ce que vous aimeriez voir évoluer dans le lieu.</p></li><li class="see__etape"><p class="see__n">02 · Observer</p><h3>Lire les dynamiques</h3><p>Le lieu, ses usages, ses circulations, son histoire et les éléments à remettre en mouvement.</p></li><li class="see__etape"><p class="see__n">03 · Harmoniser</p><h3>Vous transmettre des clés</h3><p>Des recommandations concrètes et une réharmonisation cohérente avec vos besoins et votre rythme.</p></li>
+        </ol>
+      </div>
+      <figure class="see__schema" data-tient="schéma">
+        <div class="see__plan">
+          <svg class="see__svg" viewBox="0 0 400 300" aria-hidden="true">
+            <rect class="see__fond" width="400" height="300"/>
+            <path class="mur-plan" d="M40 30 H360 V270 H222 M178 270 H40 Z"/>
+            <path class="cloison-plan" d="M40 150 H160 M160 30 V210 M160 210 H40 M260 30 V130 H360 M260 190 H360 M260 190 V270"/>
+            <g data-see-partie="1" data-see-des="1">
+              <circle class="ressenti" cx="100" cy="90" r="26"/><circle class="ressenti-c" cx="100" cy="90" r="34"/>
+              <circle class="ressenti" cx="310" cy="230" r="22"/><circle class="ressenti-c" cx="310" cy="230" r="30"/>
+              <circle class="ressenti" cx="210" cy="90" r="18"/>
+            </g>
+            <g data-see-partie="2" data-see-des="2">
+              <path class="see__trait" d="M200 270 C 200 220, 210 180, 210 150 S 120 120, 100 90 M210 150 C 260 160, 300 170, 310 230"/>
+              <path class="see__flux" d="M200 270 C 200 220, 210 180, 210 150 S 120 120, 100 90 M210 150 C 260 160, 300 170, 310 230"/>
+            </g>
+            <g data-see-partie="3" data-see-des="3">
+              <polygon class="etoile-plan" transform="translate(210 150)" points="0,-22 3,-3 22,0 3,3 0,22 -3,3 -22,0 -3,-3"/>
+              <path class="coche" d="M88 90 l8 8 14 -16 M298 230 l8 8 14 -16"/>
+            </g>
+          </svg>
+          <span class="see__etiquette" data-see-partie="1" style="--x: 25%; --y: 13%">Vos ressentis</span>
+          <span class="see__etiquette" data-see-partie="2" style="--x: 64%; --y: 52%">Circulation</span>
+          <span class="see__etiquette" data-see-partie="2" style="--x: 80%; --y: 25%">Usages</span>
+          <span class="see__etiquette" data-see-partie="3" style="--x: 52%; --y: 64%">Pistes</span>
+        </div>
+        <figcaption class="socle-sr">Plan illustratif d&#39;une maison : à chaque temps de la démarche, un calque s&#39;ajoute au plan.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<section class="section tarifs" id="tarifs" data-fil="gauche">
+  <div class="conteneur tarifs-grille">
+    <figure class="media tarifs-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-tarifs-1280.webp" srcset="/assets/images/grok/accueil-tarifs-640.webp 640w, /assets/images/grok/accueil-tarifs-1280.webp 1280w" sizes="(max-width: 860px) 92vw, 30vw" alt="Table à dessin, calque vierge et compas en laiton au soleil du matin" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre">Accompagnements sur mesure</p>
+      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Des tarifs clairs pour choisir sereinement.</h2>
+      <p class="chapo texte-doux" data-anime>Des repères simples, présentés avant tout engagement. Les offres de lancement sont limitées aux places disponibles.</p>
+      <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="Lancement" data-choisie="Choisie">
+        <ul class="trf__grille">
+    <li class="trf__formule" data-formule="Feng Shui géobiologique" data-conseillee>
+      <p class="trf__sur">À distance · offre de lancement</p>
+      <h3 class="trf__nom">Feng Shui géobiologique</h3>
+      <p class="trf__prix" data-prix><span class="trf__montant">179</span> <span class="trf__unite">€</span></p>
+      <p class="trf__note">pour les 5 premières places, puis 290 €</p>
+      <ul class="trf__inclus"><li>Lecture complète de l&#39;habitation principale sur plan</li><li>Analyse et réharmonisation</li><li>Compte rendu personnalisé</li><li>Suivi pendant 3 mois</li></ul>
+      <a href="/contact?sujet=feng-shui-geobiologique#demande" class="bouton bouton--contour trf__choisir" data-libelle="Contact">Choisir</a>
+    </li><li class="trf__formule" data-formule="Les Capsules" data-conseillee>
+      <p class="trf__sur">Tarif de lancement</p>
+      <h3 class="trf__nom">Les Capsules</h3>
+      <p class="trf__prix" data-prix><span class="trf__montant">49</span> <span class="trf__unite">€</span></p>
+      <p class="trf__note">puis 69 €</p>
+      <ul class="trf__inclus"><li>Accompagnement ciblé</li><li>Rituels simples</li><li>Kit associé</li></ul>
+      <a href="/contact?sujet=capsule#demande" class="bouton bouton--contour trf__choisir" data-libelle="Contact">Choisir</a>
+    </li><li class="trf__formule" data-formule="Immobilier Autrement">
+      <p class="trf__sur">Préparer la vente</p>
+      <h3 class="trf__nom">Immobilier Autrement</h3>
+      <p class="trf__prix" data-prix><span class="trf__montant trf__montant--texte">Sur devis</span></p>
+      <p class="trf__note">selon la surface, la localisation et l&#39;accompagnement</p>
+      <ul class="trf__inclus"><li>Étude personnalisée</li><li>Conseils adaptés</li><li>Préparation avant la mise en vente</li><li>Pyrénées-Orientales ou à distance</li></ul>
+      <a href="/contact?sujet=immobilier#demande" class="bouton bouton--contour trf__choisir" data-libelle="Contact">Choisir</a>
+    </li>
+  </ul>
+      </div>
+      <p class="tarifs-detail">Le détail de chaque accompagnement est sur sa page. <a href="/geobiologie#tarifs" data-libelle="Géobiologie">Géobiologie</a> · <a href="/feng-shui#tarifs" data-libelle="Feng Shui">Feng Shui</a> · <a href="/immobilier-autrement#tarifs" data-libelle="Immobilier Autrement">Immobilier Autrement</a></p>
+    </div>
+  </div>
+</section>
+<section class="section papier" id="capsules" data-fil="droite">
+  <div class="conteneur">
+    <p class="surtitre">Nouveauté · les Capsules Ma Bonne Étoile</p>
+    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Des formats simples pour commencer en douceur.</h2>
+    <p class="chapo texte-doux" data-anime>Des accompagnements courts et ciblés, pour les moments où le lieu et la vie changent ensemble : 49 € au lancement, puis 69 €.</p>
+    <div class="bulles">
+      <article class="bulle" id="bulle-sommeil">
+        <figure class="media bulle-media" data-effet="bulles-qui-flottent" data-flotte="0" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bulle-sommeil-800.webp" srcset="/assets/images/bulle-sommeil-480.webp 480w, /assets/images/bulle-sommeil-800.webp 800w" sizes="(max-width: 640px) 92vw, 24vw" alt="Visuel de La Bulle du Sommeil" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="bulle-lieu">La chambre</p>
+        <h3>La Bulle du Sommeil</h3>
+        <p>Une analyse géobiologique et énergétique de la chambre à coucher, pour dissiper les lourdeurs et retrouver un lieu propice au repos.</p>
+        <p class="bulle-bas"><b data-prix>49 € au lancement</b><a href="/contact?sujet=bulle-sommeil#demande" class="lien-fleche" data-libelle="Contact">Réserver ma Bulle</a></p>
+      </article><article class="bulle" id="bulle-voyageur">
+        <figure class="media bulle-media" data-effet="bulles-qui-flottent" data-flotte="1" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bulle-voyageur-800.webp" srcset="/assets/images/bulle-voyageur-480.webp 480w, /assets/images/bulle-voyageur-800.webp 800w" sizes="(max-width: 640px) 92vw, 24vw" alt="Visuel de La Bulle du Voyageur" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="bulle-lieu">Les lieux de séjour</p>
+        <h3>La Bulle du Voyageur</h3>
+        <p>Un accompagnement sur mesure pour se sentir bien dans les lieux où l&#39;on séjourne et y retrouver ses repères.</p>
+        <p class="bulle-bas"><b data-prix>49 € au lancement</b><a href="/contact?sujet=bulle-voyageur#demande" class="lien-fleche" data-libelle="Contact">Réserver ma Bulle</a></p>
+      </article><article class="bulle" id="bulle-demenagement">
+        <figure class="media bulle-media" data-effet="bulles-qui-flottent" data-flotte="2" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bulle-demenagement-800.webp" srcset="/assets/images/bulle-demenagement-480.webp 480w, /assets/images/bulle-demenagement-800.webp 800w" sizes="(max-width: 640px) 92vw, 24vw" alt="Visuel de La Bulle du Déménagement" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="bulle-lieu">Le nouveau lieu</p>
+        <h3>La Bulle du Déménagement</h3>
+        <p>Préparer la transition vers le nouveau lieu, libérer les anciennes empreintes et créer un environnement harmonieux dès l&#39;arrivée.</p>
+        <p class="bulle-bas"><b data-prix>49 € au lancement</b><a href="/contact?sujet=bulle-demenagement#demande" class="lien-fleche" data-libelle="Contact">Réserver ma Bulle</a></p>
+      </article><article class="bulle" id="bulle-bureau">
+        <figure class="media bulle-media" data-effet="bulles-qui-flottent" data-flotte="3" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bulle-bureau-800.webp" srcset="/assets/images/bulle-bureau-480.webp 480w, /assets/images/bulle-bureau-800.webp 800w" sizes="(max-width: 640px) 92vw, 24vw" alt="Visuel de La Bulle du Nouveau Bureau" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p class="bulle-lieu">L&#39;espace professionnel</p>
+        <h3>La Bulle du Nouveau Bureau</h3>
+        <p>Optimiser la circulation de l&#39;énergie dans l&#39;espace professionnel, pour la concentration et la clarté d&#39;esprit.</p>
+        <p class="bulle-bas"><b data-prix>49 € au lancement</b><a href="/contact?sujet=bulle-bureau#demande" class="lien-fleche" data-libelle="Contact">Réserver ma Bulle</a></p>
+      </article>
+    </div>
+    <div class="kit" data-anime>
+      <div class="kit-icones" data-visuel>
+        <figure><svg viewBox="0 0 64 64" aria-hidden="true" data-fx="trace"><path d="M10 44 C 10 28, 26 18, 40 22 C 50 25, 56 34, 54 44 Z"/><path d="M18 30 l-4 -6 M26 24 l-2 -8 M34 21 l1 -8 M42 23 l4 -7 M50 30 l6 -4"/><circle cx="50" cy="38" r="1.6"/><path d="M14 44 v6 M46 44 v6"/></svg><figcaption>Hérisson</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64" aria-hidden="true" data-fx="trace"><path d="M8 42 C 10 30, 22 24, 32 24 C 42 24, 52 30, 54 42 Z"/><path d="M20 32 L32 26 L44 32 L40 42 H24 Z"/><path d="M54 40 c4 0 6 -3 5 -6"/><path d="M14 42 v6 M48 42 v6"/></svg><figcaption>Tortues</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64" aria-hidden="true" data-fx="trace"><path d="M32 6 L36 28 L58 32 L36 36 L32 58 L28 36 L6 32 L28 28 Z"/><path d="M44 46 l6 -6 6 6 -6 10 Z"/></svg><figcaption>Étoile et cristal de roche</figcaption></figure>
+      </div>
+      <div>
+        <p>Chaque Capsule s&#39;accompagne d&#39;un kit artisanal, au choix : un hérisson, des tortues ou une étoile avec cristal de roche.</p>
+        <p class="a-completer">Photo du kit : à compléter</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="parcours" data-fil="gauche">
+  <div class="conteneur duo duo--inverse">
+    <div>
+      <p class="surtitre">Mon parcours</p>
+      <h2 class="titre-section titre-regle" data-effet="titre-a-la-regle" data-axes data-fil-repere>De l&#39;immobilier à l&#39;harmonisation des lieux.</h2>
+      <p data-anime>Je suis Lydia Courtois. J&#39;associe la géobiologie, le Feng Shui de l&#39;habitat, l&#39;harmonisation énergétique des espaces, une écoute sensible de l&#39;environnement et mon expérience immobilière. Chaque accompagnement part de votre réalité et de vos besoins.</p>
+      <p class="parcours-chiffre" data-anime><strong><span data-compteur="20">20</span>+</strong><span>années d&#39;expérience dans l&#39;immobilier et de regard porté sur les lieux</span></p>
+      <p><strong>Mes valeurs</strong></p>
+      <ul class="valeurs" data-anime="cascade"><li>Écoute</li><li>Bienveillance</li><li>Pragmatisme</li></ul>
+      <p class="a-completer">Portrait de Lydia : à compléter</p>
+      <p class="a-completer">Témoignages : à compléter, avec l&#39;accord des personnes accompagnées.</p>
+    </div>
+    <figure class="media media-portrait" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/accueil-parcours-800.webp" srcset="/assets/images/grok/accueil-parcours-480.webp 480w, /assets/images/grok/accueil-parcours-800.webp 800w" sizes="(max-width: 760px) 92vw, 38vw" alt="Porte d&#39;une maison de village entrouverte, clés dans la serrure" width="800" height="1000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section papier" id="pour-qui" data-fil="droite">
+  <div class="conteneur">
+    <p class="surtitre">Pour qui</p>
+    <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Un accompagnement pour les espaces qui comptent.</h2>
+    <div class="espaces" data-anime="cascade">
+      <div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><path d="M10 66 V30 L38 10 L66 30 V66 Z"/><path d="M30 66 V46 H46 V66"/><path class="or" d="M50 22 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2 Z"/></svg><h3>Habitation</h3><p>Maison, appartement, chambre ou projet de déménagement.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><path d="M8 66 H68"/><path d="M14 66 V34 L34 18 L54 34 V66"/><path d="M40 30 h18 v14 h-18 Z"/><path class="or" d="M44 37 h10"/></svg><h3>Projet immobilier</h3><p>Un regard complémentaire avant ou après un achat.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><rect x="12" y="14" width="52" height="52"/><path d="M12 34 H64 M38 34 V66"/><path class="or" d="M22 50 h8 M46 50 h8"/></svg><h3>Espace professionnel</h3><p>Bureau, cabinet, commerce ou entreprise.</p></div><div class="espace"><svg viewBox="0 0 76 76" aria-hidden="true" data-fx="trace" data-visuel><rect x="10" y="12" width="56" height="38" rx="3"/><path d="M28 64 H48 M38 50 V64"/><path class="or" d="M22 40 V24 H40 V32 H54 V40 Z"/></svg><h3>À distance</h3><p>Étude sur plan et restitution en visioconférence.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section nuit" id="cadre">
+  <div class="conteneur cadre">
+    <svg class="cadre-dessin" viewBox="0 0 200 200" aria-hidden="true" data-fx="trace" data-visuel><path d="M30 170 L100 30 L170 170"/><path d="M58 114 H142"/><circle cx="100" cy="30" r="8"/><path d="M100 30 V110 A 60 60 0 0 1 152 140" stroke-dasharray="4 5"/><path d="M20 182 H180"/></svg>
+    <div>
+      <p class="surtitre">Un cadre clair</p>
+      <h2 class="titre-section" data-anime="lignes" data-axes>Une lecture sensible et concrète du lieu.</h2>
+      <p class="chapo" data-anime>La géobiologie et le Feng Shui ne remplacent pas un avis médical, psychologique ou vétérinaire. Il n&#39;y a ni diagnostic, ni promesse de guérison.</p>
+      <a href="/contact#demande" class="bouton" data-libelle="Contact">Écrire à Lydia</a>
+    </div>
+  </div>
+</section>
+<section class="section" id="fin" data-fil="gauche">
+  <div class="conteneur duo">
+    <div>
+      <h2 class="titre-grand" data-anime="lignes" data-axes data-fil-repere>Parlons de votre lieu et de ce que vous souhaitez y vivre.</h2>
+      <p class="chapo" data-anime>Un premier échange permet de vous orienter simplement.</p>
+      <p class="fin-actions" data-anime>
+        <a class="bouton bouton--contour" href="tel:+33663676907" data-survol="magnetique">Appeler Lydia</a>
+        <a href="/contact#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Faire le premier pas</a>
+      </p>
+    </div>
+    <figure class="media media-portrait" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/accueil-appel-800.webp" srcset="/assets/images/accueil-appel-480.webp 480w, /assets/images/accueil-appel-800.webp 800w" sizes="(max-width: 760px) 92vw, 36vw" alt="Chaise paillée près d&#39;un rideau de lin bordeaux, lumière douce" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <span data-fil-point="0.5 1" aria-hidden="true"></span>
+</section>
+<template data-fil-objet><polygon points="0.0,-11.0 0.8,-1.8 4.9,-4.9 1.8,-0.8 11.0,0.0 1.8,0.8 4.9,4.9 0.8,1.8 0.0,11.0 -0.8,1.8 -4.9,4.9 -1.8,0.8 -11.0,0.0 -1.8,-0.8 -4.9,-4.9 -0.8,-1.8"/></template>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <svg class="etoile pied-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg>
+      <p class="pied-nom">Ma Bonne Étoile</p>
+      <p class="pied-signature">Lydia Courtois</p>
+      <p class="pied-metiers">Géobiologie · Feng Shui · Harmonisation des lieux</p>
+    </div>
+    <div>
+      <p><strong>Contact</strong></p>
+      <p>Sur place dans les Pyrénées-Orientales, à distance partout en France<br><a href="tel:+33663676907">06 63 67 69 07</a><br><a class="pied-email" href="mailto:lydia.fengshui.harmonie@gmail.com">lydia.fengshui.harmonie<wbr>@gmail.com</a></p>
+      <p><strong>Suivre Lydia</strong></p>
+      <ul class="pied-reseaux">
+        <li><a href="https://www.facebook.com/lydia.fengshui.harmonie" target="_blank" rel="noopener">Facebook <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/lydia.feng.shui.harmonie" target="_blank" rel="noopener">Instagram <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+    <nav aria-label="Le site">
+      <p><strong>Le site</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/geobiologie" data-libelle="Géobiologie">Géobiologie</a></li><li><a href="/feng-shui" data-libelle="Feng Shui">Feng Shui</a></li><li><a href="/immobilier-autrement" data-libelle="Immobilier Autrement">Immobilier Autrement</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Confort de lecture</strong></p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>La géobiologie et le Feng Shui ne remplacent pas un avis médical, psychologique ou vétérinaire.</p>
+    <p>Maquette : les informations marquées « à compléter » seront fournies par Lydia Courtois.</p>
+    <p>© 2026 Ma Bonne Étoile — Lydia Courtois · <span class="pied-legal">Mentions légales : à compléter</span> · <span class="pied-legal">Politique de confidentialité : à compléter</span></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33663676907">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Me contacter</a>
+</div>
+</body>
+</html>

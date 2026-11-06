@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Ma Bonne Étoile — Lydia Courtois",
+  "url": "https://lydiacourtois-maquette.vercel.app/",
+  "telephone": "+33663676907",
+  "email": "lydia.fengshui.harmonie@gmail.com",
+  "areaServed": ["Pyrénées-Orientales", "France"],
+  "sameAs": ["https://www.facebook.com/lydia.fengshui.harmonie", "https://www.instagram.com/lydia.feng.shui.harmonie"],
+  "description": { "fr": "Géobiologie, Feng Shui tibétain et Immobilier Autrement : accompagnements sur place dans les Pyrénées-Orientales et à distance partout en France." }
+}

@@ -1,0 +1,6 @@
+[
+  { "cle": "sommeil", "image": "bulle-sommeil", "nom": { "fr": "La Bulle du Sommeil" }, "lieu": { "fr": "La chambre" }, "texte": { "fr": "Une analyse géobiologique et énergétique de la chambre à coucher, pour dissiper les lourdeurs et retrouver un lieu propice au repos." } },
+  { "cle": "voyageur", "image": "bulle-voyageur", "nom": { "fr": "La Bulle du Voyageur" }, "lieu": { "fr": "Les lieux de séjour" }, "texte": { "fr": "Un accompagnement sur mesure pour se sentir bien dans les lieux où l'on séjourne et y retrouver ses repères." } },
+  { "cle": "demenagement", "image": "bulle-demenagement", "nom": { "fr": "La Bulle du Déménagement" }, "lieu": { "fr": "Le nouveau lieu" }, "texte": { "fr": "Préparer la transition vers le nouveau lieu, libérer les anciennes empreintes et créer un environnement harmonieux dès l'arrivée." } },
+  { "cle": "bureau", "image": "bulle-bureau", "nom": { "fr": "La Bulle du Nouveau Bureau" }, "lieu": { "fr": "L'espace professionnel" }, "texte": { "fr": "Optimiser la circulation de l'énergie dans l'espace professionnel, pour la concentration et la clarté d'esprit." } }
+]

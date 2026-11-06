@@ -1,0 +1,963 @@
+{
+  "dossier": "/Users/paul/Downloads/lydiacourtois-recu2",
+  "date": "2026-11-06T14:27:21.255Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "atude-de-ga-c-obiologie-et-a-c-nergie-des-lieux-kf0bczCZr543YrNp.png",
+      "nom": "atude-de-ga-c-obiologie-et-a-c-nergie-des-lieux-kf0bczCZr543YrNp",
+      "drapeau": null,
+      "largeur": 1535,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2160473,
+      "transparence": false,
+      "sujet": {
+        "x": 0.1,
+        "y": 21.9,
+        "l": 91.9,
+        "h": 78.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        61
+      ],
+      "cadrage_css": "42% 61%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        }
+      ],
+      "qualite": {
+        "nettete": 34.5,
+        "bruit": 1.12,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "GÉOBIOLOGIE · L'ÉNERGIE DES LIEUX · Réseaux telluriques · - Eau souterraine · Failles · - Mémoire des lieux · Entrées d'énergie · Zones de perturbation · Équili",
+        "blocs": 10,
+        "surface": 4,
+        "details": [
+          {
+            "texte": "GÉOBIOLOGIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "L'ÉNERGIE DES LIEUX",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Réseaux telluriques",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Eau souterraine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Failles",
+            "niveau": "marque"
+          },
+          {
+            "texte": "- Mémoire des lieux",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Entrées d'énergie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Zones de perturbation",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Équilibre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Vitalité du lieu",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "a32726665178e209",
+      "drapeaux": [
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "chatgpt-image-16-sept.-2026-05_46_37-EQTB8RlTAtvZHasO.png",
+      "nom": "chatgpt-image-16-sept.-2026-05_46_37-EQTB8RlTAtvZHasO",
+      "drapeau": null,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2302788,
+      "transparence": false,
+      "sujet": {
+        "x": 25.2,
+        "y": 33.9,
+        "l": 73,
+        "h": 64.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        51
+      ],
+      "cadrage_css": "45% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 58.2,
+        "bruit": 1.13,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "La Bulle · du Voyageur + · Voyagez en légèreté, · où que vous soyez · Bien-être • Équilibre • Sérénité · PASSEPORT · HARMONIE · SOMMEIL · ÉNERGIE",
+        "blocs": 9,
+        "surface": 6.8,
+        "details": [
+          {
+            "texte": "La Bulle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du Voyageur +",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Voyagez en légèreté,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "où que vous soyez",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bien-être • Équilibre • Sérénité",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PASSEPORT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HARMONIE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "SOMMEIL",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ÉNERGIE",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "0547060491125a7c",
+      "drapeaux": [
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "chatgpt-image-19-mai-2026-21_51_410-LvAqpBw8NO58j57w.png",
+      "nom": "chatgpt-image-19-mai-2026-21_51_410-LvAqpBw8NO58j57w",
+      "drapeau": null,
+      "largeur": 882,
+      "hauteur": 1024,
+      "ratio": "0.86",
+      "ratio_valeur": 0.861,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 1312982,
+      "transparence": true,
+      "sujet": {
+        "x": 23,
+        "y": 9.8,
+        "l": 42.7,
+        "h": 48.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        44,
+        31
+      ],
+      "cadrage_css": "44% 31%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 20,
+        "bruit": 1.02,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "882 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "36f238ada7662791",
+      "drapeaux": [
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "hdmafc-628F6ofxcZY9X5Ft.png",
+      "nom": "hdmafc-628F6ofxcZY9X5Ft",
+      "drapeau": null,
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 204960,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 33.8,
+        "l": 52.9,
+        "h": 25,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        47
+      ],
+      "cadrage_css": "57% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 33.4,
+        "bruit": 1.25,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "9088c88899ad983a",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "immobilier-autrement-une-maison-vendu-pRdjk4PVqZVeinpl.png",
+      "nom": "immobilier-autrement-une-maison-vendu-pRdjk4PVqZVeinpl",
+      "drapeau": null,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2634272,
+      "transparence": false,
+      "sujet": {
+        "x": 9.5,
+        "y": 23.1,
+        "l": 39.1,
+        "h": 56.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        29,
+        54
+      ],
+      "cadrage_css": "29% 54%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.43
+        }
+      ],
+      "qualite": {
+        "nettete": 38.8,
+        "bruit": 1.51,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ecfcaeccc8c7b3b8",
+      "drapeaux": []
+    },
+    {
+      "fichier": "importantes-immobilier-projet-9rsZzbMdyBxGPTtb.jpg",
+      "nom": "importantes-immobilier-projet-9rsZzbMdyBxGPTtb",
+      "drapeau": null,
+      "largeur": 1200,
+      "hauteur": 800,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 39286,
+      "transparence": false,
+      "sujet": {
+        "x": 7.7,
+        "y": 1.1,
+        "l": 60.3,
+        "h": 72.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        47
+      ],
+      "cadrage_css": "43% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 13,
+        "bruit": 0.29,
+        "compression": 2.15,
+        "faible": true,
+        "raisons": [
+          "1200 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "6536169e8ed6673c",
+      "drapeaux": [
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "logo_ma_bonne_etoile_fond_transparent_recadre-7A5dlM1ilrrli5US.png",
+      "nom": "logo_ma_bonne_etoile_fond_transparent_recadre-7A5dlM1ilrrli5US",
+      "drapeau": null,
+      "largeur": 2050,
+      "hauteur": 623,
+      "ratio": "3.29",
+      "ratio_valeur": 3.291,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 234606,
+      "transparence": true,
+      "sujet": {
+        "x": 28.3,
+        "y": 28.4,
+        "l": 49.6,
+        "h": 51.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        44
+      ],
+      "cadrage_css": "52% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 50.3,
+        "bruit": 0.13,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "-→ Lydia Courtois + · MA BONNE ÉTOILE · GÉOBIOLOGIE & FENG SHUI",
+        "blocs": 3,
+        "surface": 37.6,
+        "details": [
+          {
+            "texte": "-→ Lydia Courtois +",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MA BONNE ÉTOILE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GÉOBIOLOGIE & FENG SHUI",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "004f4b4d5d5b4b00",
+      "drapeaux": [
+        "texte décoratif",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "matin-paisible-dans-une-chambre-lumineuse-ixbPZMOYTIQbbmvT.png",
+      "nom": "matin-paisible-dans-une-chambre-lumineuse-ixbPZMOYTIQbbmvT",
+      "drapeau": null,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2171008,
+      "transparence": false,
+      "sujet": {
+        "x": 59.2,
+        "y": 20.8,
+        "l": 14.5,
+        "h": 28.4,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        67,
+        33
+      ],
+      "cadrage_css": "67% 33%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 26.9,
+        "bruit": 1.2,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "30b2b3b82839f1c0",
+      "drapeaux": [
+        "visage"
+      ]
+    },
+    {
+      "fichier": "mtjgyj-FovnHWI28oM3RCAg.png",
+      "nom": "mtjgyj-FovnHWI28oM3RCAg",
+      "drapeau": null,
+      "largeur": 896,
+      "hauteur": 1216,
+      "ratio": "3:4",
+      "ratio_valeur": 0.737,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3270945,
+      "transparence": false,
+      "sujet": {
+        "x": 18.2,
+        "y": 40.4,
+        "l": 50.1,
+        "h": 43.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        57
+      ],
+      "cadrage_css": "42% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 18.6,
+        "bruit": 0.67,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "896 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "fcfcfc7c75b1afff",
+      "drapeaux": [
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "rab7hb-Z4eeBRdHyU7xanzc.png",
+      "nom": "rab7hb-Z4eeBRdHyU7xanzc",
+      "drapeau": null,
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 245221,
+      "transparence": false,
+      "sujet": {
+        "x": 38.2,
+        "y": 44.1,
+        "l": 41.2,
+        "h": 22.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        55
+      ],
+      "cadrage_css": "59% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 56.8,
+        "bruit": 1.42,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "c6656464465a4c40",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "salon-moderne-en-harmonie-feng-shui-ImBItmngvxF6eEVJ.png",
+      "nom": "salon-moderne-en-harmonie-feng-shui-ImBItmngvxF6eEVJ",
+      "drapeau": null,
+      "largeur": 1535,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2284201,
+      "transparence": false,
+      "sujet": {
+        "x": 35.6,
+        "y": 3,
+        "l": 43.9,
+        "h": 25.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        17
+      ],
+      "cadrage_css": "53% 17%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 76.4,
+        "bruit": 1.02,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "FENG SHUI · LES 9 DOMAINES DE VIES · Richesse · Réputation · Amour & · Relations · Abondance, prospérité · sécurité financière · Reconnaissance, succès · estime",
+        "blocs": 35,
+        "surface": 9.2,
+        "details": [
+          {
+            "texte": "FENG SHUI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LES 9 DOMAINES DE VIES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Richesse",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Réputation",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Amour &",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Relations",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Abondance, prospérité",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sécurité financière",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Reconnaissance, succès",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "estime de soi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Amour de soi, couple,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "relations harmonieuses",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c18189d1a9e8cc8c",
+      "drapeaux": [
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "tf226a-PIJETcgAMCP4J6qO.png",
+      "nom": "tf226a-PIJETcgAMCP4J6qO",
+      "drapeau": null,
+      "largeur": 896,
+      "hauteur": 1216,
+      "ratio": "3:4",
+      "ratio_valeur": 0.737,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3270945,
+      "transparence": false,
+      "sujet": {
+        "x": 27.9,
+        "y": 39.7,
+        "l": 64.7,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        57
+      ],
+      "cadrage_css": "55% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.63,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 18,
+        "bruit": 0.71,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "896 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "7d7d7d7d7c7f6fef",
+      "drapeaux": [
+        "petite"
+      ]
+    }
+  ]
+}

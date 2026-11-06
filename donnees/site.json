@@ -1,0 +1,17 @@
+{
+  "nom": "Ma Bonne Étoile",
+  "signature": "Lydia Courtois",
+  "adresse": "https://lydiacourtois-maquette.vercel.app",
+  "siteActuel": "lydiacourtois.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "geobiologie", "feng-shui", "immobilier-autrement", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "demande" },
+  "couleurs": { "fond": "#f1eadf", "texte": "#1c2640", "voile": "#1c2640", "ouverture": "#1c2640", "menu": "#1c2640", "theme": "#f1eadf" },
+  "formeVoile": "etoile",
+  "contact": { "telephone": "06 63 67 69 07", "telephoneLien": "+33663676907", "email": "lydia.fengshui.harmonie@gmail.com", "adresse": "Pyrénées-Orientales et à distance" },
+  "reseaux": { "facebook": "https://www.facebook.com/lydia.fengshui.harmonie", "instagram": "https://www.instagram.com/lydia.feng.shui.harmonie" },
+  "polices": ["/assets/polices/fraunces.woff2"],
+  "imagePartage": "grok/accueil-ouverture-800.webp",
+  "curseur": false
+}

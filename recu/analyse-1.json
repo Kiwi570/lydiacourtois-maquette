@@ -1,0 +1,1114 @@
+{
+  "dossier": "/Users/paul/Downloads/lydiacourtois-recu",
+  "date": "2026-11-06T14:25:00.065Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo-rond-bonne-atoile.jpg",
+      "nom": "logo-rond-bonne-atoile",
+      "drapeau": "oeuvre",
+      "largeur": 1254,
+      "hauteur": 756,
+      "ratio": "1.66",
+      "ratio_valeur": 1.659,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 75913,
+      "transparence": false,
+      "sujet": {
+        "x": 8,
+        "y": 5.4,
+        "l": 88.3,
+        "h": 88.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        44
+      ],
+      "cadrage_css": "52% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.8
+        }
+      ],
+      "qualite": {
+        "nettete": 47.6,
+        "bruit": 0.42,
+        "compression": 0.91,
+        "faible": true,
+        "raisons": [
+          "1254 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "_Lydia Courtois · MA BONNE · ÉTOILE · GÉOBIOLOGIE • FENG SHUI · IMMOBILIER AUTREMENT",
+        "blocs": 5,
+        "surface": 22.3,
+        "details": [
+          {
+            "texte": "_Lydia Courtois",
+            "niveau": "marque"
+          },
+          {
+            "texte": "MA BONNE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ÉTOILE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GÉOBIOLOGIE • FENG SHUI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "IMMOBILIER AUTREMENT",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "7131352327221311",
+      "drapeaux": [
+        "oeuvre",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "propos.jpg",
+      "nom": "propos",
+      "drapeau": "autre",
+      "largeur": 3605,
+      "hauteur": 4806,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 3335762,
+      "transparence": false,
+      "sujet": {
+        "x": 55.4,
+        "y": 25.4,
+        "l": 33.3,
+        "h": 36.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        70,
+        44
+      ],
+      "cadrage_css": "70% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 34.7,
+        "bruit": 1.07,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Driving your business",
+        "blocs": 1,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "Driving your business",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "7b2bbeb3f3fc1f41",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "approche-harmonieuse-bien-aatre11.webp",
+      "nom": "approche-harmonieuse-bien-aatre11",
+      "drapeau": "lieu",
+      "largeur": 1440,
+      "hauteur": 1905,
+      "ratio": "3:4",
+      "ratio_valeur": 0.756,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 273596,
+      "transparence": false,
+      "sujet": {
+        "x": 16.9,
+        "y": 9.7,
+        "l": 41.8,
+        "h": 43.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        30
+      ],
+      "cadrage_css": "40% 30%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 30.9,
+        "bruit": 0.67,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "FEU · BOIS · TERRE · EAU · MÉTAL",
+        "blocs": 5,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "FEU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BOIS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TERRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EAU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MÉTAL",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "13132b23735d990c",
+      "drapeaux": [
+        "lieu",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "bulle-sommeil.webp",
+      "nom": "bulle-sommeil",
+      "drapeau": "autre",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1415814,
+      "transparence": false,
+      "sujet": {
+        "x": 6.5,
+        "y": 5.7,
+        "l": 82.6,
+        "h": 81,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        44
+      ],
+      "cadrage_css": "46% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.68
+        }
+      ],
+      "qualite": {
+        "nettete": 38.9,
+        "bruit": 1.13,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "La Bulle · du Sommeil · Un sommeil profond commence · par un lieu qui vous soutient. · HARMONISATION · ÉNERGÉTIQUE · GÉOBIOLOGIE · DE L'HABITAT · FENG SHUI · BI",
+        "blocs": 11,
+        "surface": 9.5,
+        "details": [
+          {
+            "texte": "La Bulle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du Sommeil",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Un sommeil profond commence",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "par un lieu qui vous soutient.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HARMONISATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ÉNERGÉTIQUE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GÉOBIOLOGIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE L'HABITAT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FENG SHUI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BIEN-ÊTRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DURABLE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6048e1f1f2e444a6",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "bulle-sommeil-2.jpg",
+      "nom": "bulle-sommeil-2",
+      "drapeau": "autre",
+      "largeur": 1440,
+      "hauteur": 756,
+      "ratio": "1.9",
+      "ratio_valeur": 1.905,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 152768,
+      "transparence": false,
+      "sujet": {
+        "x": 5,
+        "y": 44.6,
+        "l": 83.1,
+        "h": 47.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        56
+      ],
+      "cadrage_css": "46% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.64
+        }
+      ],
+      "qualite": {
+        "nettete": 46.7,
+        "bruit": 0.78,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "La Bulle · du Sommeil · Un sommeil profond commence · par un lieu qui vous soutient. · HARMONISATION · ÉNERGÉTIQUE · GÉOBIOLOGIE · DE L'HABITAT · FENG SHUI · BI",
+        "blocs": 11,
+        "surface": 12,
+        "details": [
+          {
+            "texte": "La Bulle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du Sommeil",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Un sommeil profond commence",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "par un lieu qui vous soutient.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HARMONISATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ÉNERGÉTIQUE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GÉOBIOLOGIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE L'HABITAT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FENG SHUI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BIEN-ÊTRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DURABLE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "48c0e1f1f2e6c404",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "kit-bien-etre-voyageur.webp",
+      "nom": "kit-bien-etre-voyageur",
+      "drapeau": "autre",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1558394,
+      "transparence": false,
+      "sujet": {
+        "x": 25.6,
+        "y": 33.7,
+        "l": 74.4,
+        "h": 62,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        50
+      ],
+      "cadrage_css": "47% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.65
+        }
+      ],
+      "qualite": {
+        "nettete": 44.2,
+        "bruit": 1.38,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "La Bulle · du Voyageur + · Voyagez en légèreté, · où que vous soyez · Bien-être • Équilibre • Sérénité · PASSEPORT · HARMONIE · SOMMEIL · ÉNERGIE",
+        "blocs": 9,
+        "surface": 7.1,
+        "details": [
+          {
+            "texte": "La Bulle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du Voyageur +",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Voyagez en légèreté,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "où que vous soyez",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bien-être • Équilibre • Sérénité",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PASSEPORT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HARMONIE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "SOMMEIL",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ÉNERGIE",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "0567020491125a7c",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "bulle-voyageur.jpg",
+      "nom": "bulle-voyageur",
+      "drapeau": "autre",
+      "largeur": 1440,
+      "hauteur": 756,
+      "ratio": "1.9",
+      "ratio_valeur": 1.905,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 188509,
+      "transparence": false,
+      "sujet": {
+        "x": 54.9,
+        "y": 29.2,
+        "l": 44.8,
+        "h": 63.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        66,
+        45
+      ],
+      "cadrage_css": "66% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 65.5,
+        "bruit": 1.04,
+        "compression": 1.09,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "La Bulle · du Voyageur + · Voyagez en légèreté, · où que vous soyez · Bien-être • Équilibre • Sérénité · PASSEPORT · HARMONIE · SOMMEIL · ÉNERGIE",
+        "blocs": 9,
+        "surface": 8.9,
+        "details": [
+          {
+            "texte": "La Bulle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du Voyageur +",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Voyagez en légèreté,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "où que vous soyez",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bien-être • Équilibre • Sérénité",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PASSEPORT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HARMONIE",
+            "niveau": "marque"
+          },
+          {
+            "texte": "SOMMEIL",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ÉNERGIE",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "4746020481101258",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "bulle-demenagement.webp",
+      "nom": "bulle-demenagement",
+      "drapeau": "autre",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1437944,
+      "transparence": false,
+      "sujet": {
+        "x": 42.7,
+        "y": 53.4,
+        "l": 44.6,
+        "h": 45.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        65
+      ],
+      "cadrage_css": "56% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 33.5,
+        "bruit": 1.16,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "La Bulle du · Déménagement · Un nouveau départ, une nouvelle énergie · HARILIONIE · EQUILI · SÉRÉNITÉ · NOUVEAU DÉPART · NOUVELLE ÉNERGIE",
+        "blocs": 8,
+        "surface": 10.7,
+        "details": [
+          {
+            "texte": "La Bulle du",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Déménagement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Un nouveau départ, une nouvelle énergie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HARILIONIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EQUILI",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SÉRÉNITÉ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NOUVEAU DÉPART",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NOUVELLE ÉNERGIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "ca8ae2e2d6ceef8d",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "bulle-demenagement-2.jpg",
+      "nom": "bulle-demenagement-2",
+      "drapeau": "autre",
+      "largeur": 1440,
+      "hauteur": 756,
+      "ratio": "1.9",
+      "ratio_valeur": 1.905,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 140738,
+      "transparence": false,
+      "sujet": {
+        "x": 23.6,
+        "y": 1.8,
+        "l": 49.7,
+        "h": 34.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        18
+      ],
+      "cadrage_css": "46% 18%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 39,
+        "bruit": 0.64,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "La Bulle du · Déménagement · Un nouveau départ, une nouvelle énergie · HARILIONIE · EQU · SÉRÉNITÉ · NOUVEAU DÉPART",
+        "blocs": 7,
+        "surface": 11.3,
+        "details": [
+          {
+            "texte": "La Bulle du",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Déménagement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Un nouveau départ, une nouvelle énergie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HARILIONIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EQU",
+            "niveau": "marque"
+          },
+          {
+            "texte": "SÉRÉNITÉ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NOUVEAU DÉPART",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "8ae2626256ceceef",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "bulle-nouveau-bureau.webp",
+      "nom": "bulle-nouveau-bureau",
+      "drapeau": "lieu",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1503588,
+      "transparence": false,
+      "sujet": {
+        "x": 23.3,
+        "y": 15.2,
+        "l": 45.2,
+        "h": 44.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        32
+      ],
+      "cadrage_css": "48% 32%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 37.3,
+        "bruit": 1.17,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "La Bulle du · Nouveau Bureau · Un espace aligné pour · vos projets et votre réussite.",
+        "blocs": 4,
+        "surface": 8.6,
+        "details": [
+          {
+            "texte": "La Bulle du",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nouveau Bureau",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Un espace aligné pour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "vos projets et votre réussite.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "ededfbf9f3f797c5",
+      "drapeaux": [
+        "lieu",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "bulle-nouveau-bureau-2.jpg",
+      "nom": "bulle-nouveau-bureau-2",
+      "drapeau": "lieu",
+      "largeur": 1440,
+      "hauteur": 756,
+      "ratio": "1.9",
+      "ratio_valeur": 1.905,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 172313,
+      "transparence": false,
+      "sujet": {
+        "x": 31.6,
+        "y": 18.5,
+        "l": 44.8,
+        "h": 39.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        30
+      ],
+      "cadrage_css": "52% 30%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 49,
+        "bruit": 0.79,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "La Bulle du · Nouveau Bureau · Un espace aligné pour · vos projets et votre réussite.",
+        "blocs": 4,
+        "surface": 11.4,
+        "details": [
+          {
+            "texte": "La Bulle du",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Nouveau Bureau",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Un espace aligné pour",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "vos projets et votre réussite.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "cdfdfbf9f3f79797",
+      "drapeaux": [
+        "lieu",
+        "texte décoratif"
+      ]
+    }
+  ]
+}

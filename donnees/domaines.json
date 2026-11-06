@@ -1,0 +1,11 @@
+[
+  { "dir": "S",  "nom": { "fr": "Réputation" },               "mots": { "fr": "Reconnaissance, succès, estime de soi" } },
+  { "dir": "SO", "nom": { "fr": "Amour et relations" },       "mots": { "fr": "Amour de soi, couple, relations harmonieuses" } },
+  { "dir": "O",  "nom": { "fr": "Enfants et créativité" },    "mots": { "fr": "Joie, créativité, projets, expression de soi" } },
+  { "dir": "NO", "nom": { "fr": "Aides et voyages" },         "mots": { "fr": "Soutien, réseau, voyages, opportunités" } },
+  { "dir": "N",  "nom": { "fr": "Carrière" },                 "mots": { "fr": "Mission de vie, évolution professionnelle" } },
+  { "dir": "NE", "nom": { "fr": "Connaissance et sagesse" },  "mots": { "fr": "Apprentissage, intuition, développement personnel" } },
+  { "dir": "E",  "nom": { "fr": "Famille et santé" },         "mots": { "fr": "Santé, vitalité, liens familiaux" } },
+  { "dir": "SE", "nom": { "fr": "Richesse" },                 "mots": { "fr": "Abondance, prospérité, sécurité financière" } },
+  { "dir": "C",  "nom": { "fr": "Centre" },                   "mots": { "fr": "Équilibre, bien-être, harmonie intérieure" } }
+]

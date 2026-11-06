@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Feng Shui de l&#39;habitat — Ma Bonne Étoile, Lydia Courtois</title>
+<meta name="description" content="Adapter votre lieu à votre vie : circulation, usages, les neuf domaines et des conseils simples. À distance 490 €, sur place 590 €.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://lydiacourtois-maquette.vercel.app/feng-shui">
+<style>:root{--fond:#f1eadf;--texte:#1c2640;--voile-fond:#1c2640;--ouverture-fond:#1c2640;--menu-fond:#1c2640}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#f1eadf">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ma Bonne Étoile">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Feng Shui de l&#39;habitat — Ma Bonne Étoile, Lydia Courtois">
+<meta property="og:description" content="Adapter votre lieu à votre vie : circulation, usages, les neuf domaines et des conseils simples. À distance 490 €, sur place 590 €.">
+<meta property="og:url" content="https://lydiacourtois-maquette.vercel.app/feng-shui">
+<meta property="og:image" content="https://lydiacourtois-maquette.vercel.app/assets/partage/feng-shui-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Feng Shui de l&#39;habitat : salon aux hautes fenêtres en arche">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Ma Bonne Étoile — Lydia Courtois","url":"https://lydiacourtois-maquette.vercel.app/","telephone":"+33663676907","email":"lydia.fengshui.harmonie@gmail.com","areaServed":["Pyrénées-Orientales","France"],"sameAs":["https://www.facebook.com/lydia.fengshui.harmonie","https://www.instagram.com/lydia.feng.shui.harmonie"],"description":"Géobiologie, Feng Shui tibétain et Immobilier Autrement : accompagnements sur place dans les Pyrénées-Orientales et à distance partout en France."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="etoile" aria-hidden="true"><div class="voile-contenu"><svg class="etoile voile-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg><span data-voile-libelle>Feng Shui</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouverture-plan" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M150 90 H850 V510 H150 Z M150 300 H420 M420 90 V510 M620 90 V300 M620 300 H850 M520 510 V420 M300 300 V510"/><path class="ouverture-porte" d="M480 510 A60 60 0 0 1 540 450"/></svg>
+  <div class="ouverture-objet" data-ouverture-objet><svg class="etoile ouverture-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg></div>
+  <p class="ouverture-nom"><span class="ouverture-signature">Lydia Courtois</span>Ma Bonne Étoile</p>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Géobiologie · Feng Shui · Immobilier Autrement</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Ma Bonne Étoile, Lydia Courtois" data-libelle="Accueil">
+      <img src="/assets/images/logo-480.webp" srcset="/assets/images/logo-480.webp 480w, /assets/images/logo-960.webp 960w" sizes="160px" alt="Ma Bonne Étoile, Lydia Courtois" width="480" height="146">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/geobiologie" data-libelle="Géobiologie">Géobiologie</a></li><li><a href="/feng-shui" data-libelle="Feng Shui" aria-current="page">Feng Shui</a></li><li><a href="/immobilier-autrement" data-libelle="Immobilier Autrement">Immobilier Autrement</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#demande" data-libelle="Contact">Me contacter</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/geobiologie" class="menu-lien" data-libelle="Géobiologie">Géobiologie</a></li><li style="--i:2"><a href="/feng-shui" class="menu-lien" data-libelle="Feng Shui" aria-current="page">Feng Shui</a></li><li style="--i:3"><a href="/immobilier-autrement" class="menu-lien" data-libelle="Immobilier Autrement">Immobilier Autrement</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33663676907">Appeler 06 63 67 69 07</a></p>
+  <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+</div>
+<main id="contenu" tabindex="-1" data-grille="fil" data-module="fil-conducteur">
+<section class="fs-ouv nuit" id="debut">
+  <div>
+    <p class="surtitre" data-anime="gsap">Harmonie de l&#39;habitat</p>
+    <h1 data-axes-ouv data-grille="typo" data-effet="titre-qui-s-apaise"><span class="ligne-masque"><span class="ouv-ligne" data-anime="gsap">Feng Shui de l&#39;habitat</span></span></h1>
+    <p class="chapo" data-anime="gsap">Et si votre maison soutenait mieux la vie que vous voulez construire ?</p>
+    <p class="page-actions" data-anime="gsap">
+      <a href="/contact?sujet=feng-shui#demande" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander une étude</a>
+      <span class="info-cle" data-info-cle>À distance 490 € · sur place 590 €</span>
+    </p>
+  </div>
+  <div class="fs-scene">
+    <div class="bagua" data-iris-centre data-visuel role="img" aria-label="Les neuf domaines de vie sur le plan">
+      <div class="bagua-case" data-effet="bagua-porte"><span class="dir">SE</span>Richesse</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">S</span>Réputation</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">SO</span>Amour et relations</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">E</span>Famille et santé</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir"></span>Centre</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">O</span>Enfants et créativité</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">NE</span>Connaissance et sagesse</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">N</span>Carrière</div><div class="bagua-case" data-effet="bagua-porte"><span class="dir">NO</span>Aides et voyages</div>
+      <span class="bagua-porte" aria-hidden="true"><span>Entrée</span></span>
+    </div>
+    <figure class="media fs-arche" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/fs-ouverture-1100.webp" srcset="/assets/images/fs-ouverture-480.webp 480w, /assets/images/fs-ouverture-800.webp 800w, /assets/images/fs-ouverture-1100.webp 1100w" sizes="(max-width: 860px) 40vw, 20vw" alt="Salon aux hautes fenêtres en arche, coussins de lin bordeaux et parquet de chêne" width="1100" height="1375" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="section" id="adapter" data-fil="gauche">
+  <div class="conteneur duo">
+    <div>
+      <p class="surtitre">Un autre regard</p>
+      <h2 class="titre-section titre-regle" data-effet="titre-a-la-regle" data-axes data-fil-repere>Adapter votre lieu à votre vie.</h2>
+      <p class="chapo" data-anime>Nos besoins changent avec le temps, alors qu&#39;une maison peut rester organisée pour une étape de vie déjà passée.</p>
+      <p data-anime>J&#39;étudie l&#39;agencement, la circulation, l&#39;usage des pièces et les zones à rééquilibrer, puis je propose des changements concrets et réalisables.</p>
+      <ul class="liste-plan" data-anime="cascade"><li><b>01</b><span>Lecture de la circulation et des fonctions</span></li><li><b>02</b><span>Les neuf domaines de vie et les éléments</span></li><li><b>03</b><span>Rééquilibrage des espaces</span></li><li><b>04</b><span>Conseils simples à appliquer</span></li></ul>
+    </div>
+    <figure class="media media-portrait" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/fs-adapter-800.webp" srcset="/assets/images/grok/fs-adapter-480.webp 480w, /assets/images/grok/fs-adapter-800.webp 800w" sizes="(max-width: 760px) 92vw, 38vw" alt="Enfilade de portes ouvertes, la lumière passe d&#39;une pièce à l&#39;autre" width="800" height="1000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section papier" id="domaines" data-fil="droite">
+  <div class="conteneur domaines">
+    <div>
+      <p class="surtitre">Les neuf domaines</p>
+      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Une carte de la maison, case par case.</h2>
+      <p class="chapo texte-doux" data-anime>Le plan est découpé en neuf zones selon l&#39;orientation : chacune correspond à un domaine de vie. Faites défiler, ou touchez une case pour la lire.</p>
+      <p class="domaines-lu" aria-live="polite"><b>Centre</b>Équilibre, bien-être, harmonie intérieure</p>
+      <p class="a-completer">D&#39;après le visuel « Les 9 domaines de vie » de Lydia : noms et textes à confirmer.</p>
+    </div>
+    <div class="domaines-grille" role="group" aria-label="Les neuf domaines de vie sur le plan" data-visuel>
+      <button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Richesse" data-mots="Abondance, prospérité, sécurité financière" aria-pressed="false"><span class="dir">SE</span><b>Richesse</b><i>Abondance, prospérité, sécurité financière</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Réputation" data-mots="Reconnaissance, succès, estime de soi" aria-pressed="false"><span class="dir">S</span><b>Réputation</b><i>Reconnaissance, succès, estime de soi</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Amour et relations" data-mots="Amour de soi, couple, relations harmonieuses" aria-pressed="false"><span class="dir">SO</span><b>Amour et relations</b><i>Amour de soi, couple, relations harmonieuses</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Famille et santé" data-mots="Santé, vitalité, liens familiaux" aria-pressed="false"><span class="dir">E</span><b>Famille et santé</b><i>Santé, vitalité, liens familiaux</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Centre" data-mots="Équilibre, bien-être, harmonie intérieure" aria-pressed="false"><span class="dir"></span><b>Centre</b><i>Équilibre, bien-être, harmonie intérieure</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Enfants et créativité" data-mots="Joie, créativité, projets, expression de soi" aria-pressed="false"><span class="dir">O</span><b>Enfants et créativité</b><i>Joie, créativité, projets, expression de soi</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Connaissance et sagesse" data-mots="Apprentissage, intuition, développement personnel" aria-pressed="false"><span class="dir">NE</span><b>Connaissance et sagesse</b><i>Apprentissage, intuition, développement personnel</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Carrière" data-mots="Mission de vie, évolution professionnelle" aria-pressed="false"><span class="dir">N</span><b>Carrière</b><i>Mission de vie, évolution professionnelle</i></button><button type="button" class="domaine" data-effet="domaines-qui-s-allument" data-nom="Aides et voyages" data-mots="Soutien, réseau, voyages, opportunités" aria-pressed="false"><span class="dir">NO</span><b>Aides et voyages</b><i>Soutien, réseau, voyages, opportunités</i></button>
+    </div>
+  </div>
+</section>
+<section class="section tarifs" id="tarifs" data-fil="gauche">
+  <div class="conteneur tarifs-grille">
+    <figure class="media tarifs-media" data-grok data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/fs-tarifs-1280.webp" srcset="/assets/images/grok/fs-tarifs-640.webp 640w, /assets/images/grok/fs-tarifs-1280.webp 1280w" sizes="(max-width: 860px) 92vw, 30vw" alt="Longue table de chêne près d&#39;une haute fenêtre, bol d&#39;eau en céramique" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <p class="surtitre">Modalités d&#39;accompagnement</p>
+      <h2 class="titre-section" data-anime="lignes" data-axes data-fil-repere>Accompagnements et tarifs.</h2>
+      <p class="chapo texte-doux" data-anime>Des propositions adaptées à votre habitation, à vos besoins actuels et à votre étape de vie.</p>
+      <div class="trf" data-module="tarifs-a-rouleaux" data-grille="retour" data-effet="prix-qui-roulent" data-conseillee="Lancement" data-choisie="Choisie"><ul class="trf__grille">
+    <li class="trf__formule" data-formule="À distance">
+      <p class="trf__sur">Accompagnement complet</p>
+      <h3 class="trf__nom">À distance</h3>
+      <p class="trf__prix" data-prix><span class="trf__montant">490</span> <span class="trf__unite">€</span></p>
+      <p class="trf__note">partout en France</p>
+      <ul class="trf__inclus"><li>Analyse des plans et des photos</li><li>Échanges à distance</li><li>Recommandations personnalisées</li></ul>
+      <a href="/contact?sujet=feng-shui-distance#demande" class="bouton bouton--contour trf__choisir" data-libelle="Contact">Choisir</a>
+    </li><li class="trf__formule" data-formule="Sur place">
+      <p class="trf__sur">Visite à domicile</p>
+      <h3 class="trf__nom">Sur place</h3>
+      <p class="trf__prix" data-prix><span class="trf__montant">590</span> <span class="trf__unite">€</span></p>
+      <p class="trf__note">dans les Pyrénées-Orientales</p>
+      <ul class="trf__inclus"><li>Étude sur place de la circulation</li><li>Usage de chaque pièce</li><li>Propositions concrètes</li></ul>
+      <a href="/contact?sujet=feng-shui-sur-place#demande" class="bouton bouton--contour trf__choisir" data-libelle="Contact">Choisir</a>
+    </li><li class="trf__formule" data-formule="Espaces spécifiques">
+      <p class="trf__sur">Grandes habitations</p>
+      <h3 class="trf__nom">Espaces spécifiques</h3>
+      <p class="trf__prix" data-prix><span class="trf__montant trf__montant--texte">Sur devis</span></p>
+      <p class="trf__note">selon la surface et la complexité</p>
+      <ul class="trf__inclus"><li>Grandes habitations</li><li>Situations complexes</li><li>Étude adaptée à la surface</li></ul>
+      <a href="/contact?sujet=feng-shui-sur-mesure#demande" class="bouton bouton--contour trf__choisir" data-libelle="Contact">Choisir</a>
+    </li>
+  </ul></div>
+    </div>
+  </div>
+</section>
+<section class="section nuit" id="serenite">
+  <div class="conteneur duo duo--inverse">
+    <div>
+      <p class="surtitre">Sérénité retrouvée</p>
+      <h2 class="titre-grand" data-anime="lignes" data-axes>Inutile de tout refaire.</h2>
+      <p class="chapo" data-anime>Le but n&#39;est pas de transformer votre intérieur en profondeur, mais de retrouver la cohérence entre votre lieu, votre quotidien et vos projets.</p>
+      <p data-anime><a href="/contact?sujet=feng-shui#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander une étude</a></p>
+    </div>
+    <figure class="media " data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/fs-serenite-1280.webp" srcset="/assets/images/grok/fs-serenite-640.webp 640w, /assets/images/grok/fs-serenite-1280.webp 1280w" sizes="(max-width: 760px) 92vw, 42vw" alt="Terrasse d&#39;une maison de pierre à l&#39;heure dorée, portes vitrées ouvertes" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+  <span data-fil-point="0.5 1" aria-hidden="true"></span>
+</section>
+<template data-fil-objet><polygon points="0.0,-11.0 0.8,-1.8 4.9,-4.9 1.8,-0.8 11.0,0.0 1.8,0.8 4.9,4.9 0.8,1.8 0.0,11.0 -0.8,1.8 -4.9,4.9 -1.8,0.8 -11.0,0.0 -1.8,-0.8 -4.9,-4.9 -0.8,-1.8"/></template>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <svg class="etoile pied-etoile" viewBox="-100 -100 200 200" aria-hidden="true" focusable="false"><polygon class="etoile-corps" points="0.0,-96.0 4.6,-11.1 42.4,-42.4 11.1,-4.6 96.0,0.0 11.1,4.6 42.4,42.4 4.6,11.1 0.0,96.0 -4.6,11.1 -42.4,42.4 -11.1,4.6 -96.0,0.0 -11.1,-4.6 -42.4,-42.4 -4.6,-11.1"/><path class="etoile-relief" d="M0 0L0.0 -96.0L4.6 -11.1ZM0 0L42.4 -42.4L11.1 -4.6ZM0 0L96.0 0.0L11.1 4.6ZM0 0L42.4 42.4L4.6 11.1ZM0 0L0.0 96.0L-4.6 11.1ZM0 0L-42.4 42.4L-11.1 4.6ZM0 0L-96.0 0.0L-11.1 -4.6ZM0 0L-42.4 -42.4L-4.6 -11.1Z"/><circle class="etoile-coeur" r="5"/></svg>
+      <p class="pied-nom">Ma Bonne Étoile</p>
+      <p class="pied-signature">Lydia Courtois</p>
+      <p class="pied-metiers">Géobiologie · Feng Shui · Harmonisation des lieux</p>
+    </div>
+    <div>
+      <p><strong>Contact</strong></p>
+      <p>Sur place dans les Pyrénées-Orientales, à distance partout en France<br><a href="tel:+33663676907">06 63 67 69 07</a><br><a class="pied-email" href="mailto:lydia.fengshui.harmonie@gmail.com">lydia.fengshui.harmonie<wbr>@gmail.com</a></p>
+      <p><strong>Suivre Lydia</strong></p>
+      <ul class="pied-reseaux">
+        <li><a href="https://www.facebook.com/lydia.fengshui.harmonie" target="_blank" rel="noopener">Facebook <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+        <li><a href="https://www.instagram.com/lydia.feng.shui.harmonie" target="_blank" rel="noopener">Instagram <span class="visuellement-cache">(nouvel onglet)</span></a></li>
+      </ul>
+    </div>
+    <nav aria-label="Le site">
+      <p><strong>Le site</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/geobiologie" data-libelle="Géobiologie">Géobiologie</a></li><li><a href="/feng-shui" data-libelle="Feng Shui" aria-current="page">Feng Shui</a></li><li><a href="/immobilier-autrement" data-libelle="Immobilier Autrement">Immobilier Autrement</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Confort de lecture</strong></p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>La géobiologie et le Feng Shui ne remplacent pas un avis médical, psychologique ou vétérinaire.</p>
+    <p>Maquette : les informations marquées « à compléter » seront fournies par Lydia Courtois.</p>
+    <p>© 2026 Ma Bonne Étoile — Lydia Courtois · <span class="pied-legal">Mentions légales : à compléter</span> · <span class="pied-legal">Politique de confidentialité : à compléter</span></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33663676907">Appeler</a>
+  <a class="bouton" href="/contact#demande" data-libelle="Contact">Me contacter</a>
+</div>
+</body>
+</html>

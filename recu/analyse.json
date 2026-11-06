@@ -1,0 +1,713 @@
+{
+  "dossier": "/home/claude/lydiacourtois-maquette/recu",
+  "date": "2026-11-06T14:30:00.377Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "bulle-bureau.webp",
+      "nom": "bulle-bureau",
+      "drapeau": null,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1503588,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        50
+      ],
+      "cadrage_css": "48% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 37.3,
+        "bruit": 1.17,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ededfbf9f3f797c5",
+      "drapeaux": []
+    },
+    {
+      "fichier": "bulle-demenagement.webp",
+      "nom": "bulle-demenagement",
+      "drapeau": null,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1437944,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        47
+      ],
+      "cadrage_css": "45% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 33.5,
+        "bruit": 1.16,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ca8ae2e2d6ceef8d",
+      "drapeaux": []
+    },
+    {
+      "fichier": "bulle-sommeil.webp",
+      "nom": "bulle-sommeil",
+      "drapeau": null,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1415814,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.1,
+        "l": 100,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        49
+      ],
+      "cadrage_css": "50% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 38.9,
+        "bruit": 1.13,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6048e1f1f2e444a6",
+      "drapeaux": []
+    },
+    {
+      "fichier": "bulle-voyageur-site.webp",
+      "nom": "bulle-voyageur-site",
+      "drapeau": null,
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 1558394,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        46
+      ],
+      "cadrage_css": "43% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 44.2,
+        "bruit": 1.38,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0567020491125a7c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "chaise-rideau.png",
+      "nom": "chaise-rideau",
+      "drapeau": null,
+      "largeur": 896,
+      "hauteur": 1216,
+      "ratio": "3:4",
+      "ratio_valeur": 0.737,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3270945,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.8,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        58
+      ],
+      "cadrage_css": "41% 58%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 18,
+        "bruit": 0.71,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "896 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "7d7d7d7d7c7f6fef",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "coin-lecture-chene.png",
+      "nom": "coin-lecture-chene",
+      "drapeau": null,
+      "largeur": 896,
+      "hauteur": 1216,
+      "ratio": "3:4",
+      "ratio_valeur": 0.737,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 3270945,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 43.8,
+        "l": 95.8,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        70
+      ],
+      "cadrage_css": "47% 70%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.88,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 18.6,
+        "bruit": 0.67,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "896 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fcfcfc7c75b1afff",
+      "drapeaux": [
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "etude-geobiologie.png",
+      "nom": "etude-geobiologie",
+      "drapeau": null,
+      "largeur": 1535,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2160473,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 90.6,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        47
+      ],
+      "cadrage_css": "41% 47%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 34.5,
+        "bruit": 1.12,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a32726665178e209",
+      "drapeaux": []
+    },
+    {
+      "fichier": "logo.png",
+      "nom": "logo",
+      "drapeau": null,
+      "largeur": 2050,
+      "hauteur": 623,
+      "ratio": "3.29",
+      "ratio_valeur": 3.291,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 234606,
+      "transparence": true,
+      "sujet": {
+        "x": 9.4,
+        "y": 20,
+        "l": 84.4,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        50
+      ],
+      "cadrage_css": "51% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 50.3,
+        "bruit": 0.13,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "004f4b4d5d5b4b00",
+      "drapeaux": [
+        "calme bas/haut"
+      ]
+    },
+    {
+      "fichier": "salon-arches.png",
+      "nom": "salon-arches",
+      "drapeau": null,
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 204960,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 100,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        50
+      ],
+      "cadrage_css": "41% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 33.4,
+        "bruit": 1.25,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9088c88899ad983a",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "salon-elements.webp",
+      "nom": "salon-elements",
+      "drapeau": null,
+      "largeur": 1440,
+      "hauteur": 1905,
+      "ratio": "3:4",
+      "ratio_valeur": 0.756,
+      "orientation": "portrait",
+      "format": "webp",
+      "poids": 273596,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        50
+      ],
+      "cadrage_css": "52% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 30.9,
+        "bruit": 0.67,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "13132b23735d990c",
+      "drapeaux": []
+    },
+    {
+      "fichier": "salon-sable-olivier.png",
+      "nom": "salon-sable-olivier",
+      "drapeau": null,
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 245221,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 6.3,
+        "l": 96.9,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        50
+      ],
+      "cadrage_css": "48% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 56.8,
+        "bruit": 1.42,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c6656464465a4c40",
+      "drapeaux": [
+        "petite"
+      ]
+    }
+  ]
+}

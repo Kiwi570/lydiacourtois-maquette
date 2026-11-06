@@ -1,0 +1,1069 @@
+{
+  "dossier": "/home/claude/lydiacourtois-maquette/recu/grok",
+  "date": "2026-11-06T14:30:02.380Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "accueil-ouverture.jpg",
+      "nom": "accueil-ouverture",
+      "drapeau": null,
+      "largeur": 784,
+      "hauteur": 1168,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 292426,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 95.5,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        64
+      ],
+      "cadrage_css": "51% 64%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 25.8,
+        "bruit": 1.1,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "784 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e0b09193999dc0d8",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "accueil-parcours.jpg",
+      "nom": "accueil-parcours",
+      "drapeau": null,
+      "largeur": 784,
+      "hauteur": 1168,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 385027,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 0,
+        "l": 77.3,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        51
+      ],
+      "cadrage_css": "51% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 34.3,
+        "bruit": 1.71,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "784 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "cbcb4bcb436bcbd8",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "accueil-tarifs.jpg",
+      "nom": "accueil-tarifs",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 283655,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        71,
+        59
+      ],
+      "cadrage_css": "71% 59%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 30,
+        "bruit": 0.99,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e6e6e7e5ddda9841",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "bulle-voyageur.jpg",
+      "nom": "bulle-voyageur",
+      "drapeau": null,
+      "largeur": 784,
+      "hauteur": 1168,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 285690,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 95.5,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        61
+      ],
+      "cadrage_css": "46% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 28.2,
+        "bruit": 1.05,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "784 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "7020303838189880",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-panorama.jpg",
+      "nom": "contact-panorama",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 280649,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.1,
+        "l": 100,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        58
+      ],
+      "cadrage_css": "46% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 32.8,
+        "bruit": 1.08,
+        "compression": 1.08,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "808000088880966c",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "fs-adapter.jpg",
+      "nom": "fs-adapter",
+      "drapeau": null,
+      "largeur": 784,
+      "hauteur": 1168,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 258793,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 15.6,
+        "l": 63.6,
+        "h": 81.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        56
+      ],
+      "cadrage_css": "48% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 28.1,
+        "bruit": 0.85,
+        "compression": 1.13,
+        "faible": true,
+        "raisons": [
+          "784 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6b6363677266616b",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "fs-serenite.jpg",
+      "nom": "fs-serenite",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 418357,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        44
+      ],
+      "cadrage_css": "51% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 62,
+        "bruit": 1.82,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "46838bc3e3e3eee2",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "fs-tarifs.jpg",
+      "nom": "fs-tarifs",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 289488,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 96.9,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        60
+      ],
+      "cadrage_css": "41% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 27.9,
+        "bruit": 1.07,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "909090989893c787",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "geo-intention.jpg",
+      "nom": "geo-intention",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 340747,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 0,
+        "l": 84.4,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        68,
+        54
+      ],
+      "cadrage_css": "68% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.54,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 38.4,
+        "bruit": 1.58,
+        "compression": 1.04,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "decececc8c9e07e0",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "geo-ouverture-mobile.jpg",
+      "nom": "geo-ouverture-mobile",
+      "drapeau": null,
+      "largeur": 784,
+      "hauteur": 1168,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 373252,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        51
+      ],
+      "cadrage_css": "44% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 39.8,
+        "bruit": 1.53,
+        "compression": 1.06,
+        "faible": true,
+        "raisons": [
+          "784 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "3c90989797929298",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "geo-tarifs.jpg",
+      "nom": "geo-tarifs",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 307637,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        55
+      ],
+      "cadrage_css": "58% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 30.1,
+        "bruit": 1.36,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f8f8f0e0c08082e0",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "immo-cles.jpg",
+      "nom": "immo-cles",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 225682,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        52
+      ],
+      "cadrage_css": "40% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 26.6,
+        "bruit": 0.68,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fde9e0e0c9d9d8f8",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "immo-observer.jpg",
+      "nom": "immo-observer",
+      "drapeau": null,
+      "largeur": 784,
+      "hauteur": 1168,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 256892,
+      "transparence": false,
+      "sujet": {
+        "x": 9.1,
+        "y": 21.9,
+        "l": 86.4,
+        "h": 68.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        58
+      ],
+      "cadrage_css": "59% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.61
+        }
+      ],
+      "qualite": {
+        "nettete": 22.9,
+        "bruit": 0.88,
+        "compression": 1.16,
+        "faible": true,
+        "raisons": [
+          "784 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "7c737272724c66fb",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "immo-ouverture.jpg",
+      "nom": "immo-ouverture",
+      "drapeau": null,
+      "largeur": 784,
+      "hauteur": 1168,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 350655,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 34.4,
+        "l": 72.7,
+        "h": 53.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        59
+      ],
+      "cadrage_css": "45% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 34.7,
+        "bruit": 1.55,
+        "compression": 1.07,
+        "faible": true,
+        "raisons": [
+          "784 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "885986a465246c79",
+      "drapeaux": [
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "immo-transition.jpg",
+      "nom": "immo-transition",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 279814,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 0,
+        "l": 90.6,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        56
+      ],
+      "cadrage_css": "60% 56%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 24.5,
+        "bruit": 1,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c3c3c3c3cf8bc0fe",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "page-404.jpg",
+      "nom": "page-404",
+      "drapeau": null,
+      "largeur": 1168,
+      "hauteur": 784,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 270010,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.1,
+        "l": 100,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        71,
+        58
+      ],
+      "cadrage_css": "71% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "moyen",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 22.8,
+        "bruit": 1.06,
+        "compression": 1.18,
+        "faible": true,
+        "raisons": [
+          "1168 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "8381898989c8e47c",
+      "drapeaux": [
+        "petite"
+      ]
+    }
+  ]
+}
